@@ -1,0 +1,1518 @@
+_id,location_name,address,year,year_stage,suspected_non_fatal_overdoses
+1,45 The Esplanade,45 The Esplanade,2021,Q1,5
+2,45 The Esplanade,45 The Esplanade,2021,Q2,14
+3,45 The Esplanade,45 The Esplanade,2021,Q3,46
+4,45 The Esplanade,45 The Esplanade,2021,Q4,33
+5,45 The Esplanade,45 The Esplanade,2022,Q1,22
+6,45 The Esplanade,45 The Esplanade,2022,Q2,14
+7,45 The Esplanade,45 The Esplanade,2022,Q3,9
+8,45 The Esplanade,45 The Esplanade,2022,Q4,8
+9,Adelaide Resource Centre for Women,67 Adelaide St E,2022,Q1,< 5
+10,Adelaide Resource Centre for Women,67 Adelaide St E,2022,Q2,< 5
+11,Adelaide Resource Centre for Women,67 Adelaide St E,2022,Q3,0
+12,Adelaide Resource Centre for Women,67 Adelaide St E,2022,Q4,0
+13,Adelaide Resource Centre for Women,67 Adelaide St E,2023,Q1,NA
+14,Adelaide Resource Centre for Women,67 Adelaide St E,2023,Q2,NA
+15,Adelaide Resource Centre for Women,67 Adelaide St E,2023,Q3,NA
+16,Adelaide Resource Centre for Women,67 Adelaide St E,2023,Q4,< 5
+17,Christie Refugee Welcome Centre,43 Christie St,2021,Q1,0
+18,Christie Refugee Welcome Centre,43 Christie St,2021,Q2,< 5
+19,Christie Refugee Welcome Centre,43 Christie St,2021,Q3,0
+20,Christie Refugee Welcome Centre,43 Christie St,2021,Q4,0
+21,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2018,Q1,NA
+22,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2018,Q2,< 5
+23,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2018,Q3,NA
+24,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2018,Q4,NA
+25,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2020,Q1,NA
+26,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2020,Q2,NA
+27,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2020,Q3,NA
+28,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2020,Q4,< 5
+29,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2021,Q1,10
+30,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2021,Q2,8
+31,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2021,Q3,< 5
+32,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2021,Q4,0
+33,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2022,Q1,0
+34,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2022,Q2,< 5
+35,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2022,Q3,< 5
+36,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2022,Q4,< 5
+37,CONC Etobicoke Hotel Program,445 Rexdale Blvd,2024,Q3,< 5
+38,CONC Men's Shelter Bloor St W,850 Bloor St W,2020,Q1,NA
+39,CONC Men's Shelter Bloor St W,850 Bloor St W,2020,Q2,NA
+40,CONC Men's Shelter Bloor St W,850 Bloor St W,2020,Q3,NA
+41,CONC Men's Shelter Bloor St W,850 Bloor St W,2020,Q4,< 5
+42,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2019,Q1,NA
+43,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2019,Q2,< 5
+44,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2019,Q3,NA
+45,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2019,Q4,NA
+46,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2020,Q1,< 5
+47,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2020,Q2,NA
+48,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2020,Q3,NA
+49,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2020,Q4,< 5
+50,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2021,Q1,< 5
+51,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2021,Q2,< 5
+52,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2021,Q3,0
+53,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2021,Q4,0
+54,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2023,Q1,< 5
+55,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2023,Q2,0
+56,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2023,Q3,0
+57,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2023,Q4,0
+58,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2024,Q1,< 5
+59,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2024,Q2,0
+60,CONC Men's Shelter Lansdowne Ave,973 Lansdowne Ave,2024,Q3,< 5
+61,CONC West End Hotel Program,14 Roncesvalles Ave,2020,Q1,NA
+62,CONC West End Hotel Program,14 Roncesvalles Ave,2020,Q2,NA
+63,CONC West End Hotel Program,14 Roncesvalles Ave,2020,Q3,NA
+64,CONC West End Hotel Program,14 Roncesvalles Ave,2020,Q4,< 5
+65,Cornerstone Place,616 Vaughan Rd,2018,Q1,NA
+66,Cornerstone Place,616 Vaughan Rd,2018,Q2,< 5
+67,Cornerstone Place,616 Vaughan Rd,2018,Q3,NA
+68,Cornerstone Place,616 Vaughan Rd,2018,Q4,NA
+69,Cornerstone Place,616 Vaughan Rd,2019,Q1,< 5
+70,Cornerstone Place,616 Vaughan Rd,2019,Q2,NA
+71,Cornerstone Place,616 Vaughan Rd,2019,Q3,NA
+72,Cornerstone Place,616 Vaughan Rd,2019,Q4,NA
+73,COSTI Uptown Hotel Program,55 Hallcrown Pl,2020,Q1,NA
+74,COSTI Uptown Hotel Program,55 Hallcrown Pl,2020,Q2,NA
+75,COSTI Uptown Hotel Program,55 Hallcrown Pl,2020,Q3,NA
+76,COSTI Uptown Hotel Program,55 Hallcrown Pl,2020,Q4,< 5
+77,COSTI Uptown Hotel Program,55 Hallcrown Pl,2021,Q1,NA
+78,COSTI Uptown Hotel Program,55 Hallcrown Pl,2021,Q2,NA
+79,COSTI Uptown Hotel Program,55 Hallcrown Pl,2021,Q3,NA
+80,COSTI Uptown Hotel Program,55 Hallcrown Pl,2021,Q4,< 5
+81,Metro Hall,55 John St,2023,Q1,< 5
+82,Metro Hall,55 John St,2023,Q2,< 5
+83,Metro Hall,55 John St,2023,Q3,NA
+84,COSTI/SSHA Etobicoke Hotel Program,1677 Wilson Ave,2021,Q1,21
+85,COSTI/SSHA Etobicoke Hotel Program,1677 Wilson Ave,2021,Q2,16
+86,COSTI/SSHA Etobicoke Hotel Program,1677 Wilson Ave,2021,Q3,10
+87,COSTI/SSHA Etobicoke Hotel Program,1677 Wilson Ave,2021,Q4,13
+88,SSHA North York West Hotel Program,1677 Wilson Ave,2022,Q1,9
+89,SSHA North York West Hotel Program,1677 Wilson Ave,2022,Q2,8
+90,SSHA North York West Hotel Program,1677 Wilson Ave,2022,Q3,5
+91,SSHA North York West Hotel Program,1677 Wilson Ave,2022,Q4,8
+92,SSHA North York West Hotel Program,1677 Wilson Ave,2023,Q1,10
+93,SSHA North York West Hotel Program,1677 Wilson Ave,2023,Q2,20
+94,SSHA North York West Hotel Program,1677 Wilson Ave,2023,Q3,15
+95,SSHA North York West Hotel Program,1677 Wilson Ave,2023,Q4,14
+96,TSSS North York West Hotel Program,1677 Wilson Ave,2024,Q1,8
+97,TSSS North York West Hotel Program,1677 Wilson Ave,2024,Q2,7
+98,TSSS North York West Hotel Program,1677 Wilson Ave,2024,Q3,< 5
+99,Covenant House Gerrard St E,20 Gerrard St E,2018,Q1,< 5
+100,Covenant House Gerrard St E,20 Gerrard St E,2018,Q2,< 5
+101,Covenant House Gerrard St E,20 Gerrard St E,2018,Q3,< 5
+102,Covenant House Gerrard St E,20 Gerrard St E,2018,Q4,< 5
+103,Covenant House Gerrard St E,20 Gerrard St E,2019,Q1,< 5
+104,Covenant House Gerrard St E,20 Gerrard St E,2019,Q2,< 5
+105,Covenant House Gerrard St E,20 Gerrard St E,2019,Q3,NA
+106,Covenant House Gerrard St E,20 Gerrard St E,2019,Q4,NA
+107,Covenant House Gerrard St E,20 Gerrard St E,2020,Q1,NA
+108,Covenant House Gerrard St E,20 Gerrard St E,2020,Q2,NA
+109,Covenant House Gerrard St E,20 Gerrard St E,2020,Q3,NA
+110,Covenant House Gerrard St E,20 Gerrard St E,2020,Q4,< 5
+111,Covenant House Gerrard St E,20 Gerrard St E,2021,Q1,< 5
+112,Covenant House Gerrard St E,20 Gerrard St E,2021,Q2,< 5
+113,Covenant House Gerrard St E,20 Gerrard St E,2021,Q3,< 5
+114,Covenant House Gerrard St E,20 Gerrard St E,2021,Q4,< 5
+115,Covenant House Gerrard St E,20 Gerrard St E,2022,Q1,< 5
+116,Covenant House Gerrard St E,20 Gerrard St E,2022,Q2,0
+117,Covenant House Gerrard St E,20 Gerrard St E,2022,Q3,0
+118,Covenant House Gerrard St E,20 Gerrard St E,2022,Q4,< 5
+119,Covenant House Gerrard St E,20 Gerrard St E,2023,Q1,< 5
+120,Covenant House Gerrard St E,20 Gerrard St E,2023,Q2,< 5
+121,Covenant House Gerrard St E,20 Gerrard St E,2023,Q3,< 5
+122,Covenant House Gerrard St E,20 Gerrard St E,2023,Q4,< 5
+123,Covenant House Gerrard St E,20 Gerrard St E,2024,Q1,< 5
+124,Covenant House McGill St,21 Mcgill St,2021,Q1,NA
+125,Covenant House McGill St,21 Mcgill St,2021,Q2,NA
+126,Covenant House McGill St,21 Mcgill St,2021,Q3,NA
+127,Covenant House McGill St,21 Mcgill St,2021,Q4,< 5
+128,Covenant House McGill St,21 Mcgill St,2024,Q1,< 5
+129,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2019,Q1,NA
+130,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2019,Q2,< 5
+131,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2019,Q3,< 5
+132,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2019,Q4,< 5
+133,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2020,Q1,8
+134,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2020,Q2,< 5
+135,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2020,Q3,< 5
+136,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2020,Q4,< 5
+137,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2021,Q1,< 5
+138,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2021,Q2,5
+139,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2021,Q3,< 5
+140,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2021,Q4,< 5
+141,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2022,Q1,< 5
+142,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2022,Q2,< 5
+143,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2022,Q3,< 5
+144,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2022,Q4,< 5
+145,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2023,Q1,5
+146,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2023,Q2,< 5
+147,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2023,Q3,< 5
+148,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2023,Q4,8
+149,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2024,Q1,6
+150,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2024,Q2,6
+151,Dixon Hall 351 Lake Shore Blvd E Respite,351 Lake Shore Blvd E,2024,Q3,< 5
+152,Dixon Hall 354 George St Shelter,354 George St,2021,Q1,5
+153,Dixon Hall 354 George St Shelter,354 George St,2021,Q2,< 5
+154,Dixon Hall 354 George St Shelter,354 George St,2021,Q3,5
+155,Dixon Hall 354 George St Shelter,354 George St,2021,Q4,7
+156,Dixon Hall 354 George St,354 George St,2022,Q1,< 5
+157,Dixon Hall 354 George St Shelter,354 George St,2022,Q2,< 5
+158,Dixon Hall 354 George St Shelter,354 George St,2022,Q3,5
+159,Dixon Hall 354 George St Shelter,354 George St,2022,Q4,6
+160,Dixon Hall 354 George St Shelter,354 George St,2023,Q1,< 5
+161,Dixon Hall 354 George St Shelter,354 George St,2023,Q2,< 5
+162,Dixon Hall 354 George St Shelter,354 George St,2023,Q3,< 5
+163,Dixon Hall 354 George St Shelter,354 George St,2023,Q4,0
+164,Dixon Hall 354 George St Shelter,354 George St,2024,Q1,< 5
+165,Dixon Hall 354 George St Shelter,354 George St,2024,Q2,< 5
+166,Dixon Hall 354 George St Shelter,354 George St,2024,Q3,< 5
+167,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2020,Q1,NA
+168,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2020,Q2,NA
+169,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2020,Q3,< 5
+170,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2020,Q4,17
+171,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2021,Q1,17
+172,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2021,Q2,13
+173,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2021,Q3,36
+174,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2021,Q4,43
+175,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2022,Q1,12
+176,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2022,Q2,11
+177,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2022,Q3,6
+178,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2022,Q4,< 5
+179,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2023,Q1,< 5
+180,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2023,Q2,10
+181,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2023,Q3,10
+182,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2023,Q4,5
+183,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2024,Q1,< 5
+184,Dixon Hall Bond Place Hotel Program,65 Dundas St E,2024,Q2,< 5
+185,Etobicoke Hotel Site 1,66 Norfinch Dr,2023,Q1,< 5
+186,Etobicoke Hotel Site 1,66 Norfinch Dr,2023,Q2,< 5
+187,Etobicoke Hotel Site 1,66 Norfinch Dr,2023,Q3,5
+188,Etobicoke Hotel Site 1,66 Norfinch Dr,2023,Q4,0
+189,Dixon Hall Downtown Hotel,56 Yonge St,2020,Q1,NA
+190,Dixon Hall Downtown Hotel,56 Yonge St,2020,Q2,NA
+191,Dixon Hall Downtown Hotel,56 Yonge St,2020,Q3,< 5
+192,Dixon Hall Downtown Hotel,56 Yonge St,2020,Q4,8
+193,Dixon Hall Downtown Hotel,56 Yonge St,2021,Q1,< 5
+194,Dixon Hall Downtown Hotel,56 Yonge St,2021,Q2,< 5
+195,Dixon Hall Downtown Hotel,56 Yonge St,2021,Q3,9
+196,Dixon Hall Downtown Hotel,56 Yonge St,2021,Q4,7
+197,Dixon Hall Downtown Hotel,56 Yonge St,2022,Q1,< 5
+198,Dixon Hall Downtown Hotel,56 Yonge St,2022,Q2,< 5
+199,Dixon Hall Downtown Hotel,56 Yonge St,2022,Q3,< 5
+200,Dixon Hall Downtown Hotel,56 Yonge St,2022,Q4,0
+201,Dixon Hall Downtown Hotel,56 Yonge St,2023,Q1,< 5
+202,Dixon Hall Downtown Hotel,56 Yonge St,2023,Q2,NA
+203,Dixon Hall Downtown Hotel,56 Yonge St,2023,Q3,NA
+204,Dixon Hall Downtown Hotel,56 Yonge St,2023,Q4,NA
+205,Dixon Hall Eastminster United OOTC,310 Danforth Ave,2019,Q1,< 5
+206,Dixon Hall Eastminster United OOTC,310 Danforth Ave,2019,Q2,NA
+207,Dixon Hall Eastminster United OOTC,310 Danforth Ave,2019,Q3,NA
+208,Dixon Hall Eastminster United OOTC,310 Danforth Ave,2019,Q4,NA
+209,Dixon Hall Evangel Hall OOTC,552 Adelaide St W,2018,Q1,NA
+210,Dixon Hall Evangel Hall OOTC,552 Adelaide St W,2018,Q2,NA
+211,Dixon Hall Evangel Hall OOTC,552 Adelaide St W,2018,Q3,< 5
+212,Dixon Hall Evangel Hall OOTC,552 Adelaide St W,2018,Q4,< 5
+213,Dixon Hall Heyworth House,2714 Danforth Ave,2018,Q1,NA
+214,Dixon Hall Heyworth House,2714 Danforth Ave,2018,Q2,NA
+215,Dixon Hall Heyworth House,2714 Danforth Ave,2018,Q3,NA
+216,Dixon Hall Heyworth House,2714 Danforth Ave,2018,Q4,< 5
+217,Dixon Hall Heyworth House,2714 Danforth Ave,2019,Q1,< 5
+218,Dixon Hall Heyworth House,2714 Danforth Ave,2019,Q2,NA
+219,Dixon Hall Heyworth House,2714 Danforth Ave,2019,Q3,NA
+220,Dixon Hall Heyworth House,2714 Danforth Ave,2019,Q4,NA
+221,Dixon Hall Heyworth House,2714 Danforth Ave,2020,Q1,< 5
+222,Dixon Hall Heyworth House,2714 Danforth Ave,2020,Q2,< 5
+223,Dixon Hall Heyworth House,2714 Danforth Ave,2020,Q3,< 5
+224,Dixon Hall Heyworth House,2714 Danforth Ave,2020,Q4,< 5
+225,Dixon Hall Heyworth House,2714 Danforth Ave,2021,Q1,0
+226,Dixon Hall Heyworth House,2714 Danforth Ave,2021,Q2,< 5
+227,Dixon Hall Heyworth House,2714 Danforth Ave,2021,Q3,< 5
+228,Dixon Hall Heyworth House,2714 Danforth Ave,2021,Q4,8
+229,Dixon Hall Heyworth House,2714 Danforth Ave,2022,Q1,5
+230,Dixon Hall Heyworth House,2714 Danforth Ave,2022,Q2,< 5
+231,Dixon Hall Heyworth House,2714 Danforth Ave,2022,Q3,< 5
+232,Dixon Hall Heyworth House,2714 Danforth Ave,2022,Q4,0
+233,Dixon Hall Heyworth House,2714 Danforth Ave,2023,Q1,< 5
+234,Dixon Hall Heyworth House,2714 Danforth Ave,2023,Q2,0
+235,Dixon Hall Heyworth House,2714 Danforth Ave,2023,Q3,0
+236,Dixon Hall Heyworth House,2714 Danforth Ave,2023,Q4,< 5
+237,Dixon Hall Heyworth House,2714 Danforth Ave,2024,Q1,< 5
+238,Dixon Hall Heyworth House,2714 Danforth Ave,2024,Q2,< 5
+239,Dixon Hall Heyworth House,2714 Danforth Ave,2024,Q3,< 5
+240,Dixon Hall Schoolhouse,349 George St,2018,Q1,NA
+241,Dixon Hall Schoolhouse,349 George St,2018,Q2,NA
+242,Dixon Hall Schoolhouse,349 George St,2018,Q3,< 5
+243,Dixon Hall Schoolhouse,349 George St,2018,Q4,< 5
+244,Dixon Hall Schoolhouse,349 George St,2020,Q1,NA
+245,Dixon Hall Schoolhouse,349 George St,2020,Q2,NA
+246,Dixon Hall Schoolhouse,349 George St,2020,Q3,NA
+247,Dixon Hall Schoolhouse,349 George St,2020,Q4,< 5
+248,Dixon Hall Schoolhouse,349 George St,2021,Q1,0
+249,Dixon Hall Schoolhouse,349 George St,2021,Q2,5
+250,Dixon Hall Schoolhouse,349 George St,2021,Q3,< 5
+251,Dixon Hall Schoolhouse,349 George St,2021,Q4,< 5
+252,Dixon Hall Schoolhouse,349 George St,2022,Q1,< 5
+253,Dixon Hall Schoolhouse,349 George St,2022,Q2,< 5
+254,Dixon Hall Schoolhouse,349 George St,2022,Q3,0
+255,Dixon Hall Schoolhouse,349 George St,2022,Q4,NA
+256,Dixon Hall Schoolhouse,349 George St,2023,Q1,NA
+257,Dixon Hall Schoolhouse,349 George St,2023,Q2,< 5
+258,Dixon Hall Schoolhouse,349 George St,2023,Q3,< 5
+259,Dixon Hall Schoolhouse,349 George St,2023,Q4,0
+260,Dixon Hall St. Margaret's OOTC,156 Sixth St,2019,Q1,< 5
+261,Dixon Hall St. Margaret's OOTC,156 Sixth St,2019,Q2,NA
+262,Dixon Hall St. Margaret's OOTC,156 Sixth St,2019,Q3,NA
+263,Dixon Hall St. Margaret's OOTC,156 Sixth St,2019,Q4,NA
+264,Dixon Hall St. Matthew's OOTC,3962 Bloor St W,2019,Q1,NA
+265,Dixon Hall St. Matthew's OOTC,3962 Bloor St W,2019,Q2,NA
+266,Dixon Hall St. Matthew's OOTC,3962 Bloor St W,2019,Q3,NA
+267,Dixon Hall St. Matthew's OOTC,3962 Bloor St W,2019,Q4,< 5
+268,Driftwood CC,4401 Jane St,2020,Q1,NA
+269,Driftwood CC,4401 Jane St,2020,Q2,< 5
+270,Driftwood CC,4401 Jane St,2020,Q3,NA
+271,Driftwood CC,4401 Jane St,2020,Q4,NA
+272,Eva's Phoenix,60 Brant St,2019,Q1,< 5
+273,Eva's Phoenix,60 Brant St,2019,Q2,NA
+274,Eva's Phoenix,60 Brant St,2019,Q3,NA
+275,Eva's Phoenix,60 Brant St,2019,Q4,NA
+276,Eva's Place,360 Lesmill Rd,2018,Q1,NA
+277,Eva's Place,360 Lesmill Rd,2018,Q2,NA
+278,Eva's Place,360 Lesmill Rd,2018,Q3,< 5
+279,Eva's Place,360 Lesmill Rd,2018,Q4,NA
+280,Eva's Place,360 Lesmill Rd,2019,Q1,< 5
+281,Eva's Place,360 Lesmill Rd,2019,Q2,< 5
+282,Eva's Place,360 Lesmill Rd,2019,Q3,< 5
+283,Eva's Place,360 Lesmill Rd,2019,Q4,NA
+284,Eva's Place,360 Lesmill Rd,2021,Q1,0
+285,Eva's Place,360 Lesmill Rd,2021,Q2,< 5
+286,Eva's Place,360 Lesmill Rd,2021,Q3,0
+287,Eva's Place,360 Lesmill Rd,2021,Q4,< 5
+288,Eva's Place,360 Lesmill Rd,2022,Q1,< 5
+289,Eva's Place,360 Lesmill Rd,2022,Q2,0
+290,Eva's Place,360 Lesmill Rd,2022,Q3,0
+291,Eva's Place,360 Lesmill Rd,2022,Q4,0
+292,Eva's Satellite,25 Canterbury Pl,2018,Q1,NA
+293,Eva's Satellite,25 Canterbury Pl,2018,Q2,< 5
+294,Eva's Satellite,25 Canterbury Pl,2018,Q3,< 5
+295,Eva's Satellite,25 Canterbury Pl,2018,Q4,NA
+296,Eva's Satellite,25 Canterbury Pl,2020,Q1,< 5
+297,Eva's Satellite,25 Canterbury Pl,2020,Q2,< 5
+298,Eva's Satellite,25 Canterbury Pl,2020,Q3,NA
+299,Eva's Satellite,25 Canterbury Pl,2020,Q4,NA
+300,Eva's Satellite,25 Canterbury Pl,2021,Q1,< 5
+301,Eva's Satellite,25 Canterbury Pl,2021,Q2,< 5
+302,Eva's Satellite,25 Canterbury Pl,2021,Q3,0
+303,Eva's Satellite,25 Canterbury Pl,2021,Q4,< 5
+304,Fife House Sherbourne St,490 Sherbourne St,2020,Q1,NA
+305,Fife House Sherbourne St,490 Sherbourne St,2020,Q2,< 5
+306,Fife House Sherbourne St,490 Sherbourne St,2020,Q3,< 5
+307,Fife House Sherbourne St,490 Sherbourne St,2020,Q4,< 5
+308,Fife House Sherbourne St,490 Sherbourne St,2021,Q1,< 5
+309,Fife House Sherbourne St,490 Sherbourne St,2021,Q2,< 5
+310,Fife House Sherbourne St,490 Sherbourne St,2021,Q3,0
+311,Fife House Sherbourne St,490 Sherbourne St,2021,Q4,0
+312,Fife House Sherbourne St,490 Sherbourne St,2022,Q1,< 5
+313,Fife House Sherbourne St,490 Sherbourne St,2022,Q2,0
+314,Fife House Sherbourne St,490 Sherbourne St,2022,Q3,0
+315,Fife House Sherbourne St,490 Sherbourne St,2022,Q4,< 5
+316,Fife House Sherbourne St,490 Sherbourne St,2023,Q1,NA
+317,Fife House Sherbourne St,490 Sherbourne St,2023,Q2,NA
+318,Fife House Sherbourne St,490 Sherbourne St,2023,Q3,< 5
+319,Fife House Sherbourne St,490 Sherbourne St,2023,Q4,0
+320,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2020,Q1,< 5
+321,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2020,Q2,< 5
+322,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2020,Q3,< 5
+323,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2020,Q4,11
+324,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2021,Q1,< 5
+325,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2021,Q2,< 5
+326,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2021,Q3,6
+327,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2021,Q4,6
+328,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2022,Q1,< 5
+329,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2022,Q2,< 5
+330,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2022,Q3,< 5
+331,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2022,Q4,< 5
+332,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2023,Q1,NA
+333,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2023,Q2,5
+334,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2023,Q3,8
+335,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2023,Q4,< 5
+336,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2024,Q1,5
+337,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2024,Q2,10
+338,Fred Victor Centre 1A Strachan Ave Respite,1A Strachan Ave,2024,Q3,< 5
+339,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2018,Q1,< 5
+340,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2018,Q2,< 5
+341,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2018,Q3,< 5
+342,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2018,Q4,< 5
+343,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2019,Q1,< 5
+344,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2019,Q2,< 5
+345,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2019,Q3,NA
+346,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2019,Q4,NA
+347,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2020,Q1,< 5
+348,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2020,Q2,< 5
+349,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2020,Q3,< 5
+350,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2020,Q4,< 5
+351,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2021,Q1,6
+352,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2021,Q2,0
+353,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2021,Q3,< 5
+354,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2021,Q4,5
+355,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2022,Q1,0
+356,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2022,Q2,< 5
+357,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2022,Q3,0
+358,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2022,Q4,0
+359,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2023,Q1,< 5
+360,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2023,Q2,< 5
+361,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2023,Q3,0
+362,Fred Victor Centre Bethlehem United,1161 Caledonia Rd,2023,Q4,< 5
+363,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2018,Q1,< 5
+364,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2018,Q2,NA
+365,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2018,Q3,NA
+366,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2018,Q4,NA
+367,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2019,Q1,< 5
+368,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2019,Q2,< 5
+369,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2019,Q3,< 5
+370,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2019,Q4,< 5
+371,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2020,Q1,9
+372,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2020,Q2,NA
+373,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2020,Q3,< 5
+374,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2020,Q4,NA
+375,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2021,Q1,NA
+376,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2021,Q2,NA
+377,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2021,Q3,< 5
+378,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,67 Adelaide St E,2021,Q4,< 5
+379,Fred Victor Centre Women's Shelter,86 Lombard St,2020,Q1,< 5
+380,Fred Victor Centre Women's Shelter,86 Lombard St,2020,Q2,NA
+381,Fred Victor Centre Women's Shelter,86 Lombard St,2020,Q3,NA
+382,Fred Victor Centre Women's Shelter,86 Lombard St,2020,Q4,NA
+383,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2020,Q1,NA
+384,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2020,Q2,NA
+385,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2020,Q3,< 5
+386,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2020,Q4,12
+387,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2021,Q1,7
+388,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2021,Q2,13
+389,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2021,Q3,10
+390,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2021,Q4,< 5
+391,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2022,Q1,8
+392,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2022,Q2,< 5
+393,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2022,Q3,< 5
+394,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2022,Q4,< 5
+395,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2023,Q1,< 5
+396,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2023,Q2,< 5
+397,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2023,Q3,5
+398,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2023,Q4,6
+399,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2024,Q1,5
+400,Fred Victor Uptown Hotel Program,185 Yorkland Blvd,2024,Q2,< 5
+401,Friends of Ruby,NA,2024,Q1,NA
+402,Friends of Ruby,NA,2024,Q2,< 5
+403,Good Shepherd Centre   ,412 Queen St E,2018,Q1,< 5
+404,Good Shepherd Centre   ,412 Queen St E,2018,Q2,NA
+405,Good Shepherd Centre   ,412 Queen St E,2018,Q3,< 5
+406,Good Shepherd Centre   ,412 Queen St E,2018,Q4,< 5
+407,Good Shepherd Centre   ,412 Queen St E,2019,Q1,< 5
+408,Good Shepherd Centre   ,412 Queen St E,2019,Q2,< 5
+409,Good Shepherd Centre   ,412 Queen St E,2019,Q3,< 5
+410,Good Shepherd Centre   ,412 Queen St E,2019,Q4,< 5
+411,Good Shepherd Centre   ,412 Queen St E,2020,Q1,NA
+412,Good Shepherd Centre   ,412 Queen St E,2020,Q2,< 5
+413,Good Shepherd Centre   ,412 Queen St E,2020,Q3,< 5
+414,Good Shepherd Centre   ,412 Queen St E,2020,Q4,< 5
+415,Good Shepherd Centre   ,412 Queen St E,2021,Q1,< 5
+416,Good Shepherd Centre   ,412 Queen St E,2021,Q2,5
+417,Good Shepherd Centre   ,412 Queen St E,2021,Q3,7
+418,Good Shepherd Centre   ,412 Queen St E,2021,Q4,< 5
+419,Good Shepherd Centre   ,412 Queen St E,2022,Q1,0
+420,Good Shepherd Centre   ,412 Queen St E,2022,Q2,< 5
+421,Good Shepherd Centre   ,412 Queen St E,2022,Q3,0
+422,Good Shepherd Centre   ,412 Queen St E,2022,Q4,< 5
+423,Good Shepherd Centre   ,412 Queen St E,2023,Q1,NA
+424,Good Shepherd Centre   ,412 Queen St E,2023,Q2,NA
+425,Good Shepherd Centre   ,412 Queen St E,2023,Q3,< 5
+426,Good Shepherd Centre   ,412 Queen St E,2023,Q4,0
+427,Good Shepherd Centre   ,412 Queen St E,2024,Q1,< 5
+428,Good Shepherd Centre   ,412 Queen St E,2024,Q2,7
+429,Good Shepherd Centre   ,412 Queen St E,2024,Q3,< 5
+430,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2020,Q1,NA
+431,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2020,Q2,< 5
+432,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2020,Q3,< 5
+433,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2020,Q4,NA
+434,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2021,Q1,NA
+435,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2021,Q2,NA
+436,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2021,Q3,< 5
+437,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2021,Q4,0
+438,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2024,Q1,0
+439,Good Shepherd Centre West End Hotel Program,335 Jarvis St,2024,Q2,< 5
+440,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2021,Q1,NA
+441,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2021,Q2,NA
+442,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2021,Q3,13
+443,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2021,Q4,8
+444,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2022,Q1,5
+445,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2022,Q2,< 5
+446,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2022,Q3,< 5
+447,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2022,Q4,0
+448,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2023,Q1,< 5
+449,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2023,Q2,0
+450,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2023,Q3,< 5
+451,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2023,Q4,< 5
+452,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2024,Q1,< 5
+453,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2024,Q2,< 5
+454,HFS - Lawrence East Shelter,4117 Lawrence Ave E,2024,Q3,< 5
+455,HFS 195 Princes' Blvd ,195 Princes' Blvd,2018,Q1,8
+456,HFS 195 Princes' Blvd ,195 Princes' Blvd,2018,Q2,7
+457,HFS 195 Princes' Blvd ,195 Princes' Blvd,2018,Q3,NA
+458,HFS 195 Princes' Blvd ,195 Princes' Blvd,2018,Q4,NA
+459,HFS 195 Princes' Blvd ,195 Princes' Blvd,2020,Q1,NA
+460,HFS 195 Princes' Blvd ,195 Princes' Blvd,2020,Q2,NA
+461,HFS 195 Princes' Blvd ,195 Princes' Blvd,2020,Q3,NA
+462,HFS 195 Princes' Blvd ,195 Princes' Blvd,2020,Q4,9
+463,HFS 195 Princes' Blvd ,195 Princes' Blvd,2021,Q1,41
+464,HFS 195 Princes' Blvd ,195 Princes' Blvd,2021,Q2,15
+465,HFS 195 Princes' Blvd ,195 Princes' Blvd,2021,Q3,24
+466,HFS 195 Princes' Blvd ,195 Princes' Blvd,2021,Q4,45
+467,HFS 195 Princes' Blvd ,195 Princes' Blvd,2022,Q1,51
+468,HFS 195 Princes' Blvd ,195 Princes' Blvd,2022,Q2,0
+469,HFS 195 Princes' Blvd ,195 Princes' Blvd,2022,Q3,NA
+470,HFS 195 Princes' Blvd ,195 Princes' Blvd,2022,Q4,0
+471,HFS 195 Princes' Blvd ,195 Princes' Blvd,2023,Q1,NA
+472,HFS 195 Princes' Blvd ,195 Princes' Blvd,2023,Q2,NA
+473,HFS 195 Princes' Blvd ,195 Princes' Blvd,2023,Q3,NA
+474,HFS 195 Princes' Blvd ,195 Princes' Blvd,2023,Q4,5
+475,HFS 195 Princes' Blvd ,195 Princes' Blvd,2024,Q1,42
+476,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2018,Q1,NA
+477,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2018,Q2,NA
+478,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2018,Q3,< 5
+479,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2018,Q4,19
+480,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2019,Q1,26
+481,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2019,Q2,15
+482,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2019,Q3,10
+483,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2019,Q4,15
+484,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2020,Q1,39
+485,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2020,Q2,32
+486,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2020,Q3,22
+487,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2020,Q4,47
+488,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2021,Q1,30
+489,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2021,Q2,37
+490,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2021,Q3,42
+491,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2021,Q4,38
+492,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2022,Q1,28
+493,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2022,Q2,12
+494,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2022,Q3,8
+495,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2022,Q4,40
+496,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2023,Q1,25
+497,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2023,Q2,30
+498,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2023,Q3,12
+499,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2023,Q4,5
+500,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2024,Q1,23
+501,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2024,Q2,27
+502,HFS 545 Lake Shore Blvd W ,545 Lake Shore Blvd W,2024,Q3,< 5
+503,HFS Downtown Hotel Program,60 York St,2022,Q1,< 5
+504,HFS Downtown Hotel Program,60 York St,2022,Q2,< 5
+505,HFS Downtown Hotel Program,60 York St,2022,Q3,0
+506,HFS Downtown Hotel Program,60 York St,2022,Q4,< 5
+507,HFS Downtown Hotel Program,60 York St,2023,Q1,< 5
+508,HFS Downtown Hotel Program,60 York St,2023,Q2,0
+509,HFS Downtown Hotel Program,60 York St,2023,Q3,< 5
+510,HFS Downtown Hotel Program,60 York St,2023,Q4,0
+511,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2018,Q1,< 5
+512,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2018,Q2,NA
+513,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2018,Q3,NA
+514,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2018,Q4,< 5
+515,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2019,Q1,< 5
+516,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2019,Q2,< 5
+517,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2019,Q3,NA
+518,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2019,Q4,NA
+519,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2020,Q1,< 5
+520,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2020,Q2,< 5
+521,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2020,Q3,< 5
+522,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2020,Q4,< 5
+523,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2021,Q1,< 5
+524,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2021,Q2,0
+525,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2021,Q3,0
+526,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2021,Q4,0
+527,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2022,Q1,< 5
+528,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2022,Q2,< 5
+529,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2022,Q3,< 5
+530,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2022,Q4,0
+531,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2023,Q1,< 5
+532,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2023,Q2,0
+533,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2023,Q3,0
+534,HFS Kennedy Rd Women's Shelter,702 Kennedy Rd,2023,Q4,0
+535,HFS Placer,101 Placer Ct,2022,Q1,5
+536,HFS Placer,101 Placer Ct,2022,Q2,< 5
+537,HFS Placer,101 Placer Ct,2022,Q3,< 5
+538,HFS Placer,101 Placer Ct,2022,Q4,< 5
+539,HFS Placer,101 Placer Ct,2023,Q1,0
+540,HFS Placer,101 Placer Ct,2023,Q2,< 5
+541,HFS Placer,101 Placer Ct,2023,Q3,< 5
+542,HFS Placer,101 Placer Ct,2023,Q4,< 5
+543,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2018,Q1,< 5
+544,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2018,Q2,6
+545,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2018,Q3,< 5
+546,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2018,Q4,< 5
+547,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2019,Q1,< 5
+548,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2019,Q2,< 5
+549,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2019,Q3,NA
+550,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2019,Q4,< 5
+551,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2020,Q1,7
+552,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2020,Q2,< 5
+553,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2020,Q3,< 5
+554,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2020,Q4,< 5
+555,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2021,Q1,< 5
+556,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2021,Q2,0
+557,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2021,Q3,6
+558,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2021,Q4,< 5
+559,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2022,Q1,< 5
+560,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2022,Q2,12
+561,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2022,Q3,0
+562,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2022,Q4,0
+563,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2023,Q1,< 5
+564,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2023,Q2,< 5
+565,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2023,Q3,0
+566,HFS St. Clair Ave E Shelter,3576 St Clair Ave E,2023,Q4,0
+567,HFS Strachan House,805A Wellington St W,2018,Q1,< 5
+568,HFS Strachan House,805A Wellington St W,2018,Q2,< 5
+569,HFS Strachan House,805A Wellington St W,2018,Q3,< 5
+570,HFS Strachan House,805A Wellington St W,2018,Q4,< 5
+571,HFS Strachan House,805A Wellington St W,2019,Q1,5
+572,HFS Strachan House,805A Wellington St W,2019,Q2,9
+573,HFS Strachan House,805A Wellington St W,2019,Q3,5
+574,HFS Strachan House,805A Wellington St W,2019,Q4,< 5
+575,HFS Strachan House,805A Wellington St W,2020,Q1,5
+576,HFS Strachan House,805A Wellington St W,2020,Q2,7
+577,HFS Strachan House,805A Wellington St W,2020,Q3,10
+578,HFS Strachan House,805A Wellington St W,2020,Q4,10
+579,HFS Strachan House,805A Wellington St W,2021,Q1,11
+580,HFS Strachan House,805A Wellington St W,2021,Q2,< 5
+581,HFS Strachan House,805A Wellington St W,2021,Q3,6
+582,HFS Strachan House,805A Wellington St W,2021,Q4,11
+583,HFS Strachan House,805A Wellington St W,2022,Q1,< 5
+584,HFS Willowdale Centre,5800 Yonge St,2020,Q1,NA
+585,HFS Willowdale Centre,5800 Yonge St,2020,Q2,NA
+586,HFS Willowdale Centre,5800 Yonge St,2020,Q3,6
+587,HFS Willowdale Centre,5800 Yonge St,2020,Q4,< 5
+588,HFS Willowdale Centre,5800 Yonge St,2021,Q1,27
+589,HFS Willowdale Centre,5800 Yonge St,2021,Q2,31
+590,HFS Willowdale Centre,5800 Yonge St,2021,Q3,28
+591,HFS Willowdale Centre,5800 Yonge St,2021,Q4,13
+592,HFS Willowdale Centre,5800 Yonge St,2022,Q1,19
+593,HFS Willowdale Centre,5800 Yonge St,2022,Q2,34
+594,HFS Willowdale Centre,5800 Yonge St,2022,Q3,20
+595,HFS Willowdale Centre,5800 Yonge St,2022,Q4,17
+596,HFS Willowdale Centre,5800 Yonge St,2023,Q1,12
+597,HFS Willowdale Centre,5800 Yonge St,2023,Q2,7
+598,HFS Willowdale Centre,5800 Yonge St,2023,Q3,0
+599,HFS Willowdale Centre,5800 Yonge St,2023,Q4,0
+600,HFS Willowdale Centre,5800 Yonge St,2024,Q3,< 5
+601,HFS - Metro Strachan,22 Metropolitan Rd,2022,Q1,0
+602,HFS - Metro Strachan,22 Metropolitan Rd,2022,Q2,5
+603,HFS - Metro Strachan,22 Metropolitan Rd,2022,Q3,7
+604,HFS - Metro Strachan,22 Metropolitan Rd,2022,Q4,< 5
+605,HFS - Metro Strachan,22 Metropolitan Rd,2023,Q1,< 5
+606,HFS - Metro Strachan,22 Metropolitan Rd,2023,Q2,0
+607,HFS - Metro Strachan,22 Metropolitan Rd,2023,Q3,0
+608,HFS - Metro Strachan,22 Metropolitan Rd,2023,Q4,< 5
+609,Homes First Society 354 George St Shelter,354 George St,2018,Q1,< 5
+610,Homes First Society 354 George St Shelter,354 George St,2018,Q2,5
+611,Homes First Society 354 George St Shelter,354 George St,2018,Q3,8
+612,Homes First Society 354 George St Shelter,354 George St,2018,Q4,14
+613,Homes First Society 354 George St Shelter,354 George St,2019,Q1,17
+614,Homes First Society 354 George St Shelter,354 George St,2019,Q2,6
+615,Homes First Society 354 George St Shelter,354 George St,2019,Q3,NA
+616,Homes First Society 354 George St Shelter,354 George St,2019,Q4,NA
+617,Homes First Society 354 George St Shelter,354 George St,2020,Q1,NA
+618,Homes First Society 354 George St Shelter,354 George St,2020,Q2,< 5
+619,Homes First Society 354 George St Shelter,354 George St,2020,Q3,< 5
+620,Homes First Society 354 George St Shelter,354 George St,2020,Q4,< 5
+621,Homes First Society Savard's Shelter,1322 Bloor St W,2018,Q1,< 5
+622,Homes First Society Savard's Shelter,1322 Bloor St W,2018,Q2,NA
+623,Homes First Society Savard's Shelter,1322 Bloor St W,2018,Q3,NA
+624,Homes First Society Savard's Shelter,1322 Bloor St W,2018,Q4,NA
+625,Homes First Society Savard's Shelter,1322 Bloor St W,2019,Q1,NA
+626,Homes First Society Savard's Shelter,1322 Bloor St W,2019,Q2,< 5
+627,Homes First Society Savard's Shelter,1322 Bloor St W,2019,Q3,NA
+628,Homes First Society Savard's Shelter,1322 Bloor St W,2019,Q4,NA
+629,Horizons for Youth,422 Gilbert Ave,2020,Q1,< 5
+630,Horizons for Youth,422 Gilbert Ave,2020,Q2,NA
+631,Horizons for Youth,422 Gilbert Ave,2020,Q3,NA
+632,Horizons for Youth,422 Gilbert Ave,2020,Q4,NA
+633,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2020,Q1,NA
+634,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2020,Q2,< 5
+635,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2020,Q3,< 5
+636,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2020,Q4,NA
+637,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2021,Q1,7
+638,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2021,Q2,10
+639,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2021,Q3,< 5
+640,Isolation/Recovery Site - Etobicoke,Isolation/Recovery program address not reported.,2021,Q4,5
+641,Jimmie Simpson CC,870 Queen St E,2020,Q1,NA
+642,Jimmie Simpson CC,870 Queen St E,2020,Q2,6
+643,Jimmie Simpson CC,870 Queen St E,2020,Q3,NA
+644,Jimmie Simpson CC,870 Queen St E,2020,Q4,NA
+645,John Innes CC,150 Sherbourne St,2020,Q1,NA
+646,John Innes CC,150 Sherbourne St,2020,Q2,14
+647,John Innes CC,150 Sherbourne St,2020,Q3,< 5
+648,John Innes CC,150 Sherbourne St,2020,Q4,< 5
+649,Kennedy House Youth Shelter,1076 Pape Ave,2018,Q1,NA
+650,Kennedy House Youth Shelter,1076 Pape Ave,2018,Q2,NA
+651,Kennedy House Youth Shelter,1076 Pape Ave,2018,Q3,NA
+652,Kennedy House Youth Shelter,1076 Pape Ave,2018,Q4,< 5
+653,Kennedy House Youth Shelter,1076 Pape Ave,2019,Q1,NA
+654,Kennedy House Youth Shelter,1076 Pape Ave,2019,Q2,NA
+655,Kennedy House Youth Shelter,1076 Pape Ave,2019,Q3,< 5
+656,Kennedy House Youth Shelter,1076 Pape Ave,2019,Q4,NA
+657,Kennedy House Youth Shelter,1076 Pape Ave,2020,Q1,NA
+658,Kennedy House Youth Shelter,1076 Pape Ave,2020,Q2,< 5
+659,Kennedy House Youth Shelter,1076 Pape Ave,2020,Q3,NA
+660,Kennedy House Youth Shelter,1076 Pape Ave,2020,Q4,NA
+661,Margaret's 21 Park Rd Respite ,21 Park Rd,2018,Q1,NA
+662,Margaret's 21 Park Rd Respite ,21 Park Rd,2018,Q2,NA
+663,Margaret's 21 Park Rd Respite ,21 Park Rd,2018,Q3,< 5
+664,Margaret's 21 Park Rd Respite ,21 Park Rd,2018,Q4,< 5
+665,Margaret's 21 Park Rd Respite ,21 Park Rd,2019,Q1,< 5
+666,Margaret's 21 Park Rd Respite ,21 Park Rd,2019,Q2,NA
+667,Margaret's 21 Park Rd Respite ,21 Park Rd,2019,Q3,< 5
+668,Margaret's 21 Park Rd Respite ,21 Park Rd,2019,Q4,< 5
+669,Margaret's 21 Park Rd Respite ,21 Park Rd,2020,Q1,NA
+670,Margaret's 21 Park Rd Respite ,21 Park Rd,2020,Q2,NA
+671,Margaret's 21 Park Rd Respite ,21 Park Rd,2020,Q3,NA
+672,Margaret's 21 Park Rd Respite ,21 Park Rd,2020,Q4,< 5
+673,Margaret's 21 Park Rd Respite ,21 Park Rd,2021,Q1,< 5
+674,Margaret's 21 Park Rd Respite ,21 Park Rd,2021,Q2,< 5
+675,Margaret's 21 Park Rd Respite ,21 Park Rd,2021,Q3,6
+676,Margaret's 21 Park Rd Respite ,21 Park Rd,2021,Q4,< 5
+677,Margaret's 21 Park Rd Respite ,21 Park Rd,2022,Q1,< 5
+678,Margaret's 21 Park Rd Respite ,21 Park Rd,2022,Q2,< 5
+679,Margaret's 21 Park Rd Respite ,21 Park Rd,2022,Q3,< 5
+680,Margaret's 21 Park Rd Respite ,21 Park Rd,2022,Q4,< 5
+681,Margaret's 21 Park Rd Respite ,21 Park Rd,2023,Q1,< 5
+682,Margaret's 21 Park Rd Respite ,21 Park Rd,2023,Q2,< 5
+683,Margaret's 21 Park Rd Respite ,21 Park Rd,2023,Q3,< 5
+684,Margaret's 21 Park Rd Respite ,21 Park Rd,2023,Q4,< 5
+685,Margaret's 21 Park Rd Respite ,21 Park Rd,2024,Q1,0
+686,Margaret's 21 Park Rd Respite ,21 Park Rd,2024,Q2,< 5
+687,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2018,Q1,5
+688,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2018,Q2,< 5
+689,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2018,Q3,< 5
+690,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2018,Q4,< 5
+691,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2019,Q1,6
+692,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2019,Q2,6
+693,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2019,Q3,< 5
+694,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2019,Q4,< 5
+695,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2020,Q1,9
+696,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2020,Q2,< 5
+697,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2020,Q3,< 5
+698,Margaret's 323 Dundas St E Women's Drop-In,323 Dundas St E,2020,Q4,NA
+699,Masaryk-Cowan CRC,220 Cowan Ave,2020,Q1,NA
+700,Masaryk-Cowan CRC,220 Cowan Ave,2020,Q2,< 5
+701,Masaryk-Cowan CRC,220 Cowan Ave,2020,Q3,< 5
+702,Masaryk-Cowan CRC,220 Cowan Ave,2020,Q4,NA
+703,Masaryk-Cowan CRC,220 Cowan Ave,2022,Q1,12
+704,Masaryk-Cowan CRC,220 Cowan Ave,2022,Q2,NA
+705,Masaryk-Cowan CRC,220 Cowan Ave,2022,Q3,NA
+706,Masaryk-Cowan CRC,220 Cowan Ave,2022,Q4,NA
+707,Matty Eckler CC,953 Gerrard St E,2020,Q1,NA
+708,Matty Eckler CC,953 Gerrard St E,2020,Q2,< 5
+709,Matty Eckler CC,953 Gerrard St E,2020,Q3,NA
+710,Matty Eckler CC,953 Gerrard St E,2020,Q4,NA
+711,Multiple Adult Agencies Downtown Hotel Program,60 York St,2020,Q1,NA
+712,Multiple Adult Agencies Downtown Hotel Program,60 York St,2020,Q2,< 5
+713,Multiple Adult Agencies Downtown Hotel Program,60 York St,2020,Q3,< 5
+714,Multiple Adult Agencies Downtown Hotel Program,60 York St,2020,Q4,< 5
+715,Multiple Adult Agencies Downtown Hotel Program,60 York St,2021,Q1,5
+716,Multiple Adult Agencies Downtown Hotel Program,60 York St,2021,Q2,< 5
+717,Multiple Adult Agencies Downtown Hotel Program,60 York St,2021,Q3,< 5
+718,Multiple Adult Agencies Downtown Hotel Program,60 York St,2021,Q4,0
+719,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2021,Q1,NA
+720,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2021,Q2,NA
+721,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2021,Q3,NA
+722,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2021,Q4,< 5
+723,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2022,Q1,< 5
+724,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2022,Q2,< 5
+725,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2022,Q3,0
+726,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2022,Q4,0
+727,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2023,Q1,< 5
+728,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2023,Q2,0
+729,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2023,Q3,0
+730,Multiple Youth Agencies Downtown Hotel Program,92 Peter St,2023,Q4,NA
+731,Na-Me-Res ,14 Vaughan Rd,2018,Q1,< 5
+732,Na-Me-Res ,14 Vaughan Rd,2018,Q2,NA
+733,Na-Me-Res ,14 Vaughan Rd,2018,Q3,NA
+734,Na-Me-Res ,14 Vaughan Rd,2018,Q4,NA
+735,Na-Me-Res ,14 Vaughan Rd,2019,Q1,NA
+736,Na-Me-Res ,14 Vaughan Rd,2019,Q2,NA
+737,Na-Me-Res ,14 Vaughan Rd,2019,Q3,NA
+738,Na-Me-Res ,14 Vaughan Rd,2019,Q4,< 5
+739,Na-Me-Res ,14 Vaughan Rd,2020,Q1,< 5
+740,Na-Me-Res ,14 Vaughan Rd,2020,Q2,NA
+741,Na-Me-Res ,14 Vaughan Rd,2020,Q3,NA
+742,Na-Me-Res ,14 Vaughan Rd,2020,Q4,< 5
+743,Na-Me-Res ,14 Vaughan Rd,2021,Q1,< 5
+744,Na-Me-Res ,14 Vaughan Rd,2021,Q2,0
+745,Na-Me-Res ,14 Vaughan Rd,2021,Q3,0
+746,Na-Me-Res ,14 Vaughan Rd,2021,Q4,0
+747,Na-Me-Res ,14 Vaughan Rd,2022,Q1,0
+748,Na-Me-Res ,14 Vaughan Rd,2022,Q2,< 5
+749,Na-Me-Res ,14 Vaughan Rd,2022,Q3,0
+750,Na-Me-Res ,14 Vaughan Rd,2022,Q4,0
+751,Na-Me-Res ,14 Vaughan Rd,2023,Q1,NA
+752,Na-Me-Res ,14 Vaughan Rd,2023,Q2,NA
+753,Na-Me-Res ,14 Vaughan Rd,2023,Q3,NA
+754,Na-Me-Res ,14 Vaughan Rd,2023,Q4,< 5
+755,Queen Elizabeth Building,180 Princes' Blvd,2018,Q1,NA
+756,Queen Elizabeth Building,180 Princes' Blvd,2018,Q2,NA
+757,Queen Elizabeth Building,180 Princes' Blvd,2018,Q3,NA
+758,Queen Elizabeth Building,180 Princes' Blvd,2018,Q4,30
+759,Queen Elizabeth Building,180 Princes' Blvd,2019,Q1,50
+760,Queen Elizabeth Building,180 Princes' Blvd,2019,Q2,< 5
+761,Queen Elizabeth Building,180 Princes' Blvd,2019,Q3,NA
+762,Queen Elizabeth Building,180 Princes' Blvd,2019,Q4,NA
+763,Queen Elizabeth Building,180 Princes' Blvd,2020,Q1,NA
+764,Queen Elizabeth Building,180 Princes' Blvd,2020,Q2,NA
+765,Queen Elizabeth Building,180 Princes' Blvd,2020,Q3,NA
+766,Queen Elizabeth Building,180 Princes' Blvd,2020,Q4,< 5
+767,Red Door Family Shelter,189B Booth Ave,2021,Q1,< 5
+768,Red Door Family Shelter,189B Booth Ave,2021,Q2,0
+769,Red Door Family Shelter,189B Booth Ave,2021,Q3,0
+770,Red Door Family Shelter,189B Booth Ave,2021,Q4,0
+771,SA Evangeline Residence,2808 Dundas St W,2019,Q1,NA
+772,SA Evangeline Residence,2808 Dundas St W,2019,Q2,NA
+773,SA Evangeline Residence,2808 Dundas St W,2019,Q3,NA
+774,SA Evangeline Residence,2808 Dundas St W,2019,Q4,< 5
+775,SA Evangeline Residence,2808 Dundas St W,2021,Q1,< 5
+776,SA Evangeline Residence,2808 Dundas St W,2021,Q2,0
+777,SA Evangeline Residence,2808 Dundas St W,2021,Q3,< 5
+778,SA Evangeline Residence,2808 Dundas St W,2021,Q4,< 5
+779,SA Evangeline Residence,2808 Dundas St W,2022,Q1,0
+780,SA Evangeline Residence,2808 Dundas St W,2022,Q2,< 5
+781,SA Evangeline Residence,2808 Dundas St W,2022,Q3,< 5
+782,SA Evangeline Residence,2808 Dundas St W,2022,Q4,0
+783,SA Evangeline Residence,2808 Dundas St W,2023,Q1,NA
+784,SA Evangeline Residence,2808 Dundas St W,2023,Q2,NA
+785,SA Evangeline Residence,2808 Dundas St W,2023,Q3,NA
+786,SA Evangeline Residence,2808 Dundas St W,2023,Q4,< 5
+787,SA Evangeline Residence,2808 Dundas St W,2024,Q1,< 5
+788,SA Florence Booth House,723 Queen St W,2019,Q1,< 5
+789,SA Florence Booth House,723 Queen St W,2019,Q2,NA
+790,SA Florence Booth House,723 Queen St W,2019,Q3,NA
+791,SA Florence Booth House,723 Queen St W,2019,Q4,< 5
+792,SA Gateway,107 Jarvis St,2018,Q1,NA
+793,SA Gateway,107 Jarvis St,2018,Q2,< 5
+794,SA Gateway,107 Jarvis St,2018,Q3,< 5
+795,SA Gateway,107 Jarvis St,2018,Q4,NA
+796,SA Gateway,107 Jarvis St,2019,Q1,< 5
+797,SA Gateway,107 Jarvis St,2019,Q2,< 5
+798,SA Gateway,107 Jarvis St,2019,Q3,< 5
+799,SA Gateway,107 Jarvis St,2019,Q4,NA
+800,SA Gateway,107 Jarvis St,2020,Q1,NA
+801,SA Gateway,107 Jarvis St,2020,Q2,< 5
+802,SA Gateway,107 Jarvis St,2020,Q3,NA
+803,SA Gateway,107 Jarvis St,2020,Q4,< 5
+804,SA Gateway,107 Jarvis St,2021,Q1,0
+805,SA Gateway,107 Jarvis St,2021,Q2,0
+806,SA Gateway,107 Jarvis St,2021,Q3,< 5
+807,SA Gateway,107 Jarvis St,2021,Q4,< 5
+808,SA Gateway,107 Jarvis St,2022,Q1,0
+809,SA Gateway,107 Jarvis St,2022,Q2,< 5
+810,SA Gateway,107 Jarvis St,2022,Q3,0
+811,SA Gateway,107 Jarvis St,2022,Q4,< 5
+812,SA Gateway,107 Jarvis St,2023,Q1,< 5
+813,SA Gateway,107 Jarvis St,2023,Q2,< 5
+814,SA Gateway,107 Jarvis St,2023,Q3,0
+815,SA Gateway,107 Jarvis St,2023,Q4,< 5
+816,SA Gateway,107 Jarvis St,2024,Q1,< 5
+817,SA Gateway,107 Jarvis St,2024,Q2,< 5
+818,SA Islington Seniors' Shelter,2671 Islington Ave,2019,Q1,< 5
+819,SA Islington Seniors' Shelter,2671 Islington Ave,2019,Q2,NA
+820,SA Islington Seniors' Shelter,2671 Islington Ave,2019,Q3,< 5
+821,SA Islington Seniors' Shelter,2671 Islington Ave,2019,Q4,NA
+822,SA Islington Seniors' Shelter,2671 Islington Ave,2020,Q1,NA
+823,SA Islington Seniors' Shelter,2671 Islington Ave,2020,Q2,NA
+824,SA Islington Seniors' Shelter,2671 Islington Ave,2020,Q3,NA
+825,SA Islington Seniors' Shelter,2671 Islington Ave,2020,Q4,< 5
+826,SA Islington Seniors' Shelter,2671 Islington Ave,2021,Q1,0
+827,SA Islington Seniors' Shelter,2671 Islington Ave,2021,Q2,0
+828,SA Islington Seniors' Shelter,2671 Islington Ave,2021,Q3,< 5
+829,SA Islington Seniors' Shelter,2671 Islington Ave,2021,Q4,< 5
+830,SA Islington Seniors' Shelter,2671 Islington Ave,2022,Q1,< 5
+831,SA Islington Seniors' Shelter,2671 Islington Ave,2022,Q2,< 5
+832,SA Islington Seniors' Shelter,2671 Islington Ave,2022,Q3,0
+833,SA Islington Seniors' Shelter,2671 Islington Ave,2022,Q4,0
+834,SA Maxwell Meighen Centre,135 Sherbourne St,2018,Q1,< 5
+835,SA Maxwell Meighen Centre,135 Sherbourne St,2018,Q2,< 5
+836,SA Maxwell Meighen Centre,135 Sherbourne St,2018,Q3,< 5
+837,SA Maxwell Meighen Centre,135 Sherbourne St,2018,Q4,< 5
+838,SA Maxwell Meighen Centre,135 Sherbourne St,2019,Q1,5
+839,SA Maxwell Meighen Centre,135 Sherbourne St,2019,Q2,8
+840,SA Maxwell Meighen Centre,135 Sherbourne St,2019,Q3,< 5
+841,SA Maxwell Meighen Centre,135 Sherbourne St,2019,Q4,< 5
+842,SA Maxwell Meighen Centre,135 Sherbourne St,2020,Q1,8
+843,SA Maxwell Meighen Centre,135 Sherbourne St,2020,Q2,6
+844,SA Maxwell Meighen Centre,135 Sherbourne St,2020,Q3,< 5
+845,SA Maxwell Meighen Centre,135 Sherbourne St,2020,Q4,5
+846,SA Maxwell Meighen Centre,135 Sherbourne St,2021,Q1,6
+847,SA Maxwell Meighen Centre,135 Sherbourne St,2021,Q2,5
+848,SA Maxwell Meighen Centre,135 Sherbourne St,2021,Q3,9
+849,SA Maxwell Meighen Centre,135 Sherbourne St,2021,Q4,23
+850,SA Maxwell Meighen Centre,135 Sherbourne St,2022,Q1,11
+851,SA Maxwell Meighen Centre,135 Sherbourne St,2022,Q2,9
+852,SA Maxwell Meighen Centre,135 Sherbourne St,2022,Q3,7
+853,SA Maxwell Meighen Centre,135 Sherbourne St,2022,Q4,27
+854,SA Maxwell Meighen Centre,135 Sherbourne St,2023,Q1,14
+855,SA Maxwell Meighen Centre,135 Sherbourne St,2023,Q2,21
+856,SA Maxwell Meighen Centre,135 Sherbourne St,2023,Q3,9
+857,SA Maxwell Meighen Centre,135 Sherbourne St,2023,Q4,16
+858,SA Maxwell Meighen Centre,135 Sherbourne St,2024,Q1,21
+859,SA Maxwell Meighen Centre,135 Sherbourne St,2024,Q2,10
+860,SA Maxwell Meighen Centre,135 Sherbourne St,2024,Q3,13
+861,SA New Hope Leslieville,29A Leslie St,2018,Q1,< 5
+862,SA New Hope Leslieville,29A Leslie St,2018,Q2,NA
+863,SA New Hope Leslieville,29A Leslie St,2018,Q3,NA
+864,SA New Hope Leslieville,29A Leslie St,2018,Q4,NA
+865,SA New Hope Leslieville,29A Leslie St,2019,Q1,< 5
+866,SA New Hope Leslieville,29A Leslie St,2019,Q2,NA
+867,SA New Hope Leslieville,29A Leslie St,2019,Q3,NA
+868,SA New Hope Leslieville,29A Leslie St,2019,Q4,NA
+869,SA New Hope Leslieville,29A Leslie St,2020,Q1,< 5
+870,SA New Hope Leslieville,29A Leslie St,2020,Q2,NA
+871,SA New Hope Leslieville,29A Leslie St,2020,Q3,< 5
+872,SA New Hope Leslieville,29A Leslie St,2020,Q4,< 5
+873,SA New Hope Leslieville,29A Leslie St,2021,Q1,< 5
+874,SA New Hope Leslieville,29A Leslie St,2021,Q2,< 5
+875,SA New Hope Leslieville,29A Leslie St,2021,Q3,0
+876,SA New Hope Leslieville,29A Leslie St,2021,Q4,< 5
+877,SA New Hope Leslieville,29A Leslie St,2022,Q1,< 5
+878,SA New Hope Leslieville,29A Leslie St,2022,Q2,0
+879,SA New Hope Leslieville,29A Leslie St,2022,Q4,< 5
+880,SA New Hope Leslieville,29A Leslie St,2022,Q3,0
+881,SA New Hope Leslieville,29A Leslie St,2023,Q1,< 5
+882,SA New Hope Leslieville,29A Leslie St,2023,Q2,10
+883,SA New Hope Leslieville,29A Leslie St,2023,Q3,7
+884,SA New Hope Leslieville,29A Leslie St,2023,Q4,0
+885,SA North Hotel Program,30 Norfinch Dr,2021,Q1,< 5
+886,SA North Hotel Program,30 Norfinch Dr,2021,Q2,0
+887,SA North Hotel Program,30 Norfinch Dr,2021,Q3,< 5
+888,SA North Hotel Program,30 Norfinch Dr,2021,Q4,0
+889,SA North Hotel Program,30 Norfinch Dr,2022,Q1,< 5
+890,SA North Hotel Program,30 Norfinch Dr,2022,Q2,< 5
+891,SA North Hotel Program,30 Norfinch Dr,2022,Q3,< 5
+892,SA North Hotel Program,30 Norfinch Dr,2022,Q4,< 5
+893,SA Scarborough Hotel Program,50 Estate Dr,2020,Q1,NA
+894,SA Scarborough Hotel Program,50 Estate Dr,2020,Q2,NA
+895,SA Scarborough Hotel Program,50 Estate Dr,2020,Q3,7
+896,SA Scarborough Hotel Program,50 Estate Dr,2020,Q4,< 5
+897,SA Scarborough Hotel Program,50 Estate Dr,2021,Q1,< 5
+898,SA Scarborough Hotel Program,50 Estate Dr,2021,Q2,9
+899,SA Scarborough Hotel Program,50 Estate Dr,2021,Q3,< 5
+900,SA Scarborough Hotel Program,50 Estate Dr,2021,Q4,5
+901,SA Scarborough Hotel Program,50 Estate Dr,2022,Q1,0
+902,SA Scarborough Hotel Program,50 Estate Dr,2022,Q2,< 5
+903,SA Scarborough Hotel Program,50 Estate Dr,2022,Q3,< 5
+904,SA Scarborough Hotel Program,50 Estate Dr,2022,Q4,< 5
+905,SA Scarborough Hotel Program,50 Estate Dr,2023,Q1,< 5
+906,SA Scarborough Hotel Program,50 Estate Dr,2023,Q2,0
+907,SA Scarborough Hotel Program,50 Estate Dr,2023,Q3,0
+908,SA Scarborough Hotel Program,50 Estate Dr,2023,Q4,0
+909,SA Scarborough Hotel Program,50 Estate Dr,2024,Q3,< 5
+910,Sagatay,26 Vaughan Rd,2019,Q1,NA
+911,Sagatay,26 Vaughan Rd,2019,Q2,NA
+912,Sagatay,26 Vaughan Rd,2019,Q3,NA
+913,Sagatay,26 Vaughan Rd,2019,Q4,< 5
+914,Sagatay,26 Vaughan Rd,2021,Q1,0
+915,Sagatay,26 Vaughan Rd,2021,Q2,< 5
+916,Sagatay,26 Vaughan Rd,2021,Q3,0
+917,Sagatay,26 Vaughan Rd,2021,Q4,0
+918,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2021,Q1,NA
+919,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2021,Q2,< 5
+920,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2021,Q3,< 5
+921,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2021,Q4,0
+922,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2022,Q1,0
+923,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2022,Q2,< 5
+924,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2022,Q3,0
+925,Scarborough Women's Shelter - Milner,20 Milner Business Ct,2022,Q4,0
+926,Scott Mission,502 Spadina Ave,2019,Q1,NA
+927,Scott Mission,502 Spadina Ave,2019,Q2,NA
+928,Scott Mission,502 Spadina Ave,2019,Q3,NA
+929,Scott Mission,502 Spadina Ave,2019,Q4,< 5
+930,Scott Mission,502 Spadina Ave,2020,Q1,NA
+931,Scott Mission,502 Spadina Ave,2020,Q2,NA
+932,Scott Mission,502 Spadina Ave,2020,Q3,NA
+933,Scott Mission,502 Spadina Ave,2020,Q4,NA
+934,Scott Mission,502 Spadina Ave,2021,Q1,0
+935,Scott Mission,502 Spadina Ave,2021,Q2,< 5
+936,Scott Mission,502 Spadina Ave,2021,Q3,0
+937,Scott Mission,502 Spadina Ave,2021,Q4,< 5
+938,Scott Mission,502 Spadina Ave,2024,Q3,< 5
+939,The Scott Mission - Kensington location,346 Spadina Ave.,2022,Q1,0
+940,The Scott Mission - Kensington location,346 Spadina Ave.,2022,Q2,< 5
+941,The Scott Mission - Kensington location,346 Spadina Ave.,2022,Q3,0
+942,The Scott Mission - Kensington location,346 Spadina Ave.,2022,Q4,0
+943,Sistering,962 Bloor St W,2018,Q1,< 5
+944,Sistering,962 Bloor St W,2018,Q2,< 5
+945,Sistering,962 Bloor St W,2018,Q3,< 5
+946,Sistering,962 Bloor St W,2018,Q4,< 5
+947,Sistering,962 Bloor St W,2019,Q1,< 5
+948,Sistering,962 Bloor St W,2019,Q2,< 5
+949,Sistering,962 Bloor St W,2019,Q3,5
+950,Sistering,962 Bloor St W,2019,Q4,< 5
+951,Sistering,962 Bloor St W,2020,Q1,< 5
+952,Sistering,962 Bloor St W,2020,Q2,NA
+953,Sistering,962 Bloor St W,2020,Q3,< 5
+954,Sistering,962 Bloor St W,2020,Q4,NA
+955,Sistering,962 Bloor St W,2021,Q1,0
+956,Sistering,962 Bloor St W,2021,Q2,< 5
+957,Sistering,962 Bloor St W,2021,Q3,< 5
+958,Sistering,962 Bloor St W,2021,Q4,0
+959,Sistering,962 Bloor St W,2022,Q1,0
+960,Sistering,962 Bloor St W,2022,Q2,< 5
+961,Sistering,962 Bloor St W,2022,Q3,0
+962,Sistering,962 Bloor St W,2022,Q4,0
+963,Sistering,962 Bloor St W,2023,Q1,< 5
+964,Sistering,962 Bloor St W,2023,Q2,0
+965,Sistering,962 Bloor St W,2023,Q3,< 5
+966,Sistering,962 Bloor St W,2023,Q4,< 5
+967,Sojourn House Ontario St,101 Ontario St,2018,Q1,NA
+968,Sojourn House Ontario St,101 Ontario St,2018,Q2,NA
+969,Sojourn House Ontario St,101 Ontario St,2018,Q3,< 5
+970,Sojourn House Ontario St,101 Ontario St,2018,Q4,NA
+971,Sojourn House Ontario St,101 Ontario St,2019,Q1,NA
+972,Sojourn House Ontario St,101 Ontario St,2019,Q2,NA
+973,Sojourn House Ontario St,101 Ontario St,2019,Q3,NA
+974,Sojourn House Ontario St,101 Ontario St,2019,Q4,< 5
+975,Sojourn House Ontario St,101 Ontario St,2021,Q1,NA
+976,Sojourn House Ontario St,101 Ontario St,2021,Q2,NA
+977,Sojourn House Ontario St,101 Ontario St,2021,Q3,NA
+978,Sojourn House Ontario St,101 Ontario St,2021,Q4,< 5
+979,SSHA Birkdale Residence,1229 Ellesmere Rd,2018,Q1,NA
+980,SSHA Birkdale Residence,1229 Ellesmere Rd,2018,Q2,NA
+981,SSHA Birkdale Residence,1229 Ellesmere Rd,2018,Q3,< 5
+982,SSHA Birkdale Residence,1229 Ellesmere Rd,2018,Q4,NA
+983,SSHA Birkdale Residence,1229 Ellesmere Rd,2019,Q1,NA
+984,SSHA Birkdale Residence,1229 Ellesmere Rd,2019,Q2,< 5
+985,SSHA Birkdale Residence,1229 Ellesmere Rd,2019,Q3,NA
+986,SSHA Birkdale Residence,1229 Ellesmere Rd,2019,Q4,NA
+987,SSHA Birkdale Residence,1229 Ellesmere Rd,2021,Q1,NA
+988,SSHA Birkdale Residence,1229 Ellesmere Rd,2021,Q2,NA
+989,SSHA Birkdale Residence,1229 Ellesmere Rd,2021,Q3,NA
+990,SSHA Birkdale Residence,1229 Ellesmere Rd,2021,Q4,< 5
+991,SSHA Broadway Residences 1,55 Broadway Ave,2020,Q1,NA
+992,SSHA Broadway Residences 1,55 Broadway Ave,2020,Q2,< 5
+993,SSHA Broadway Residences 1,55 Broadway Ave,2020,Q3,0
+994,SSHA Broadway Residences 1,55 Broadway Ave,2020,Q4,NA
+995,SSHA Broadway Residences 2,65 Broadway Ave,2020,Q1,NA
+996,SSHA Broadway Residences 2,65 Broadway Ave,2020,Q2,0
+997,SSHA Broadway Residences 2,65 Broadway Ave,2020,Q3,< 5
+998,SSHA Broadway Residences 2,65 Broadway Ave,2020,Q4,NA
+999,SSHA Downsview Dells,1651 Sheppard Ave W,2018,Q1,< 5
+1000,SSHA Downsview Dells,1651 Sheppard Ave W,2018,Q2,NA
+1001,SSHA Downsview Dells,1651 Sheppard Ave W,2018,Q3,NA
+1002,SSHA Downsview Dells,1651 Sheppard Ave W,2018,Q4,NA
+1003,SSHA Downsview Dells,1651 Sheppard Ave W,2021,Q1,0
+1004,SSHA Downsview Dells,1651 Sheppard Ave W,2021,Q2,0
+1005,SSHA Downsview Dells,1651 Sheppard Ave W,2021,Q3,< 5
+1006,SSHA Downsview Dells,1651 Sheppard Ave W,2021,Q4,< 5
+1007,SSHA Downsview Dells,1651 Sheppard Ave W,2022,Q1,0
+1008,SSHA Downsview Dells,1651 Sheppard Ave W,2022,Q2,0
+1009,SSHA Downsview Dells,1651 Sheppard Ave W,2022,Q3,< 5
+1010,SSHA Downsview Dells,1651 Sheppard Ave W,2022,Q4,0
+1011,SSHA Downsview Dells,1651 Sheppard Ave W,2023,Q1,< 5
+1012,SSHA Downsview Dells,1651 Sheppard Ave W,2023,Q2,0
+1013,SSHA Downsview Dells,1651 Sheppard Ave W,2023,Q3,0
+1014,SSHA Downsview Dells,1651 Sheppard Ave W,2023,Q4,< 5
+1015,SSHA Downtown Hotel Program,77 Ryerson Ave,2018,Q1,NA
+1016,SSHA Downtown Hotel Program,77 Ryerson Ave,2018,Q2,NA
+1017,SSHA Downtown Hotel Program,77 Ryerson Ave,2018,Q3,NA
+1018,SSHA Downtown Hotel Program,77 Ryerson Ave,2018,Q4,< 5
+1019,SSHA Downtown Hotel Program,77 Ryerson Ave,2019,Q1,< 5
+1020,SSHA Downtown Hotel Program,77 Ryerson Ave,2019,Q2,< 5
+1021,SSHA Downtown Hotel Program,77 Ryerson Ave,2019,Q3,< 5
+1022,SSHA Downtown Hotel Program,77 Ryerson Ave,2019,Q4,< 5
+1023,SSHA Downtown Hotel Program,77 Ryerson Ave,2020,Q1,NA
+1024,SSHA Downtown Hotel Program,77 Ryerson Ave,2020,Q2,NA
+1025,SSHA Downtown Hotel Program,77 Ryerson Ave,2020,Q3,< 5
+1026,SSHA Downtown Hotel Program,77 Ryerson Ave,2020,Q4,< 5
+1027,SSHA Downtown Hotel Program,77 Ryerson Ave,2021,Q1,< 5
+1028,SSHA Downtown Hotel Program,77 Ryerson Ave,2021,Q2,< 5
+1029,SSHA Downtown Hotel Program,77 Ryerson Ave,2021,Q3,0
+1030,SSHA Downtown Hotel Program,77 Ryerson Ave,2021,Q4,0
+1031,SSHA Downtown Hotel Program,77 Ryerson Ave,2022,Q1,0
+1032,SSHA Downtown Hotel Program,77 Ryerson Ave,2022,Q2,< 5
+1033,SSHA Downtown Hotel Program,77 Ryerson Ave,2022,Q3,0
+1034,SSHA Downtown Hotel Program,77 Ryerson Ave,2022,Q4,0
+1035,SSHA Downtown Hotel Program,77 Ryerson Ave,2023,Q1,0
+1036,SSHA Downtown Hotel Program,77 Ryerson Ave,2023,Q2,< 5
+1037,SSHA Downtown Hotel Program,77 Ryerson Ave,2023,Q3,5
+1038,SSHA Downtown Hotel Program,77 Ryerson Ave,2023,Q4,< 5
+1039,TSSS Downtown Hotel Program,77 Ryerson Ave,2024,Q1,5
+1040,TSSS Downtown Hotel Program,77 Ryerson Ave,2024,Q2,< 5
+1041,TSSS Downtown Hotel Program,77 Ryerson Ave,2024,Q3,< 5
+1042,SSHA Downtown Response Program,76 Church St,2020,Q1,NA
+1043,SSHA Downtown Response Program,76 Church St,2020,Q2,NA
+1044,SSHA Downtown Response Program,76 Church St,2020,Q3,NA
+1045,SSHA Downtown Response Program,76 Church St,2020,Q4,5
+1046,SSHA Downtown Response Program,76 Church St,2021,Q1,5
+1047,SSHA Downtown Response Program,76 Church St,2021,Q2,< 5
+1048,SSHA Downtown Response Program,76 Church St,2021,Q3,< 5
+1049,SSHA Downtown Response Program,76 Church St,2021,Q4,7
+1050,SSHA Downtown Response Program,76 Church St,2022,Q1,< 5
+1051,SSHA Downtown Response Program,76 Church St,2022,Q2,< 5
+1052,SSHA Downtown Response Program,76 Church St,2022,Q3,< 5
+1053,SSHA Downtown Response Program,76 Church St,2022,Q4,0
+1054,SSHA Downtown Response Program,76 Church St,2023,Q1,0
+1055,SSHA Downtown Response Program,76 Church St,2023,Q2,< 5
+1056,SSHA Downtown Response Program,76 Church St,2023,Q3,0
+1057,SSHA Downtown Response Program,76 Church St,2023,Q4,0
+1058,SSHA Downtown Response Program,76 Church St,2024,Q3,< 5
+1059,SSHA East End Hotel Program,1684 Queen St E,2022,Q1,< 5
+1060,SSHA East End Hotel Program,1684 Queen St E,2022,Q2,0
+1061,SSHA East End Hotel Program,1684 Queen St E,2022,Q3,NA
+1062,SSHA East End Hotel Program,1684 Queen St E,2022,Q4,NA
+1063,SSHA Etobicoke Hotel Program,NA,2022,Q1,< 5
+1064,SSHA Etobicoke Hotel Program,NA,2022,Q2,0
+1065,SSHA Etobicoke Hotel Program,NA,2022,Q3,< 5
+1066,SSHA Etobicoke Hotel Program,NA,2022,Q4,0
+1067,SSHA Etobicoke Hotel Program,NA,2023,Q1,5
+1068,SSHA Etobicoke Hotel Program,NA,2023,Q2,5
+1069,SSHA Etobicoke Hotel Program,NA,2023,Q3,16
+1070,SSHA Etobicoke Hotel Program,NA,2023,Q4,20
+1071,TSSS Etobicoke Hotel Program,NA,2024,Q1,5
+1072,TSSS Etobicoke Hotel Program,NA,2024,Q2,7
+1073,TSSS Etobicoke Hotel Program,NA,2024,Q3,19
+1074,SSHA Family Residence,4222 Kingston Rd,2018,Q1,NA
+1075,SSHA Family Residence,4222 Kingston Rd,2018,Q2,NA
+1076,SSHA Family Residence,4222 Kingston Rd,2018,Q3,< 5
+1077,SSHA Family Residence,4222 Kingston Rd,2018,Q4,NA
+1078,SSHA Family Residence,4222 Kingston Rd,2020,Q1,NA
+1079,SSHA Family Residence,4222 Kingston Rd,2020,Q2,< 5
+1080,SSHA Family Residence,4222 Kingston Rd,2020,Q3,NA
+1081,SSHA Family Residence,4222 Kingston Rd,2020,Q4,< 5
+1082,SSHA Fort York Residence,38 Bathurst St,2018,Q1,< 5
+1083,SSHA Fort York Residence,38 Bathurst St,2018,Q2,0
+1084,SSHA Fort York Residence,38 Bathurst St,2018,Q3,< 5
+1085,SSHA Fort York Residence,38 Bathurst St,2018,Q4,< 5
+1086,SSHA Fort York Residence,38 Bathurst St,2019,Q1,NA
+1087,SSHA Fort York Residence,38 Bathurst St,2019,Q2,NA
+1088,SSHA Fort York Residence,38 Bathurst St,2019,Q3,NA
+1089,SSHA Fort York Residence,38 Bathurst St,2019,Q4,< 5
+1090,SSHA Fort York Residence,38 Bathurst St,2020,Q1,NA
+1091,SSHA Fort York Residence,38 Bathurst St,2020,Q2,< 5
+1092,SSHA Fort York Residence,38 Bathurst St,2020,Q3,NA
+1093,SSHA Fort York Residence,38 Bathurst St,2020,Q4,< 5
+1094,SSHA Fort York Residence,38 Bathurst St,2021,Q1,NA
+1095,SSHA Fort York Residence,38 Bathurst St,2021,Q2,NA
+1096,SSHA Fort York Residence,38 Bathurst St,2021,Q3,< 5
+1097,SSHA Fort York Residence,38 Bathurst St,2021,Q4,< 5
+1098,SSHA Fort York Residence,38 Bathurst St,2022,Q1,< 5
+1099,SSHA Fort York Residence,38 Bathurst St,2022,Q2,0
+1100,SSHA Fort York Residence,38 Bathurst St,2022,Q3,< 5
+1101,SSHA Fort York Residence,38 Bathurst St,2022,Q4,< 5
+1102,SSHA Fort York Residence,38 Bathurst St,2023,Q1,< 5
+1103,SSHA Fort York Residence,38 Bathurst St,2023,Q2,0
+1104,SSHA Fort York Residence,38 Bathurst St,2023,Q3,0
+1105,SSHA Fort York Residence,38 Bathurst St,2023,Q4,0
+1106,Fred Victor Centre Transition to Housing Dundas St E,386 Dundas St E,2024,Q1,< 5
+1107,SSHA Junction Place,731 Runnymede Rd,2020,Q1,< 5
+1108,SSHA Junction Place,731 Runnymede Rd,2020,Q2,< 5
+1109,SSHA Junction Place,731 Runnymede Rd,2020,Q3,NA
+1110,SSHA Junction Place,731 Runnymede Rd,2020,Q4,< 5
+1111,SSHA Junction Place,731 Runnymede Rd,2021,Q1,0
+1112,SSHA Junction Place,731 Runnymede Rd,2021,Q2,< 5
+1113,SSHA Junction Place,731 Runnymede Rd,2021,Q3,5
+1114,SSHA Junction Place,731 Runnymede Rd,2021,Q4,12
+1115,SSHA Junction Place,731 Runnymede Rd,2022,Q1,< 5
+1116,SSHA Junction Place,731 Runnymede Rd,2022,Q2,0
+1117,SSHA Junction Place,731 Runnymede Rd,2022,Q3,< 5
+1118,SSHA Junction Place,731 Runnymede Rd,2022,Q4,< 5
+1119,SSHA Junction Place,731 Runnymede Rd,2023,Q1,NA
+1120,SSHA Junction Place,731 Runnymede Rd,2023,Q2,< 5
+1121,SSHA Junction Place,731 Runnymede Rd,2023,Q3,0
+1122,SSHA Junction Place,731 Runnymede Rd,2023,Q4,0
+1123,SSHA Robertson House,291 Sherbourne St,2019,Q1,NA
+1124,SSHA Robertson House,291 Sherbourne St,2019,Q2,NA
+1125,SSHA Robertson House,291 Sherbourne St,2019,Q3,< 5
+1126,SSHA Robertson House,291 Sherbourne St,2019,Q4,NA
+1127,TSSS Robertson House,291 Sherbourne St,2024,Q1,< 5
+1128,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2020,Q1,NA
+1129,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2020,Q2,NA
+1130,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2020,Q3,14
+1131,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2020,Q4,11
+1132,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2021,Q1,5
+1133,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2021,Q2,15
+1134,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2021,Q3,7
+1135,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2021,Q4,11
+1136,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2022,Q1,5
+1137,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2022,Q2,5
+1138,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2022,Q3,< 5
+1139,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2022,Q4,< 5
+1140,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2023,Q1,10
+1141,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2023,Q2,6
+1142,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2023,Q3,0
+1143,SSHA Roehampton Hotel Program,808 Mt Pleasant Rd,2023,Q4,NA
+1144,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2021,Q1,< 5
+1145,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2021,Q2,< 5
+1146,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2021,Q3,10
+1147,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2021,Q4,5
+1148,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2022,Q1,0
+1149,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2022,Q2,< 5
+1150,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2022,Q3,< 5
+1151,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2022,Q4,< 5
+1152,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2023,Q1,< 5
+1153,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2023,Q2,0
+1154,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2023,Q3,0
+1155,SSHA Scarborough Hotel Program 1,4584 Kingston Rd,2023,Q4,0
+1156,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2019,Q1,NA
+1157,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2019,Q2,< 5
+1158,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2019,Q3,NA
+1159,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2019,Q4,NA
+1160,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2020,Q1,NA
+1161,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2020,Q2,NA
+1162,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2020,Q3,NA
+1163,SSHA Scarborough Hotel Program 2,3137 Kingston Rd,2020,Q4,< 5
+1164,SSHA Scarborough Hotel Program 3,4674 Kingston Rd,2019,Q1,< 5
+1165,SSHA Scarborough Hotel Program 3,4674 Kingston Rd,2019,Q2,< 5
+1166,SSHA Scarborough Hotel Program 3,4674 Kingston Rd,2019,Q3,NA
+1167,SSHA Scarborough Hotel Program 3,4674 Kingston Rd,2019,Q4,NA
+1168,SSHA Scarborough Hotel Program 4,4674 Kingston Rd,2021,Q1,NA
+1169,SSHA Scarborough Hotel Program 5,4674 Kingston Rd,2021,Q2,NA
+1170,SSHA Scarborough Hotel Program 6,4674 Kingston Rd,2021,Q3,< 5
+1171,SSHA Scarborough Hotel Program 6,4674 Kingston Rd,2021,Q4,< 5
+1172,SSHA Scarborough Response Program,2685 Kingston Rd,2020,Q1,NA
+1173,SSHA Scarborough Response Program,2685 Kingston Rd,2020,Q2,NA
+1174,SSHA Scarborough Response Program,2685 Kingston Rd,2020,Q3,NA
+1175,SSHA Scarborough Response Program,2685 Kingston Rd,2020,Q4,< 5
+1176,SSHA Scarborough Village Residence,3306 Kingston Rd,2021,Q1,NA
+1177,SSHA Scarborough Village Residence,3306 Kingston Rd,2021,Q2,NA
+1178,SSHA Scarborough Village Residence,3306 Kingston Rd,2021,Q3,NA
+1179,SSHA Scarborough Village Residence,3306 Kingston Rd,2021,Q4,< 5
+1180,SSHA Scarborough Village Residence,3306 Kingston Rd,2022,Q1,0
+1181,SSHA Scarborough Village Residence,3306 Kingston Rd,2022,Q2,< 5
+1182,SSHA Scarborough Village Residence,3306 Kingston Rd,2022,Q3,< 5
+1183,SSHA Scarborough Village Residence,3306 Kingston Rd,2022,Q4,0
+1184,SSHA Scarborough Village Residence,3306 Kingston Rd,2023,Q1,NA
+1185,SSHA Scarborough Village Residence,3306 Kingston Rd,2023,Q2,NA
+1186,SSHA Scarborough Village Residence,3306 Kingston Rd,2023,Q3,< 5
+1187,SSHA Scarborough Village Residence,3306 Kingston Rd,2023,Q4,0
+1188,SSHA Seaton House,339 George St,2018,Q1,8
+1189,SSHA Seaton House,339 George St,2018,Q2,< 5
+1190,SSHA Seaton House,339 George St,2018,Q3,13
+1191,SSHA Seaton House,339 George St,2018,Q4,19
+1192,SSHA Seaton House,339 George St,2019,Q1,25
+1193,SSHA Seaton House,339 George St,2019,Q2,27
+1194,SSHA Seaton House,339 George St,2019,Q3,11
+1195,SSHA Seaton House,339 George St,2019,Q4,13
+1196,SSHA Seaton House,339 George St,2020,Q1,16
+1197,SSHA Seaton House,339 George St,2020,Q2,7
+1198,SSHA Seaton House,339 George St,2020,Q3,6
+1199,SSHA Seaton House,339 George St,2020,Q4,17
+1200,SSHA Seaton House,339 George St,2021,Q1,10
+1201,SSHA Seaton House,339 George St,2021,Q2,21
+1202,SSHA Seaton House,339 George St,2021,Q3,42
+1203,SSHA Seaton House,339 George St,2021,Q4,45
+1204,SSHA Seaton House,339 George St,2022,Q1,38
+1205,SSHA Seaton House,339 George St,2022,Q2,27
+1206,SSHA Seaton House,339 George St,2022,Q3,20
+1207,SSHA Seaton House,339 George St,2022,Q4,7
+1208,SSHA Seaton House,339 George St,2023,Q1,23
+1209,SSHA Seaton House,339 George St,2023,Q2,30
+1210,SSHA Seaton House,339 George St,2023,Q3,24
+1211,SSHA Seaton House,339 George St,2023,Q4,21
+1212,TSSS Seaton House,339 George St,2024,Q1,32
+1213,TSSS Seaton House,339 George St,2024,Q2,12
+1214,TSSS Seaton House,339 George St,2024,Q3,14
+1215,SSHA Womens' Residence,674 Dundas St W,2018,Q1,NA
+1216,SSHA Womens' Residence,674 Dundas St W,2018,Q2,< 5
+1217,SSHA Womens' Residence,674 Dundas St W,2018,Q3,< 5
+1218,SSHA Womens' Residence,674 Dundas St W,2018,Q4,< 5
+1219,SSHA Womens' Residence,674 Dundas St W,2019,Q1,< 5
+1220,SSHA Womens' Residence,674 Dundas St W,2019,Q2,NA
+1221,SSHA Womens' Residence,674 Dundas St W,2019,Q3,NA
+1222,SSHA Womens' Residence,674 Dundas St W,2019,Q4,< 5
+1223,SSHA Womens' Residence,674 Dundas St W,2020,Q1,< 5
+1224,SSHA Womens' Residence,674 Dundas St W,2020,Q2,< 5
+1225,SSHA Womens' Residence,674 Dundas St W,2020,Q3,0
+1226,SSHA Womens' Residence,674 Dundas St W,2020,Q4,5
+1227,SSHA Womens' Residence,674 Dundas St W,2021,Q1,< 5
+1228,SSHA Womens' Residence,674 Dundas St W,2021,Q2,6
+1229,SSHA Womens' Residence,674 Dundas St W,2021,Q3,< 5
+1230,SSHA Womens' Residence,674 Dundas St W,2021,Q4,9
+1231,SSHA Womens' Residence,674 Dundas St W,2022,Q1,11
+1232,SSHA Womens' Residence,674 Dundas St W,2022,Q2,< 5
+1233,SSHA Womens' Residence,674 Dundas St W,2022,Q3,< 5
+1234,SSHA Womens' Residence,674 Dundas St W,2022,Q4,0
+1235,SSHA Womens' Residence,674 Dundas St W,2023,Q1,< 5
+1236,SSHA Womens' Residence,674 Dundas St W,2023,Q2,< 5
+1237,SSHA Womens' Residence,674 Dundas St W,2023,Q3,< 5
+1238,SSHA Womens' Residence,674 Dundas St W,2023,Q4,0
+1239,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2018,Q1,< 5
+1240,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2018,Q2,12
+1241,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2018,Q3,5
+1242,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2018,Q4,< 5
+1243,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2019,Q1,8
+1244,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2019,Q2,6
+1245,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2019,Q3,NA
+1246,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2019,Q4,< 5
+1247,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2020,Q1,5
+1248,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2020,Q2,NA
+1249,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2020,Q3,NA
+1250,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2020,Q4,NA
+1251,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2021,Q1,NA
+1252,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2021,Q2,NA
+1253,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2021,Q3,NA
+1254,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2021,Q4,< 5
+1255,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2022,Q1,0
+1256,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2022,Q2,< 5
+1257,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2022,Q3,0
+1258,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2022,Q4,0
+1259,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2023,Q1,NA
+1260,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2023,Q2,< 5
+1261,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2023,Q3,0
+1262,St. Felix Centre 25 Augusta Ave Respite ,25 Augusta Ave,2023,Q4,NA
+1263,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2019,Q1,35
+1264,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2019,Q2,51
+1265,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2019,Q3,36
+1266,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2019,Q4,41
+1267,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2020,Q1,34
+1268,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2020,Q2,56
+1269,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2020,Q3,31
+1270,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2020,Q4,50
+1271,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2021,Q1,11
+1272,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2021,Q2,21
+1273,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2021,Q3,34
+1274,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2021,Q4,23
+1275,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2022,Q1,21
+1276,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2022,Q2,8
+1277,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2022,Q3,8
+1278,St. Felix Centre 69 Fraser Ave Respite ,69 Fraser Ave,2022,Q4,< 5
+1279,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2023,Q1,5
+1280,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2023,Q2,17
+1281,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2023,Q3,20
+1282,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2023,Q4,9
+1283,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2024,Q1,< 5
+1284,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2024,Q2,< 5
+1285,St. Felix Centre 69 Fraser Ave. Respite ,69 Fraser Ave,2024,Q3,< 5
+1286,St. Felix Centre Esplanade Response Program,98 The Esplanade,2020,Q1,NA
+1287,St. Felix Centre Esplanade Response Program,98 The Esplanade,2020,Q2,< 5
+1288,St. Felix Centre Esplanade Response Program,98 The Esplanade,2020,Q3,< 5
+1289,St. Felix Centre Esplanade Response Program,98 The Esplanade,2020,Q4,< 5
+1290,St. Simon's,525 Bloor St E,2018,Q1,NA
+1291,St. Simon's,525 Bloor St E,2018,Q2,NA
+1292,St. Simon's,525 Bloor St E,2018,Q3,< 5
+1293,St. Simon's,525 Bloor St E,2018,Q4,0
+1294,St. Simon's,525 Bloor St E,2019,Q1,NA
+1295,St. Simon's,525 Bloor St E,2019,Q2,< 5
+1296,St. Simon's,525 Bloor St E,2019,Q3,< 5
+1297,St. Simon's,525 Bloor St E,2019,Q4,< 5
+1298,St. Simon's,525 Bloor St E,2020,Q1,NA
+1299,St. Simon's,525 Bloor St E,2020,Q2,0
+1300,St. Simon's,525 Bloor St E,2020,Q3,NA
+1301,St. Simon's,525 Bloor St E,2020,Q4,NA
+1302,St. Simon's Clubbe House,556 Sherbourne St,2021,Q1,0
+1303,St. Simon's Clubbe House,556 Sherbourne St,2021,Q2,< 5
+1304,St. Simon's Clubbe House,556 Sherbourne St,2021,Q3,0
+1305,St. Simon's Clubbe House,556 Sherbourne St,2021,Q4,0
+1306,Street Haven   ,87 Pembroke St,2018,Q1,< 5
+1307,Street Haven   ,87 Pembroke St,2018,Q2,NA
+1308,Street Haven   ,87 Pembroke St,2018,Q3,< 5
+1309,Street Haven   ,87 Pembroke St,2018,Q4,NA
+1310,Street Haven   ,87 Pembroke St,2020,Q1,< 5
+1311,Street Haven   ,87 Pembroke St,2020,Q2,NA
+1312,Street Haven   ,87 Pembroke St,2020,Q3,NA
+1313,Street Haven   ,87 Pembroke St,2020,Q4,< 5
+1314,Street Haven   ,87 Pembroke St,2021,Q1,0
+1315,Street Haven   ,87 Pembroke St,2021,Q2,< 5
+1316,Street Haven   ,87 Pembroke St,2021,Q3,0
+1317,Street Haven   ,87 Pembroke St,2021,Q4,0
+1318,Street Haven   ,87 Pembroke St,2023,Q1,< 5
+1319,Street Haven   ,87 Pembroke St,2023,Q2,< 5
+1320,Street Haven   ,87 Pembroke St,2023,Q3,0
+1321,Street Haven   ,87 Pembroke St,2023,Q4,0
+1322,Street Haven Downtown Hotel Program,26 Gerrard St E,2020,Q1,NA
+1323,Street Haven Downtown Hotel Program,26 Gerrard St E,2020,Q2,NA
+1324,Street Haven Downtown Hotel Program,26 Gerrard St E,2020,Q3,< 5
+1325,Street Haven Downtown Hotel Program,26 Gerrard St E,2020,Q4,NA
+1326,Street Haven Downtown Hotel Program,26 Gerrard St E,2021,Q1,NA
+1327,Street Haven Downtown Hotel Program,26 Gerrard St E,2021,Q2,NA
+1328,Street Haven Downtown Hotel Program,26 Gerrard St E,2021,Q3,NA
+1329,Street Haven Downtown Hotel Program,26 Gerrard St E,2021,Q4,< 5
+1330,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2018,Q1,< 5
+1331,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2018,Q2,< 5
+1332,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2018,Q3,6
+1333,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2018,Q4,5
+1334,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2019,Q1,< 5
+1335,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2019,Q2,6
+1336,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2019,Q3,< 5
+1337,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2019,Q4,5
+1338,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2020,Q1,< 5
+1339,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2020,Q2,< 5
+1340,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2020,Q3,< 5
+1341,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2020,Q4,< 5
+1342,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2021,Q1,11
+1343,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2021,Q2,7
+1344,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2021,Q3,< 5
+1345,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2021,Q4,5
+1346,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2022,Q1,9
+1347,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2022,Q2,< 5
+1348,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2022,Q3,< 5
+1349,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2022,Q4,< 5
+1350,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2023,Q1,7
+1351,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2023,Q2,10
+1352,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2023,Q3,8
+1353,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2023,Q4,8
+1354,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2024,Q1,< 5
+1355,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2024,Q2,6
+1356,Streets to Homes Assessment and Referral Centre (SHARC),129 Peter St,2024,Q3,< 5
+1357,SVDP Elisa House,60 Newcastle St,2021,Q1,NA
+1358,SVDP Elisa House,60 Newcastle St,2021,Q2,NA
+1359,SVDP Elisa House,60 Newcastle St,2021,Q3,< 5
+1360,SVDP Elisa House,60 Newcastle St,2021,Q4,0
+1361,SVDP Mary's Home,70 Gerrard St E,2021,Q1,< 5
+1362,SVDP Mary's Home,70 Gerrard St E,2021,Q2,0
+1363,SVDP Mary's Home,70 Gerrard St E,2021,Q3,0
+1364,SVDP Mary's Home,70 Gerrard St E,2021,Q4,0
+1365,SVDP Mary's Home,70 Gerrard St E,2022,Q1,< 5
+1366,SVDP Mary's Home,70 Gerrard St E,2022,Q2,0
+1367,SVDP Mary's Home,70 Gerrard St E,2022,Q3,0
+1368,SVDP Mary's Home,70 Gerrard St E,2022,Q4,0
+1369,Trinity CRC,155 Crawford St,2020,Q1,NA
+1370,Trinity CRC,155 Crawford St,2020,Q2,< 5
+1371,Trinity CRC,155 Crawford St,2020,Q3,NA
+1372,Trinity CRC,155 Crawford St,2020,Q4,NA
+1373,Trinity CRC,155 Crawford St,2021,Q1,0
+1374,Trinity CRC,155 Crawford St,2021,Q2,< 5
+1375,Turning Point Youth Services,95 Wellesley St E,2018,Q1,< 5
+1376,Turning Point Youth Services,95 Wellesley St E,2018,Q2,< 5
+1377,Turning Point Youth Services,95 Wellesley St E,2018,Q3,NA
+1378,Turning Point Youth Services,95 Wellesley St E,2018,Q4,NA
+1379,Turning Point Youth Services,95 Wellesley St E,2019,Q1,< 5
+1380,Turning Point Youth Services,95 Wellesley St E,2019,Q2,< 5
+1381,Turning Point Youth Services,95 Wellesley St E,2019,Q3,NA
+1382,Turning Point Youth Services,95 Wellesley St E,2019,Q4,< 5
+1383,Turning Point Youth Services,95 Wellesley St E,2020,Q1,< 5
+1384,Turning Point Youth Services,95 Wellesley St E,2020,Q2,NA
+1385,Turning Point Youth Services,95 Wellesley St E,2020,Q3,NA
+1386,Turning Point Youth Services,95 Wellesley St E,2020,Q4,NA
+1387,Turning Point Youth Services,95 Wellesley St E,2021,Q1,0
+1388,Turning Point Youth Services,95 Wellesley St E,2021,Q2,< 5
+1389,Turning Point Youth Services,95 Wellesley St E,2021,Q3,< 5
+1390,Turning Point Youth Services,95 Wellesley St E,2021,Q4,0
+1391,Turning Point Youth Services,95 Wellesley St E,2022,Q1,< 5
+1392,Turning Point Youth Services,95 Wellesley St E,2022,Q2,0
+1393,Turning Point Youth Services,95 Wellesley St E,2022,Q3,< 5
+1394,Turning Point Youth Services,95 Wellesley St E,2022,Q4,0
+1395,Turning Point Youth Services,95 Wellesley St E,2023,Q1,NA
+1396,Turning Point Youth Services,95 Wellesley St E,2023,Q2,< 5
+1397,Turning Point Youth Services,95 Wellesley St E,2023,Q3,0
+1398,Turning Point Youth Services,95 Wellesley St E,2023,Q4,< 5
+1399,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2021,Q2,0
+1400,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2021,Q3,0
+1401,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2021,Q4,< 5
+1402,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2023,Q1,< 5
+1403,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2023,Q2,0
+1404,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2023,Q3,0
+1405,Vanauley Street YMCA Emergency Shelter,7 Vanauley St,2023,Q4,0
+1406,Warden Hilltop CC,25 Mendelssohn St,2020,Q1,NA
+1407,Warden Hilltop CC,25 Mendelssohn St,2020,Q2,< 5
+1408,Warden Hilltop CC,25 Mendelssohn St,2020,Q3,NA
+1409,Warden Hilltop CC,25 Mendelssohn St,2020,Q4,NA
+1410,Warden Hilltop CC,25 Mendelssohn St,2022,Q1,21
+1411,Warden Hilltop CC,25 Mendelssohn St,2022,Q2,NA
+1412,Warden Hilltop CC,25 Mendelssohn St,2022,Q3,NA
+1413,Warden Hilltop CC,25 Mendelssohn St,2022,Q4,NA
+1414,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2018,Q1,NA
+1415,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2018,Q2,< 5
+1416,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2018,Q3,NA
+1417,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2018,Q4,< 5
+1418,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2020,Q1,NA
+1419,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2020,Q2,< 5
+1420,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2020,Q3,NA
+1421,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2020,Q4,NA
+1422,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2021,Q1,0
+1423,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2021,Q2,< 5
+1424,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2021,Q3,< 5
+1425,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2021,Q4,< 5
+1426,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2022,Q1,0
+1427,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2022,Q2,< 5
+1428,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2022,Q3,< 5
+1429,Warden Woods 705 Progress Ave Respite ,705 Progress Ave,2022,Q4,6
+1430,Progress Avenue Shelter,705 Progress Ave,2023,Q1,8
+1431,Progress Avenue Shelter,705 Progress Ave,2023,Q2,5
+1432,Progress Avenue Shelter,705 Progress Ave,2023,Q3,< 5
+1433,Progress Avenue Shelter,705 Progress Ave,2023,Q4,0
+1434,YMCA House,7 Vanauley St,2020,Q1,NA
+1435,YMCA House,7 Vanauley St,2020,Q2,NA
+1436,YMCA House,7 Vanauley St,2020,Q3,< 5
+1437,YMCA House,7 Vanauley St,2020,Q4,< 5
+1438,YMCA House,7 Vanauley St,2021,Q1,< 5
+1439,YMCA Sprott House ,21 Walmer Rd,2019,Q1,NA
+1440,YMCA Sprott House ,21 Walmer Rd,2019,Q2,< 5
+1441,YMCA Sprott House ,21 Walmer Rd,2019,Q3,NA
+1442,YMCA Sprott House ,21 Walmer Rd,2019,Q4,NA
+1443,Youth Agencies Downtown Hotel Program,222 Spadina Ave,2020,Q1,NA
+1444,Youth Agencies Downtown Hotel Program,222 Spadina Ave,2020,Q2,NA
+1445,Youth Agencies Downtown Hotel Program,222 Spadina Ave,2020,Q3,NA
+1446,Youth Agencies Downtown Hotel Program,222 Spadina Ave,2020,Q4,< 5
+1447,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2020,Q1,NA
+1448,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2020,Q2,NA
+1449,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2020,Q3,17
+1450,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2020,Q4,23
+1451,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2021,Q1,21
+1452,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2021,Q2,6
+1453,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2021,Q3,17
+1454,Youth Agencies Scarborough Hotel Program,2035 Kennedy Rd,2021,Q4,17
+1455,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2022,Q1,12
+1456,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2022,Q2,14
+1457,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2022,Q3,8
+1458,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2022,Q4,14
+1459,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2023,Q1,17
+1460,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2023,Q2,14
+1461,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2023,Q3,33
+1462,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2023,Q4,26
+1463,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2024,Q1,13
+1464,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2024,Q2,26
+1465,Multiple Youth & Adult Agencies Scarborough Hotel Program,2035 Kennedy Rd,2024,Q3,5
+1466,Youth Without Shelter,6 Warrendale Ct,2018,Q1,NA
+1467,Youth Without Shelter,6 Warrendale Ct,2018,Q2,NA
+1468,Youth Without Shelter,6 Warrendale Ct,2018,Q3,< 5
+1469,Youth Without Shelter,6 Warrendale Ct,2018,Q4,NA
+1470,Youth Without Shelter,6 Warrendale Ct,2021,Q1,0
+1471,Youth Without Shelter,6 Warrendale Ct,2021,Q2,< 5
+1472,Youth Without Shelter,6 Warrendale Ct,2021,Q3,0
+1473,Youth Without Shelter,6 Warrendale Ct,2021,Q4,0
+1474,YouthLink ,747 Warden Ave,2020,Q1,NA
+1475,YouthLink ,747 Warden Ave,2020,Q2,NA
+1476,YouthLink ,747 Warden Ave,2020,Q3,< 5
+1477,YouthLink ,747 Warden Ave,2020,Q4,< 5
+1478,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2018,Q1,< 5
+1479,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2018,Q2,NA
+1480,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2018,Q3,NA
+1481,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2018,Q4,NA
+1482,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2020,Q1,NA
+1483,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2020,Q2,NA
+1484,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2020,Q3,0
+1485,YWCA - First Stop Woodlawn,80 Woodlawn Ave E,2020,Q4,NA
+1486,YWCA 1st Stop Woodlawn ,80 Woodlawn Ave E,2021,Q1,< 5
+1487,YWCA 1st Stop Woodlawn ,80 Woodlawn Ave E,2021,Q2,0
+1488,YWCA 1st Stop Woodlawn ,80 Woodlawn Ave E,2021,Q3,0
+1489,YWCA 1st Stop Woodlawn ,80 Woodlawn Ave E,2021,Q4,< 5
+1490,YWCA Davenport Shelter,348 Davenport Rd,2018,Q1,< 5
+1491,YWCA Davenport Shelter,348 Davenport Rd,2018,Q2,< 5
+1492,YWCA Davenport Shelter,348 Davenport Rd,2018,Q3,NA
+1493,YWCA Davenport Shelter,348 Davenport Rd,2018,Q4,NA
+1494,YWCA Davenport Shelter,348 Davenport Rd,2019,Q1,< 5
+1495,YWCA Davenport Shelter,348 Davenport Rd,2019,Q2,< 5
+1496,YWCA Davenport Shelter,348 Davenport Rd,2019,Q3,NA
+1497,YWCA Davenport Shelter,348 Davenport Rd,2019,Q4,NA
+1498,YWCA Davenport Shelter,348 Davenport Rd,2020,Q1,< 5
+1499,YWCA Davenport Shelter,348 Davenport Rd,2020,Q2,< 5
+1500,YWCA Davenport Shelter,348 Davenport Rd,2020,Q3,NA
+1501,YWCA Davenport Shelter,348 Davenport Rd,2020,Q4,NA
+1502,YWCA Davenport Shelter,348 Davenport Rd,2022,Q1,0
+1503,YWCA Davenport Shelter,348 Davenport Rd,2022,Q2,0
+1504,YWCA Davenport Shelter,348 Davenport Rd,2022,Q3,0
+1505,YWCA Davenport Shelter,348 Davenport Rd,2022,Q4,< 5
+1506,YWCA Davenport Shelter,348 Davenport Rd,2023,Q1,< 5
+1507,YWCA Davenport Shelter,348 Davenport Rd,2023,Q2,0
+1508,YWCA Davenport Shelter,348 Davenport Rd,2023,Q3,< 5
+1509,YWCA Davenport Shelter,348 Davenport Rd,2023,Q4,0
+1510,YWCA East End Hotel Program,1684 Queen St E,2020,Q1,NA
+1511,YWCA East End Hotel Program,1684 Queen St E,2020,Q2,< 5
+1512,YWCA East End Hotel Program,1684 Queen St E,2020,Q3,NA
+1513,YWCA East End Hotel Program,1684 Queen St E,2020,Q4,< 5
+1514,YWCA East End Hotel Program,1684 Queen St E,2021,Q1,0
+1515,YWCA East End Hotel Program,1684 Queen St E,2021,Q2,< 5
+1516,YWCA East End Hotel Program,1684 Queen St E,2021,Q3,< 5
+1517,YWCA East End Hotel Program,1684 Queen St E,2021,Q4,< 5
