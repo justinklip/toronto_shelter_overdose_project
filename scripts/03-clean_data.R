@@ -1,17 +1,25 @@
 #### Preamble ####
-# Purpose: Merges and then cleans the shelter and occupancy data sets
+# Purpose: Merges and then cleans the shelter and occupancy data sets to analyze
 # Author: Justin Klip 
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Date: 25 November 2024 
+# Contact: justin.klip@mail.utoronto.ca 
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: 
+# - 02-download_data.R is ran, 
+# Any other information needed? Make sure you open "toronto_shelter_overdose_project" rproj
 
 #### Workspace setup ####
 library(tidyverse)
+library(dplyr)
+#### Merge Shelter Data ####
+
+
 
 #### Clean data ####
-raw_data <- read_csv("inputs/data/plane_data.csv")
+occupancy_raw_data <- read_csv("/data/01-raw_data.csv")
+overdose_raw_data <- read_csv("/data/01-raw_data.csv")
+
+
 
 cleaned_data <-
   raw_data |>
