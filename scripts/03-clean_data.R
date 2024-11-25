@@ -1,6 +1,6 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
+# Purpose: Merges and then cleans the shelter and occupancy data sets
+# Author: Justin Klip 
 # Date: 6 April 2023 [...UPDATE THIS...]
 # Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
 # License: MIT

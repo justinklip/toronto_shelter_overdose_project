@@ -1,89 +1,109 @@
 #### Preamble ####
-# Purpose: Tests the structure and validity of the simulated Australian 
-  #electoral divisions dataset.
-# Author: Rohan Alexander
-# Date: 26 September 2024
-# Contact: rohan.alexander@utoronto.ca
+# Purpose: Tests the structure and validity of the simulated occupancy and overdose data
+# Date: 25 November 2024
+# Contact: justin.klip@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
-  # - The `tidyverse` package must be installed and loaded
+  # - The `testthat` package must be installed and loaded 
+  # - The 'validate' package must be installed and loaded
+  # - The 'tidyverse' package must be installed and loaded
   # - 00-simulate_data.R must have been run
-# Any other information needed? Make sure you are in the `starter_folder` rproj
+# Any other information needed? Make sure you are in the `toronto_shelter_overdose_project` rproj
 
 
 #### Workspace setup ####
+library(testthat)
 library(tidyverse)
+library(here)
 
-analysis_data <- read_csv("data/00-simulated_data/simulated_data.csv")
+# Load the simulated data
+simulated_overdose_data <- read_csv(here("data", "00-simulated_data", "simulated_overdose_data.csv"))
+simulated_daily_occupancy_data <- read_csv(here("data", "00-simulated_data", "simulated_daily_occupancy_data.csv"))
 
-# Test if the data was successfully loaded
-if (exists("analysis_data")) {
+#### Loading Test for Both Data Sets ####
+
+# Test if the overdose data was successfully loaded
+if (exists("simulated_overdose_data")) {
+  message("Test Passed: The dataset was successfully loaded.")
+} else {
+  stop("Test Failed: The dataset could not be loaded.")
+}
+# Test if the shelter data was successfully loaded
+if (exists("simulated_daily_occupancy_data")) {
   message("Test Passed: The dataset was successfully loaded.")
 } else {
   stop("Test Failed: The dataset could not be loaded.")
 }
 
+#### Overdose Data Tests ####
 
-#### Test data ####
+# Check for missing values
+test_that("Overdose data has no missing values", {
+  expect_false(any(is.na(simulated_overdose_data)))
+})
 
-# Check if the dataset has 151 rows
-if (nrow(analysis_data) == 151) {
-  message("Test Passed: The dataset has 151 rows.")
-} else {
-  stop("Test Failed: The dataset does not have 151 rows.")
-}
+# Check for empty strings
+test_that("Overdose data has no empty strings", {
+  check_empty_strings <- function(df) {
+    sapply(df, function(col) {
+      if (is.character(col)) {
+        return(any(trimws(col) == ""))
+      }
+      return(FALSE)
+    }) %>% any()
+  }
+  expect_false(check_empty_strings(simulated_overdose_data))
+})
 
-# Check if the dataset has 3 columns
-if (ncol(analysis_data) == 3) {
-  message("Test Passed: The dataset has 3 columns.")
-} else {
-  stop("Test Failed: The dataset does not have 3 columns.")
-}
+# Check column count
+test_that("Overdose data has the correct number of columns", {
+  expect_equal(ncol(simulated_overdose_data), 5)
+})
 
-# Check if all values in the 'division' column are unique
-if (n_distinct(analysis_data$division) == nrow(analysis_data)) {
-  message("Test Passed: All values in 'division' are unique.")
-} else {
-  stop("Test Failed: The 'division' column contains duplicate values.")
-}
+# Check column names
+test_that("Overdose data has the correct column names", {
+  expected_columns <- c("shelter_name", "shelter_address", "year", "quarter", "suspected_overdoses")
+  expect_named(simulated_overdose_data, expected_columns)
+})
 
-# Check if the 'state' column contains only valid Australian state names
-valid_states <- c("New South Wales", "Victoria", "Queensland", "South Australia", 
-                  "Western Australia", "Tasmania", "Northern Territory", 
-                  "Australian Capital Territory")
+# Check if suspected overdoses are non-negative
+test_that("Overdose data has no negative overdose counts", {
+  expect_true(all(simulated_overdose_data$suspected_overdoses >= 0))
+})
+#### Daily Occupancy Data Tests ####
 
-if (all(analysis_data$state %in% valid_states)) {
-  message("Test Passed: The 'state' column contains only valid Australian state names.")
-} else {
-  stop("Test Failed: The 'state' column contains invalid state names.")
-}
+# Check for missing values
+test_that("Daily occupancy data has no missing values", {
+  expect_false(any(is.na(simulated_daily_occupancy_data)))
+})
 
-# Check if the 'party' column contains only valid party names
-valid_parties <- c("Labor", "Liberal", "Greens", "National", "Other")
+# Check for empty strings
+test_that("Daily occupancy data has no empty strings", {
+  check_empty_strings <- function(df) {
+    sapply(df, function(col) {
+      if (is.character(col)) {
+        return(any(trimws(col) == ""))
+      }
+      return(FALSE)
+    }) %>% any()
+  }
+  expect_false(check_empty_strings(simulated_daily_occupancy_data))
+})
 
-if (all(analysis_data$party %in% valid_parties)) {
-  message("Test Passed: The 'party' column contains only valid party names.")
-} else {
-  stop("Test Failed: The 'party' column contains invalid party names.")
-}
+# Check column count
+test_that("Daily occupancy data has the correct number of columns", {
+  expect_equal(ncol(simulated_daily_occupancy_data), 6)
+})
 
-# Check if there are any missing values in the dataset
-if (all(!is.na(analysis_data))) {
-  message("Test Passed: The dataset contains no missing values.")
-} else {
-  stop("Test Failed: The dataset contains missing values.")
-}
+# Check column names
+test_that("Daily occupancy data has the correct column names", {
+  expected_columns <- c("shelter_name", "shelter_address", "date", "total_attendance", "capacity", "program_type")
+  expect_named(simulated_daily_occupancy_data, expected_columns)
+})
 
-# Check if there are no empty strings in 'division', 'state', and 'party' columns
-if (all(analysis_data$division != "" & analysis_data$state != "" & analysis_data$party != "")) {
-  message("Test Passed: There are no empty strings in 'division', 'state', or 'party'.")
-} else {
-  stop("Test Failed: There are empty strings in one or more columns.")
-}
+# Check if total attendance is less than or equal to capacity
+test_that("Daily occupancy does not exceed capacity", {
+  expect_true(all(simulated_daily_occupancy_data$total_attendance <= simulated_daily_occupancy_data$capacity))
+})
 
-# Check if the 'party' column has at least two unique values
-if (n_distinct(analysis_data$party) >= 2) {
-  message("Test Passed: The 'party' column contains at least two unique values.")
-} else {
-  stop("Test Failed: The 'party' column contains less than two unique values.")
-}
+#We see after the tests, our only issue is with a package, which is fine, so our simulated data is good.
