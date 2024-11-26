@@ -12,6 +12,7 @@
 library(opendatatoronto)
 library(tidyverse)
 library(dplyr)
+library(gtools)
 
 #### Download data for Overdoses ####
 
@@ -44,15 +45,20 @@ resources <- list_package_resources("21c83b32-d5a8-4106-a54f-010dbe49f6f2")
 # identify datastore resources; by default, Toronto Open Data sets datastore resource format to CSV for non-geospatial and GeoJSON for geospatial resources
 datastore_resources <- filter(resources, tolower(format) %in% c('csv', 'geojson'))
 
-# load the 2021-2024 datastore
-occupancy_raw_data_2024 <- filter(datastore_resources, row_number()==1) %>% get_resource()
+# load the 2021-2023 datastore (as that is the limit of our overdose data)
 occupancy_raw_data_2023 <- filter(datastore_resources, row_number()==2) %>% get_resource()
 occupancy_raw_data_2022 <- filter(datastore_resources, row_number()==3) %>% get_resource()
 occupancy_raw_data_2021 <- filter(datastore_resources, row_number()==4) %>% get_resource()
 
+# Append the daily occupancy data so it's all in one data set
+
+occupancy_raw_data <- bind_rows(
+  occupancy_raw_data_2023,
+  occupancy_raw_data_2022,
+  occupancy_raw_data_2021
+)
+
 #### Save data ####
-write_csv(occupancy_raw_data, "data/01-raw_data/occupancy_raw_data_2024.csv")
-write_csv(occupancy_raw_data, "data/01-raw_data/occupancy_raw_data_2023.csv") 
-write_csv(occupancy_raw_data, "data/01-raw_data/occupancy_raw_data_2022.csv") 
-write_csv(occupancy_raw_data, "data/01-raw_data/occupancy_raw_data_2021.csv") 
+write_csv(occupancy_raw_data, "data/01-raw_data/occupancy_raw_data.csv") 
+
          

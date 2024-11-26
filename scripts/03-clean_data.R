@@ -11,15 +11,30 @@
 #### Workspace setup ####
 library(tidyverse)
 library(dplyr)
-#### Merge Shelter Data ####
+library(gtools)
 
+### Retrieve the Data ### 
+
+occupancy_raw_data_2021 <- read_csv("data/01-raw_data_2021.csv")
+occupancy_raw_data_2022 <- read_csv("data/01-raw_data_2022.csv")
+occupancy_raw_data_2023 <- read_csv("data/01-raw_data_2023.csv")
+
+#### Merge Shelter Data ####
+occupancy_data <- bind_rows(
+  occupancy_raw_data_2023,
+  occupancy_raw_data_2022,
+  occupancy_raw_data_2021
+)
 
 
 #### Clean data ####
-occupancy_raw_data <- read_csv("/data/01-raw_data.csv")
+
+
+occupancy_raw_data <- 
 overdose_raw_data <- read_csv("/data/01-raw_data.csv")
 
-
+### Append the Occupancy Data Together ### 
+smartbind(occupancy_raw_data_2021, occupancy_raw_data_2022, occupancy_raw_data_2023)
 
 cleaned_data <-
   raw_data |>
