@@ -1,20 +1,493 @@
-width,length,flying_time
-70,111,1.83
-57,127,2.32
-59,92,2.05
-70,75,1.1
-62,112,2.32
-68,103.5,0.5
-58,108,1.7
-79,114,0.86
-56,186,3.42
-87,68,1.37
-50,118,2.68
-49,186,1.83
-61,116,1.32
-60,127,1
-56,184,2.79
-69,124,1.4
-60,95,1.12
-44,137,1.28
-63,125,1.35
+address,year,year_stage,total_service_user_count,location_name,suspected_non_fatal_overdoses,is_suspected_non_fatal_na,avg_occupancy_rate,used_avg_occupancy_rate_beds,is_suspected_non_fatal_less_than_5
+101 Placer Ct,2022,Q1,4345,HFS Placer,5,0,99.19866666666667,1,0
+101 Placer Ct,2022,Q2,4621,HFS Placer,< 5,0,99.76043956043956,1,1
+101 Placer Ct,2022,Q3,2713,HFS Placer,< 5,0,99.89111111111112,1,1
+101 Placer Ct,2023,Q1,5969,HFS Placer,0,0,99.84755555555556,1,0
+101 Placer Ct,2023,Q2,6137,HFS Placer,< 5,0,99.93516483516484,1,1
+101 Placer Ct,2023,Q3,3854,HFS Placer,< 5,0,100,1,1
+107 Jarvis St,2021,Q1,4717,SA Gateway,0,0,99.95811111111111,1,0
+107 Jarvis St,2021,Q2,4896,SA Gateway,0,0,99.95934065934065,1,0
+107 Jarvis St,2021,Q3,2360,SA Gateway,< 5,0,99.83181818181818,1,1
+107 Jarvis St,2022,Q1,4772,SA Gateway,0,0,99.97944444444444,1,0
+107 Jarvis St,2022,Q2,4677,SA Gateway,< 5,0,99.95934065934065,1,1
+107 Jarvis St,2022,Q3,2904,SA Gateway,0,0,99.93074074074075,1,0
+107 Jarvis St,2023,Q1,5917,SA Gateway,< 5,0,99.81422222222223,1,1
+107 Jarvis St,2023,Q2,6001,SA Gateway,< 5,0,99.9832967032967,1,1
+107 Jarvis St,2023,Q3,3961,SA Gateway,0,0,99.89894736842105,1,0
+1161 Caledonia Rd,2021,Q1,3717,Fred Victor Centre Bethlehem United,6,0,99.30377777777778,1,0
+1161 Caledonia Rd,2021,Q2,3143,Fred Victor Centre Bethlehem United,0,0,97.84,1,0
+1161 Caledonia Rd,2021,Q3,1551,Fred Victor Centre Bethlehem United,< 5,0,98.18866666666666,1,1
+1161 Caledonia Rd,2022,Q1,4793,Fred Victor Centre Bethlehem United,0,0,99.66811111111112,1,0
+1161 Caledonia Rd,2022,Q2,4899,Fred Victor Centre Bethlehem United,< 5,0,99.71527472527472,1,1
+1161 Caledonia Rd,2022,Q3,2878,Fred Victor Centre Bethlehem United,0,0,99.75796296296296,1,0
+1161 Caledonia Rd,2023,Q1,5910,Fred Victor Centre Bethlehem United,< 5,0,99.72933333333333,1,1
+1161 Caledonia Rd,2023,Q2,6181,Fred Victor Centre Bethlehem United,< 5,0,99.72714285714285,1,1
+1161 Caledonia Rd,2023,Q3,3901,Fred Victor Centre Bethlehem United,0,0,99.72017543859648,1,0
+129 Peter St,2021,Q1,1098,Streets to Homes Assessment and Referral Centre (SHARC),11,0,90.41943548387097,1,0
+129 Peter St,2021,Q2,1280,Streets to Homes Assessment and Referral Centre (SHARC),7,0,65.84221153846154,1,0
+129 Peter St,2021,Q3,687,Streets to Homes Assessment and Referral Centre (SHARC),< 5,0,63.61088888888889,1,1
+129 Peter St,2022,Q1,2345,Streets to Homes Assessment and Referral Centre (SHARC),9,0,88.23067415730337,1,0
+129 Peter St,2022,Q2,2314,Streets to Homes Assessment and Referral Centre (SHARC),< 5,0,91.69776785714285,1,1
+129 Peter St,2022,Q3,1350,Streets to Homes Assessment and Referral Centre (SHARC),< 5,0,92.59296296296296,1,1
+129 Peter St,2023,Q1,2495,Streets to Homes Assessment and Referral Centre (SHARC),7,0,92.40766666666667,1,0
+129 Peter St,2023,Q2,2462,Streets to Homes Assessment and Referral Centre (SHARC),10,0,90.18373626373626,1,0
+129 Peter St,2023,Q3,1653,Streets to Homes Assessment and Referral Centre (SHARC),8,0,95.00155172413793,1,0
+135 Sherbourne St,2021,Q1,14847,SA Maxwell Meighen Centre,6,0,95.64958646616542,1,0
+135 Sherbourne St,2021,Q2,13064,SA Maxwell Meighen Centre,5,0,99.52571428571429,1,0
+135 Sherbourne St,2021,Q3,7849,SA Maxwell Meighen Centre,9,0,99.69113636363636,1,0
+135 Sherbourne St,2022,Q1,20065,SA Maxwell Meighen Centre,11,0,98.83644444444444,1,0
+135 Sherbourne St,2022,Q2,20390,SA Maxwell Meighen Centre,9,0,99.63428571428571,1,0
+135 Sherbourne St,2022,Q3,11899,SA Maxwell Meighen Centre,7,0,99.8911320754717,1,0
+135 Sherbourne St,2023,Q1,21983,SA Maxwell Meighen Centre,14,0,99.98633333333333,1,0
+135 Sherbourne St,2023,Q2,22229,SA Maxwell Meighen Centre,21,0,99.97296703296703,1,0
+135 Sherbourne St,2023,Q3,14028,SA Maxwell Meighen Centre,9,0,99.99280701754385,1,0
+14 Vaughan Rd,2021,Q1,2936,Na-Me-Res,< 5,1,93.20655555555555,1,1
+14 Vaughan Rd,2021,Q2,3095,Na-Me-Res,0,1,94.08956043956044,1,0
+14 Vaughan Rd,2021,Q3,1591,Na-Me-Res,0,1,88.38888888888889,1,0
+14 Vaughan Rd,2022,Q1,3858,Na-Me-Res,0,1,97.42466666666667,1,0
+14 Vaughan Rd,2022,Q2,3989,Na-Me-Res,< 5,1,99.62571428571428,1,1
+14 Vaughan Rd,2022,Q3,2363,Na-Me-Res,0,1,99.45314814814814,1,0
+1651 Sheppard Ave W,2021,Q1,715,SSHA Downsview Dells,0,0,86.117125,1,0
+1651 Sheppard Ave W,2021,Q2,831,SSHA Downsview Dells,0,0,77.01505494505494,1,0
+1651 Sheppard Ave W,2021,Q3,522,SSHA Downsview Dells,< 5,0,96.66711111111111,1,1
+1651 Sheppard Ave W,2022,Q1,892,SSHA Downsview Dells,0,0,82.5928888888889,1,0
+1651 Sheppard Ave W,2022,Q2,889,SSHA Downsview Dells,0,0,84.45010989010989,1,0
+1651 Sheppard Ave W,2022,Q3,586,SSHA Downsview Dells,< 5,0,92.00407407407407,1,1
+1651 Sheppard Ave W,2023,Q1,1523,SSHA Downsview Dells,< 5,0,94.01122222222222,1,1
+1651 Sheppard Ave W,2023,Q2,1548,SSHA Downsview Dells,0,0,94.50395604395604,1,0
+1651 Sheppard Ave W,2023,Q3,952,SSHA Downsview Dells,0,0,91.18568965517241,1,0
+1677 Wilson Ave,2021,Q1,19231,COSTI/SSHA Etobicoke Hotel Program,21,0,97.85825783972126,0,0
+1677 Wilson Ave,2021,Q2,15210,COSTI/SSHA Etobicoke Hotel Program,16,0,93.61116959064327,0,0
+1677 Wilson Ave,2021,Q3,5730,COSTI/SSHA Etobicoke Hotel Program,10,0,97.56513636363637,0,0
+1677 Wilson Ave,2022,Q1,17725,SSHA North York West Hotel Program,9,0,97.67485411140584,0,0
+1677 Wilson Ave,2022,Q2,18523,SSHA North York West Hotel Program,8,0,98.05563186813187,0,0
+1677 Wilson Ave,2022,Q3,11060,SSHA North York West Hotel Program,5,0,99.23856481481481,0,0
+1677 Wilson Ave,2023,Q1,18628,SSHA North York West Hotel Program,10,0,97.85672222222222,0,0
+1677 Wilson Ave,2023,Q2,18847,SSHA North York West Hotel Program,20,0,98.58376373626373,0,0
+1677 Wilson Ave,2023,Q3,12092,SSHA North York West Hotel Program,15,0,99.46676724137932,0,0
+1684 Queen St E,2021,Q1,3750,YWCA East End Hotel Program,0,0,97.9015,0,0
+1684 Queen St E,2021,Q2,3696,YWCA East End Hotel Program,< 5,0,94.42010989010988,0,1
+1684 Queen St E,2021,Q3,1867,YWCA East End Hotel Program,< 5,0,97.18704545454545,0,1
+1684 Queen St E,2022,Q1,3049,SSHA East End Hotel Program,< 5,0,99.4543661971831,0,1
+1684 Queen St E,2022,Q2,210,SSHA East End Hotel Program,0,0,97.26142857142857,0,0
+185 Yorkland Blvd,2021,Q1,25468,Fred Victor Uptown Hotel Program,7,0,98.60327777777778,0,0
+185 Yorkland Blvd,2021,Q2,24026,Fred Victor Uptown Hotel Program,13,0,98.77131868131868,0,0
+185 Yorkland Blvd,2021,Q3,11868,Fred Victor Uptown Hotel Program,10,0,98.51577777777777,0,0
+185 Yorkland Blvd,2022,Q1,24661,Fred Victor Uptown Hotel Program,8,0,99.95833333333333,0,0
+185 Yorkland Blvd,2022,Q2,24864,Fred Victor Uptown Hotel Program,< 5,0,99.97923076923077,0,1
+185 Yorkland Blvd,2022,Q3,15084,Fred Victor Uptown Hotel Program,< 5,0,99.97907407407408,0,1
+185 Yorkland Blvd,2023,Q1,24937,Fred Victor Uptown Hotel Program,< 5,0,99.97911111111111,0,1
+185 Yorkland Blvd,2023,Q2,25338,Fred Victor Uptown Hotel Program,< 5,0,99.99175824175825,0,1
+185 Yorkland Blvd,2023,Q3,15976,Fred Victor Uptown Hotel Program,5,0,99.98666666666666,0,0
+189B Booth Ave,2021,Q1,4639,Red Door Family Shelter,< 5,0,69.67477272727272,0,1
+189B Booth Ave,2021,Q3,415,Red Door Family Shelter,0,0,21.890434782608697,0,0
+195 Princes' Blvd,2021,Q1,12854,HFS 195 Princes' Blvd,41,0,96.78906040268457,1,0
+195 Princes' Blvd,2021,Q2,9694,HFS 195 Princes' Blvd,15,0,98.85725274725274,1,0
+195 Princes' Blvd,2021,Q3,5544,HFS 195 Princes' Blvd,24,0,99.38977777777778,1,0
+195 Princes' Blvd,2022,Q1,19137,HFS 195 Princes' Blvd,51,0,98.68863636363636,1,0
+195 Princes' Blvd,2022,Q2,60,HFS 195 Princes' Blvd,0,0,100,1,0
+1A Strachan Ave,2021,Q1,3795,Fred Victor Centre 1A Strachan Ave Respite,< 5,1,94.36722222222222,1,1
+1A Strachan Ave,2021,Q2,3238,Fred Victor Centre 1A Strachan Ave Respite,< 5,1,86.00780219780219,1,1
+1A Strachan Ave,2021,Q3,1992,Fred Victor Centre 1A Strachan Ave Respite,6,1,98.51822222222222,1,0
+1A Strachan Ave,2022,Q1,3801,Fred Victor Centre 1A Strachan Ave Respite,< 5,1,99.27877777777778,1,1
+1A Strachan Ave,2022,Q2,4084,Fred Victor Centre 1A Strachan Ave Respite,< 5,1,99.73164835164835,1,1
+1A Strachan Ave,2022,Q3,2419,Fred Victor Centre 1A Strachan Ave Respite,< 5,1,99.54777777777778,1,1
+1A Strachan Ave,2023,Q2,5051,Fred Victor Centre 1A Strachan Ave Respite,5,1,96.5967032967033,1,0
+1A Strachan Ave,2023,Q3,3090,Fred Victor Centre 1A Strachan Ave Respite,8,1,97.76315789473684,1,0
+20 Gerrard St E,2021,Q1,4232,Covenant House Gerrard St E,< 5,0,80.53744966442953,1,1
+20 Gerrard St E,2021,Q2,4014,Covenant House Gerrard St E,< 5,0,74.38873493975903,1,1
+20 Gerrard St E,2021,Q3,2319,Covenant House Gerrard St E,< 5,0,84.40177777777778,1,1
+20 Gerrard St E,2022,Q1,4376,Covenant House Gerrard St E,< 5,0,86.404,1,1
+20 Gerrard St E,2022,Q2,4925,Covenant House Gerrard St E,0,0,90.05620689655173,1,0
+20 Gerrard St E,2022,Q3,2971,Covenant House Gerrard St E,0,0,91.38378947368422,1,0
+20 Gerrard St E,2023,Q1,5697,Covenant House Gerrard St E,< 5,0,87.42844444444444,1,1
+20 Gerrard St E,2023,Q2,5697,Covenant House Gerrard St E,< 5,0,83.68574324324324,1,1
+20 Gerrard St E,2023,Q3,4686,Covenant House Gerrard St E,< 5,0,84.02802197802198,1,1
+20 Milner Business Ct,2021,Q2,2622,Scarborough Women's Shelter - Milner,< 5,0,97.61904761904762,0,1
+20 Milner Business Ct,2021,Q3,3338,Scarborough Women's Shelter - Milner,< 5,0,99.25266666666667,0,1
+20 Milner Business Ct,2022,Q1,8914,Scarborough Women's Shelter - Milner,0,0,99.79844444444444,0,0
+20 Milner Business Ct,2022,Q2,8998,Scarborough Women's Shelter - Milner,< 5,0,99.85571428571428,0,1
+20 Milner Business Ct,2022,Q3,5435,Scarborough Women's Shelter - Milner,0,0,99.94481481481482,0,0
+2035 Kennedy Rd,2021,Q1,30480,Youth Agencies Scarborough Hotel Program,21,0,94.50474074074074,0,0
+2035 Kennedy Rd,2021,Q2,30273,Youth Agencies Scarborough Hotel Program,6,0,95.24190476190476,0,0
+2035 Kennedy Rd,2021,Q3,15227,Youth Agencies Scarborough Hotel Program,17,0,97.45274074074074,0,0
+2035 Kennedy Rd,2022,Q1,30421,Multiple Youth & Adult Agencies Scarborough Hotel Program,12,0,99.32233333333333,0,0
+2035 Kennedy Rd,2022,Q2,31822,Multiple Youth & Adult Agencies Scarborough Hotel Program,14,0,99.86505494505495,0,0
+2035 Kennedy Rd,2022,Q3,19290,Multiple Youth & Adult Agencies Scarborough Hotel Program,8,0,99.71719512195122,0,0
+2035 Kennedy Rd,2023,Q1,34458,Multiple Youth & Adult Agencies Scarborough Hotel Program,17,0,99.97933333333333,0,0
+2035 Kennedy Rd,2023,Q2,34862,Multiple Youth & Adult Agencies Scarborough Hotel Program,14,0,99.9965934065934,0,0
+2035 Kennedy Rd,2023,Q3,21662,Multiple Youth & Adult Agencies Scarborough Hotel Program,33,0,99.99456140350877,0,0
+21 Park Rd,2021,Q1,2222,Margaret's 21 Park Rd Respite,< 5,0,98.75555555555556,1,1
+21 Park Rd,2021,Q2,2224,Margaret's 21 Park Rd Respite,< 5,0,93.20351648351648,1,1
+21 Park Rd,2021,Q3,1186,Margaret's 21 Park Rd Respite,6,0,97.61333333333333,1,0
+21 Park Rd,2022,Q1,2421,Margaret's 21 Park Rd Respite,< 5,0,99.63,1,1
+21 Park Rd,2022,Q2,2450,Margaret's 21 Park Rd Respite,< 5,0,99.71538461538462,1,1
+21 Park Rd,2022,Q3,1456,Margaret's 21 Park Rd Respite,< 5,0,99.86296296296297,1,1
+21 Park Rd,2023,Q1,2693,Margaret's 21 Park Rd Respite,< 5,0,99.741,1,1
+21 Park Rd,2023,Q2,2729,Margaret's 21 Park Rd Respite,< 5,0,99.96340659340659,1,1
+21 Park Rd,2023,Q3,1709,Margaret's 21 Park Rd Respite,< 5,0,99.94157894736843,1,1
+22 Metropolitan Rd,2022,Q1,6142,HFS - Metro Strachan,0,0,99.9083950617284,0,0
+22 Metropolitan Rd,2022,Q2,7578,HFS - Metro Strachan,5,0,100,0,0
+22 Metropolitan Rd,2022,Q3,4630,HFS - Metro Strachan,7,0,100,0,0
+22 Metropolitan Rd,2023,Q1,24695,HFS - Metro Strachan,< 5,0,99.99444444444444,0,1
+22 Metropolitan Rd,2023,Q2,23979,HFS - Metro Strachan,0,0,100,0,0
+22 Metropolitan Rd,2023,Q3,16094,HFS - Metro Strachan,0,0,100,0,0
+220 Cowan Ave,2022,Q1,1417,Masaryk-Cowan CRC,12,0,96.824,1,0
+25 Augusta Ave,2022,Q1,1645,St. Felix Centre 25 Augusta Ave Respite,0,1,99.62222222222222,1,0
+25 Augusta Ave,2022,Q2,1725,St. Felix Centre 25 Augusta Ave Respite,< 5,1,99.76879120879121,1,1
+25 Augusta Ave,2022,Q3,1013,St. Felix Centre 25 Augusta Ave Respite,0,1,99.70777777777778,1,0
+25 Augusta Ave,2023,Q2,1957,St. Felix Centre 25 Augusta Ave Respite,< 5,1,99.73516483516484,1,1
+25 Augusta Ave,2023,Q3,357,St. Felix Centre 25 Augusta Ave Respite,0,1,99.04625,1,0
+25 Canterbury Pl,2021,Q1,1335,Eva's Satellite,< 5,0,93.023,1,1
+25 Canterbury Pl,2021,Q2,1315,Eva's Satellite,< 5,0,87.26230769230769,1,1
+25 Canterbury Pl,2021,Q3,667,Eva's Satellite,0,0,87.19066666666667,1,0
+25 Mendelssohn St,2022,Q1,4150,Warden Hilltop CC,21,1,97.55947368421053,1,0
+26 Vaughan Rd,2021,Q1,986,Sagatay,0,0,73.03722222222223,1,0
+26 Vaughan Rd,2021,Q2,1140,Sagatay,< 5,0,82.4987912087912,1,1
+26 Vaughan Rd,2021,Q3,682,Sagatay,0,0,89.15022222222223,1,0
+2671 Islington Ave,2021,Q1,2482,SA Islington Seniors' Shelter,0,0,98.27405555555555,1,0
+2671 Islington Ave,2021,Q2,2614,SA Islington Seniors' Shelter,0,0,97.07703296703296,1,0
+2671 Islington Ave,2021,Q3,1292,SA Islington Seniors' Shelter,< 5,0,97.53772727272727,1,1
+2671 Islington Ave,2022,Q1,6043,SA Islington Seniors' Shelter,< 5,0,98.44866666666667,1,1
+2671 Islington Ave,2022,Q2,6181,SA Islington Seniors' Shelter,< 5,0,99.87054945054945,1,1
+2671 Islington Ave,2022,Q3,3561,SA Islington Seniors' Shelter,0,0,99.81198113207547,1,0
+2714 Danforth Ave,2021,Q1,3345,Dixon Hall Heyworth House,0,0,98.72766666666666,1,0
+2714 Danforth Ave,2021,Q2,2611,Dixon Hall Heyworth House,< 5,0,96.44428571428571,1,1
+2714 Danforth Ave,2021,Q3,1792,Dixon Hall Heyworth House,< 5,0,97.12622222222222,1,1
+2714 Danforth Ave,2022,Q1,3674,Dixon Hall Heyworth House,5,0,99.56622222222222,1,0
+2714 Danforth Ave,2022,Q2,3717,Dixon Hall Heyworth House,< 5,0,99.91956043956044,1,1
+2714 Danforth Ave,2022,Q3,2214,Dixon Hall Heyworth House,< 5,0,100,1,1
+2714 Danforth Ave,2023,Q1,4755,Dixon Hall Heyworth House,< 5,0,99.87344444444444,1,1
+2714 Danforth Ave,2023,Q2,4713,Dixon Hall Heyworth House,0,0,99.89351648351648,1,0
+2714 Danforth Ave,2023,Q3,2983,Dixon Hall Heyworth House,0,0,99.93368421052631,1,0
+2808 Dundas St W,2021,Q1,4376,SA Evangeline Residence,< 5,1,99.59022222222222,1,1
+2808 Dundas St W,2021,Q2,4432,SA Evangeline Residence,0,1,99.39472527472527,1,0
+2808 Dundas St W,2021,Q3,2130,SA Evangeline Residence,< 5,1,99.72090909090909,1,1
+2808 Dundas St W,2022,Q1,4433,SA Evangeline Residence,0,1,99.37844444444444,1,0
+2808 Dundas St W,2022,Q2,4401,SA Evangeline Residence,< 5,1,99.58945054945055,1,1
+2808 Dundas St W,2022,Q3,2641,SA Evangeline Residence,< 5,1,99.92370370370371,1,1
+29A Leslie St,2021,Q1,2341,SA New Hope Leslieville,< 5,0,98.84144444444445,1,1
+29A Leslie St,2021,Q2,2321,SA New Hope Leslieville,< 5,0,99.73505494505494,1,1
+29A Leslie St,2021,Q3,1481,SA New Hope Leslieville,0,0,99.265,1,0
+29A Leslie St,2022,Q1,3198,SA New Hope Leslieville,< 5,0,99.8471111111111,1,1
+29A Leslie St,2022,Q2,3275,SA New Hope Leslieville,0,0,99.96945054945056,1,0
+29A Leslie St,2022,Q3,1884,SA New Hope Leslieville,0,0,99.94603773584906,1,0
+29A Leslie St,2023,Q1,3776,SA New Hope Leslieville,< 5,0,99.87066666666666,1,1
+29A Leslie St,2023,Q2,3889,SA New Hope Leslieville,10,0,99.9232967032967,1,0
+29A Leslie St,2023,Q3,2442,SA New Hope Leslieville,7,0,99.95912280701755,1,0
+30 Norfinch Dr,2021,Q1,13046,SA North Hotel Program,< 5,0,99.40327777777777,0,1
+30 Norfinch Dr,2021,Q2,12984,SA North Hotel Program,0,0,99.37494505494506,0,0
+30 Norfinch Dr,2021,Q3,6448,SA North Hotel Program,< 5,0,99.47454545454545,0,1
+30 Norfinch Dr,2022,Q1,13347,SA North Hotel Program,< 5,0,99.67738888888888,0,1
+30 Norfinch Dr,2022,Q2,13545,SA North Hotel Program,< 5,0,99.935,0,1
+30 Norfinch Dr,2022,Q3,7871,SA North Hotel Program,< 5,0,99.88523364485981,0,1
+3306 Kingston Rd,2022,Q1,7624,SSHA Scarborough Village Residence,0,1,96.67733333333334,1,0
+3306 Kingston Rd,2022,Q2,8234,SSHA Scarborough Village Residence,< 5,1,97.93747252747252,1,1
+3306 Kingston Rd,2022,Q3,4926,SSHA Scarborough Village Residence,< 5,1,98.08685185185185,1,1
+3306 Kingston Rd,2023,Q3,5382,SSHA Scarborough Village Residence,< 5,1,99.98137931034483,1,1
+335 Jarvis St,2021,Q3,2038,Good Shepherd Centre West End Hotel Program,< 5,1,99.26666666666667,0,1
+339 George St,2021,Q1,15221,SSHA Seaton House,10,0,95.8104,1,0
+339 George St,2021,Q2,14898,SSHA Seaton House,21,0,93.09806741573034,1,0
+339 George St,2021,Q3,7807,SSHA Seaton House,42,0,87.32257777777778,1,0
+339 George St,2022,Q1,18941,SSHA Seaton House,38,0,91.99991649269312,1,0
+339 George St,2022,Q2,16273,SSHA Seaton House,27,0,93.31355091383811,1,0
+339 George St,2022,Q3,7765,SSHA Seaton House,20,0,90.11823204419889,1,0
+339 George St,2023,Q1,20483,SSHA Seaton House,23,0,98.53366666666666,1,0
+339 George St,2023,Q2,20542,SSHA Seaton House,30,0,96.79147252747252,1,0
+339 George St,2023,Q3,13414,SSHA Seaton House,24,0,98.08655172413793,1,0
+346 Spadina Ave.,2022,Q1,1434,The Scott Mission - Kensington location,0,0,99.925625,1,0
+346 Spadina Ave.,2022,Q2,4524,The Scott Mission - Kensington location,< 5,0,99.84571428571428,1,1
+346 Spadina Ave.,2022,Q3,2882,The Scott Mission - Kensington location,0,0,99.96566037735849,1,0
+349 George St,2021,Q1,1904,Dixon Hall Schoolhouse,0,1,99.49466666666666,1,0
+349 George St,2021,Q2,1994,Dixon Hall Schoolhouse,5,1,99.60010989010989,1,0
+349 George St,2021,Q3,984,Dixon Hall Schoolhouse,< 5,1,99.39333333333333,1,1
+349 George St,2022,Q1,1977,Dixon Hall Schoolhouse,< 5,1,99.84833333333333,1,1
+349 George St,2022,Q2,2002,Dixon Hall Schoolhouse,< 5,1,100,1,1
+349 George St,2022,Q3,1173,Dixon Hall Schoolhouse,0,1,99.91185185185185,1,0
+349 George St,2023,Q2,2287,Dixon Hall Schoolhouse,< 5,1,99.86791208791209,1,1
+349 George St,2023,Q3,1418,Dixon Hall Schoolhouse,< 5,1,100,1,1
+351 Lake Shore Blvd E,2021,Q1,3390,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.5368888888889,1,1
+351 Lake Shore Blvd E,2021,Q2,3964,Dixon Hall 351 Lake Shore Blvd E Respite,5,0,99.2010989010989,1,0
+351 Lake Shore Blvd E,2021,Q3,1968,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.49533333333333,1,1
+351 Lake Shore Blvd E,2022,Q1,3845,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.612,1,1
+351 Lake Shore Blvd E,2022,Q2,3990,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.82472527472528,1,1
+351 Lake Shore Blvd E,2022,Q3,2372,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.83166666666666,1,1
+351 Lake Shore Blvd E,2023,Q1,5295,Dixon Hall 351 Lake Shore Blvd E Respite,5,0,99.43677777777778,1,0
+351 Lake Shore Blvd E,2023,Q2,5399,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.76087912087912,1,1
+351 Lake Shore Blvd E,2023,Q3,3447,Dixon Hall 351 Lake Shore Blvd E Respite,< 5,0,99.855,1,1
+354 George St,2021,Q1,3961,Dixon Hall 354 George St Shelter,5,0,99.03166666666667,1,0
+354 George St,2021,Q2,3958,Dixon Hall 354 George St Shelter,< 5,0,98.18967032967034,1,1
+354 George St,2021,Q3,2156,Dixon Hall 354 George St Shelter,5,0,96.59822222222222,1,0
+354 George St,2022,Q1,4386,Dixon Hall 354 George St,< 5,0,99.43988888888889,1,1
+354 George St,2022,Q2,4456,Dixon Hall 354 George St Shelter,< 5,0,99.70901098901099,1,1
+354 George St,2022,Q3,2409,Dixon Hall 354 George St Shelter,5,0,99.80074074074074,1,0
+354 George St,2023,Q1,4451,Dixon Hall 354 George St Shelter,< 5,0,99.68755555555556,1,1
+354 George St,2023,Q2,4532,Dixon Hall 354 George St Shelter,< 5,0,99.7789010989011,1,1
+354 George St,2023,Q3,2764,Dixon Hall 354 George St Shelter,< 5,0,99.89263157894737,1,1
+3576 St Clair Ave E,2021,Q1,2692,HFS St. Clair Ave E Shelter,< 5,0,99.70377777777777,1,1
+3576 St Clair Ave E,2021,Q2,2925,HFS St. Clair Ave E Shelter,0,0,99.3556043956044,1,0
+3576 St Clair Ave E,2021,Q3,1645,HFS St. Clair Ave E Shelter,6,0,99.15577777777777,1,0
+3576 St Clair Ave E,2022,Q1,3317,HFS St. Clair Ave E Shelter,< 5,0,99.63977777777778,1,1
+3576 St Clair Ave E,2022,Q2,3358,HFS St. Clair Ave E Shelter,12,0,99.7921978021978,1,0
+3576 St Clair Ave E,2022,Q3,1990,HFS St. Clair Ave E Shelter,0,0,99.59981481481482,1,0
+3576 St Clair Ave E,2023,Q1,4395,HFS St. Clair Ave E Shelter,< 5,0,99.864,1,1
+3576 St Clair Ave E,2023,Q2,4441,HFS St. Clair Ave E Shelter,< 5,0,99.9089010989011,1,1
+3576 St Clair Ave E,2023,Q3,2790,HFS St. Clair Ave E Shelter,0,0,99.89263157894737,1,0
+360 Lesmill Rd,2021,Q1,1247,Eva's Place,0,0,91.957,1,0
+360 Lesmill Rd,2021,Q2,1194,Eva's Place,< 5,0,91.84252747252748,1,1
+360 Lesmill Rd,2021,Q3,690,Eva's Place,0,0,95.83333333333333,1,0
+360 Lesmill Rd,2022,Q1,1393,Eva's Place,< 5,0,97.82855555555555,1,1
+360 Lesmill Rd,2022,Q2,697,Eva's Place,0,0,98.41130434782609,1,0
+360 Lesmill Rd,2022,Q3,300,Eva's Place,0,0,97.97666666666667,1,0
+38 Bathurst St,2021,Q3,2595,SSHA Fort York Residence,< 5,1,96.59577777777778,1,1
+38 Bathurst St,2022,Q1,5562,SSHA Fort York Residence,< 5,1,96.65388185654008,1,1
+38 Bathurst St,2022,Q2,5448,SSHA Fort York Residence,0,1,98.61072916666667,1,0
+38 Bathurst St,2022,Q3,3080,SSHA Fort York Residence,< 5,1,97.99271317829458,1,1
+38 Bathurst St,2023,Q1,7313,SSHA Fort York Residence,< 5,1,89.90922222222223,1,1
+38 Bathurst St,2023,Q2,8434,SSHA Fort York Residence,0,1,97.23071428571428,1,0
+38 Bathurst St,2023,Q3,5223,SSHA Fort York Residence,0,1,97.4353448275862,1,0
+4117 Lawrence Ave E,2021,Q3,2230,HFS - Lawrence East Shelter,13,1,96.81844444444445,1,0
+4117 Lawrence Ave E,2022,Q1,4762,HFS - Lawrence East Shelter,5,1,99.74833333333333,1,0
+4117 Lawrence Ave E,2022,Q2,4964,HFS - Lawrence East Shelter,< 5,1,99.83813186813187,1,1
+4117 Lawrence Ave E,2022,Q3,2964,HFS - Lawrence East Shelter,< 5,1,99.89888888888889,1,1
+4117 Lawrence Ave E,2023,Q1,6751,HFS - Lawrence East Shelter,< 5,1,99.66144444444444,1,1
+4117 Lawrence Ave E,2023,Q2,6881,HFS - Lawrence East Shelter,0,1,99.83978021978022,1,0
+4117 Lawrence Ave E,2023,Q3,4284,HFS - Lawrence East Shelter,< 5,1,99.88438596491228,1,1
+412 Queen St E,2021,Q1,4291,Good Shepherd Centre,< 5,1,96.35155555555555,1,1
+412 Queen St E,2021,Q2,3579,Good Shepherd Centre,5,1,92.08483516483517,1,0
+412 Queen St E,2021,Q3,2113,Good Shepherd Centre,7,1,93.91111111111111,1,0
+412 Queen St E,2022,Q1,4286,Good Shepherd Centre,0,1,94.25188888888889,1,0
+412 Queen St E,2022,Q2,4372,Good Shepherd Centre,< 5,1,96.35164835164835,1,1
+412 Queen St E,2022,Q3,2543,Good Shepherd Centre,0,1,94.62962962962963,1,0
+412 Queen St E,2023,Q3,3141,Good Shepherd Centre,< 5,1,97.01754385964912,1,1
+43 Christie St,2021,Q1,2854,Christie Refugee Welcome Centre,0,0,81.97177777777777,0,0
+43 Christie St,2021,Q2,2978,Christie Refugee Welcome Centre,< 5,0,99.58956043956044,0,1
+43 Christie St,2021,Q3,1234,Christie Refugee Welcome Centre,0,0,97.622,0,0
+445 Rexdale Blvd,2021,Q1,13691,CONC Etobicoke Hotel Program,10,0,99.99222222222222,0,0
+445 Rexdale Blvd,2021,Q2,13582,CONC Etobicoke Hotel Program,8,0,99.9845054945055,0,0
+445 Rexdale Blvd,2021,Q3,6713,CONC Etobicoke Hotel Program,< 5,0,100,0,1
+445 Rexdale Blvd,2022,Q1,13627,CONC Etobicoke Hotel Program,0,0,100,0,0
+445 Rexdale Blvd,2022,Q2,13895,CONC Etobicoke Hotel Program,< 5,0,100,0,1
+445 Rexdale Blvd,2022,Q3,8151,CONC Etobicoke Hotel Program,< 5,0,100,0,1
+45 The Esplanade,2021,Q2,15939,45 The Esplanade,14,0,99.8725,0,0
+45 The Esplanade,2021,Q3,11858,45 The Esplanade,46,0,99.90533333333333,0,0
+45 The Esplanade,2022,Q1,22323,45 The Esplanade,22,0,99.98511111111111,0,0
+45 The Esplanade,2022,Q2,22612,45 The Esplanade,14,0,99.99494505494505,0,0
+45 The Esplanade,2022,Q3,14162,45 The Esplanade,9,0,99.97592592592592,0,0
+4584 Kingston Rd,2021,Q1,3703,SSHA Scarborough Hotel Program 1,< 5,0,96.55488888888888,0,1
+4584 Kingston Rd,2021,Q2,3886,SSHA Scarborough Hotel Program 1,< 5,0,99.6567032967033,0,1
+4584 Kingston Rd,2021,Q3,1952,SSHA Scarborough Hotel Program 1,10,0,99.79777777777778,0,0
+4584 Kingston Rd,2022,Q1,4046,SSHA Scarborough Hotel Program 1,0,0,99.90333333333334,0,0
+4584 Kingston Rd,2022,Q2,4152,SSHA Scarborough Hotel Program 1,< 5,0,100,0,1
+4584 Kingston Rd,2022,Q3,2451,SSHA Scarborough Hotel Program 1,< 5,0,99.91944444444445,0,1
+4584 Kingston Rd,2023,Q1,4279,SSHA Scarborough Hotel Program 1,< 5,0,99.95366666666666,0,1
+4584 Kingston Rd,2023,Q2,4325,SSHA Scarborough Hotel Program 1,0,0,99.95417582417582,0,0
+4584 Kingston Rd,2023,Q3,1937,SSHA Scarborough Hotel Program 1,0,0,100,0,0
+4674 Kingston Rd,2021,Q3,2336,SSHA Scarborough Hotel Program 6,< 5,1,99.90576271186441,0,1
+490 Sherbourne St,2021,Q1,800,Fife House Sherbourne St,< 5,1,80.81,1,1
+490 Sherbourne St,2021,Q2,842,Fife House Sherbourne St,< 5,1,84.11747252747253,1,1
+490 Sherbourne St,2021,Q3,492,Fife House Sherbourne St,0,1,99.394,1,0
+490 Sherbourne St,2022,Q1,859,Fife House Sherbourne St,< 5,1,86.76899999999999,1,1
+490 Sherbourne St,2022,Q2,651,Fife House Sherbourne St,0,1,65.03791208791209,1,0
+490 Sherbourne St,2022,Q3,424,Fife House Sherbourne St,0,1,71.38333333333334,1,0
+490 Sherbourne St,2023,Q3,536,Fife House Sherbourne St,< 5,1,94.03508771929825,1,1
+50 Estate Dr,2021,Q1,11207,SA Scarborough Hotel Program,< 5,0,99.939,0,1
+50 Estate Dr,2021,Q2,11434,SA Scarborough Hotel Program,9,0,99.93934065934066,0,0
+50 Estate Dr,2021,Q3,5460,SA Scarborough Hotel Program,< 5,0,99.81840909090909,0,1
+50 Estate Dr,2022,Q1,11590,SA Scarborough Hotel Program,0,0,99.93088888888889,0,0
+50 Estate Dr,2022,Q2,11806,SA Scarborough Hotel Program,< 5,0,99.94923076923077,0,1
+50 Estate Dr,2022,Q3,7040,SA Scarborough Hotel Program,< 5,0,99.97185185185185,0,1
+50 Estate Dr,2023,Q1,11740,SA Scarborough Hotel Program,< 5,0,99.98266666666666,0,1
+50 Estate Dr,2023,Q2,11907,SA Scarborough Hotel Program,0,0,99.99164835164835,0,0
+50 Estate Dr,2023,Q3,7439,SA Scarborough Hotel Program,0,0,100,0,0
+502 Spadina Ave,2021,Q1,3475,Scott Mission,0,0,99.27222222222223,1,0
+502 Spadina Ave,2021,Q2,2677,Scott Mission,< 5,0,95.58551282051282,1,1
+502 Spadina Ave,2021,Q3,1704,Scott Mission,0,0,96.81818181818181,1,0
+545 Lake Shore Blvd W,2021,Q1,12377,HFS 545 Lake Shore Blvd W,30,0,95.93411111111111,1,0
+545 Lake Shore Blvd W,2021,Q2,10930,HFS 545 Lake Shore Blvd W,37,0,92.60120879120879,1,0
+545 Lake Shore Blvd W,2021,Q3,5744,HFS 545 Lake Shore Blvd W,42,0,92.19272727272727,1,0
+545 Lake Shore Blvd W,2022,Q1,9369,HFS 545 Lake Shore Blvd W,28,0,98.23792592592592,1,0
+545 Lake Shore Blvd W,2022,Q2,9143,HFS 545 Lake Shore Blvd W,12,0,98.86131868131868,1,0
+545 Lake Shore Blvd W,2022,Q3,5940,HFS 545 Lake Shore Blvd W,8,0,99.11475308641975,1,0
+545 Lake Shore Blvd W,2023,Q1,22616,HFS 545 Lake Shore Blvd W,25,0,99.30402777777778,1,0
+545 Lake Shore Blvd W,2023,Q2,22438,HFS 545 Lake Shore Blvd W,30,0,99.51967032967033,1,0
+545 Lake Shore Blvd W,2023,Q3,13847,HFS 545 Lake Shore Blvd W,12,0,99.83885964912281,1,0
+55 John St,2023,Q1,3133,Metro Hall,< 5,0,98.72545454545454,1,1
+55 John St,2023,Q2,649,Metro Hall,< 5,0,97.541875,1,1
+556 Sherbourne St,2021,Q2,2011,St. Simon's Clubbe House,< 5,0,100,0,1
+556 Sherbourne St,2021,Q3,1140,St. Simon's Clubbe House,0,0,100,0,0
+56 Yonge St,2021,Q1,4557,Dixon Hall Downtown Hotel,< 5,0,99.88422222222222,0,1
+56 Yonge St,2021,Q2,4592,Dixon Hall Downtown Hotel,< 5,0,99.57010989010989,0,1
+56 Yonge St,2021,Q3,2228,Dixon Hall Downtown Hotel,9,0,99.70955555555555,0,0
+56 Yonge St,2022,Q1,4697,Dixon Hall Downtown Hotel,< 5,0,99.932,0,1
+56 Yonge St,2022,Q2,4934,Dixon Hall Downtown Hotel,< 5,0,99.97802197802197,0,1
+56 Yonge St,2022,Q3,2944,Dixon Hall Downtown Hotel,< 5,0,99.9637037037037,0,1
+56 Yonge St,2023,Q1,2061,Dixon Hall Downtown Hotel,< 5,0,91.54518518518519,0,1
+5800 Yonge St,2021,Q1,11828,HFS Willowdale Centre,27,0,96.78655462184874,1,0
+5800 Yonge St,2021,Q2,10578,HFS Willowdale Centre,31,0,96.25217391304348,1,0
+5800 Yonge St,2021,Q3,5525,HFS Willowdale Centre,28,0,97.40911111111112,1,0
+5800 Yonge St,2022,Q1,18371,HFS Willowdale Centre,19,0,98.30094696969697,1,0
+5800 Yonge St,2022,Q2,21617,HFS Willowdale Centre,34,0,99.66895306859206,1,0
+5800 Yonge St,2022,Q3,12790,HFS Willowdale Centre,20,0,99.80746913580246,1,0
+5800 Yonge St,2023,Q1,30412,HFS Willowdale Centre,12,0,99.76273648648649,1,0
+5800 Yonge St,2023,Q2,31750,HFS Willowdale Centre,7,0,99.88875457875457,1,0
+5800 Yonge St,2023,Q3,20112,HFS Willowdale Centre,0,0,99.98116959064328,1,0
+6 Warrendale Ct,2021,Q1,2120,Youth Without Shelter,0,0,83.40183333333333,1,0
+6 Warrendale Ct,2021,Q2,1896,Youth Without Shelter,< 5,0,72.99296703296703,1,1
+6 Warrendale Ct,2021,Q3,1017,Youth Without Shelter,0,0,73.1684090909091,1,0
+60 Newcastle St,2021,Q3,749,SVDP Elisa House,< 5,1,99.61363636363636,1,1
+60 York St,2021,Q1,17404,Multiple Adult Agencies Downtown Hotel Program,5,0,99.53494444444445,0,0
+60 York St,2021,Q2,17290,Multiple Adult Agencies Downtown Hotel Program,< 5,0,99.19868131868132,0,1
+60 York St,2021,Q3,8330,Multiple Adult Agencies Downtown Hotel Program,< 5,0,97.15266666666666,0,1
+60 York St,2022,Q1,17089,HFS Downtown Hotel Program,< 5,0,99.77283333333334,0,1
+60 York St,2022,Q2,17619,HFS Downtown Hotel Program,< 5,0,99.91631868131869,0,1
+60 York St,2022,Q3,10543,HFS Downtown Hotel Program,0,0,99.94935185185186,0,0
+60 York St,2023,Q1,16214,HFS Downtown Hotel Program,< 5,0,99.74044444444445,0,1
+60 York St,2023,Q2,16046,HFS Downtown Hotel Program,0,0,99.66909967845659,0,0
+60 York St,2023,Q3,4832,HFS Downtown Hotel Program,< 5,0,98.80239361702128,0,1
+65 Dundas St E,2021,Q1,19195,Dixon Hall Bond Place Hotel Program,17,0,92.413,0,0
+65 Dundas St E,2021,Q2,18042,Dixon Hall Bond Place Hotel Program,13,0,83.9232967032967,0,0
+65 Dundas St E,2021,Q3,9774,Dixon Hall Bond Place Hotel Program,36,0,89.62955555555556,0,0
+65 Dundas St E,2022,Q1,21989,Dixon Hall Bond Place Hotel Program,12,0,97.86444444444444,0,0
+65 Dundas St E,2022,Q2,21484,Dixon Hall Bond Place Hotel Program,11,0,96.42593406593407,0,0
+65 Dundas St E,2022,Q3,11745,Dixon Hall Bond Place Hotel Program,6,0,95.72148148148148,0,0
+65 Dundas St E,2023,Q1,12661,Dixon Hall Bond Place Hotel Program,< 5,0,90.98011111111111,0,1
+65 Dundas St E,2023,Q2,11423,Dixon Hall Bond Place Hotel Program,10,0,87.46483516483516,0,0
+65 Dundas St E,2023,Q3,6166,Dixon Hall Bond Place Hotel Program,10,0,98.31280701754386,0,0
+66 Norfinch Dr,2023,Q1,8147,Etobicoke Hotel Site 1,< 5,0,99.96094444444445,0,1
+66 Norfinch Dr,2023,Q2,8876,Etobicoke Hotel Site 1,< 5,0,100,0,1
+66 Norfinch Dr,2023,Q3,7235,Etobicoke Hotel Site 1,5,0,99.95728070175439,0,0
+67 Adelaide St E,2021,Q3,1164,Fred Victor Centre The Phoenix 24-Hour Women's Drop-In,< 5,1,58.78777777777778,1,1
+67 Adelaide St E,2022,Q1,3582,Adelaide Resource Centre for Women,< 5,1,91.59133333333334,1,1
+67 Adelaide St E,2022,Q2,3952,Adelaide Resource Centre for Women,< 5,1,98.70142857142858,1,1
+67 Adelaide St E,2022,Q3,2349,Adelaide Resource Centre for Women,0,1,98.8637037037037,1,0
+674 Dundas St W,2021,Q1,4722,SSHA Womens' Residence,< 5,0,97.75644444444444,1,1
+674 Dundas St W,2021,Q2,4999,SSHA Womens' Residence,6,0,80.54099415204678,1,0
+674 Dundas St W,2021,Q3,2614,SSHA Womens' Residence,< 5,0,97.973,1,1
+674 Dundas St W,2022,Q1,7077,SSHA Womens' Residence,11,0,92.59194444444445,1,0
+674 Dundas St W,2022,Q2,7101,SSHA Womens' Residence,< 5,0,98.00868131868133,1,1
+674 Dundas St W,2022,Q3,4279,SSHA Womens' Residence,< 5,0,97.21351851851851,1,1
+674 Dundas St W,2023,Q1,7522,SSHA Womens' Residence,< 5,0,99.62833333333333,1,1
+674 Dundas St W,2023,Q2,7708,SSHA Womens' Residence,< 5,0,99.56478021978022,1,1
+674 Dundas St W,2023,Q3,4987,SSHA Womens' Residence,< 5,0,99.94594827586207,1,1
+69 Fraser Ave,2021,Q1,3857,St. Felix Centre 69 Fraser Ave Respite,11,0,99.66355555555556,1,0
+69 Fraser Ave,2021,Q2,3663,St. Felix Centre 69 Fraser Ave Respite,21,0,95.64318681318682,1,0
+69 Fraser Ave,2021,Q3,1882,St. Felix Centre 69 Fraser Ave Respite,34,0,99.47068181818182,1,0
+69 Fraser Ave,2022,Q1,3849,St. Felix Centre 69 Fraser Ave Respite,21,0,99.89644444444444,1,0
+69 Fraser Ave,2022,Q2,3909,St. Felix Centre 69 Fraser Ave Respite,8,0,99.89769230769231,1,0
+69 Fraser Ave,2022,Q3,2320,St. Felix Centre 69 Fraser Ave Respite,8,0,99.9137037037037,1,0
+69 Fraser Ave,2023,Q1,4675,St. Felix Centre 69 Fraser Ave. Respite,5,0,99.89333333333333,1,0
+69 Fraser Ave,2023,Q2,4731,St. Felix Centre 69 Fraser Ave. Respite,17,0,99.9789010989011,1,0
+69 Fraser Ave,2023,Q3,3325,St. Felix Centre 69 Fraser Ave. Respite,20,0,100,1,0
+7 Vanauley St,2021,Q1,1463,YMCA House,< 5,0,95.43233333333333,1,1
+7 Vanauley St,2021,Q2,1668,Vanauley Street YMCA Emergency Shelter,0,0,96.47263736263736,1,0
+7 Vanauley St,2021,Q3,760,Vanauley Street YMCA Emergency Shelter,0,0,95.61295454545454,1,0
+7 Vanauley St,2023,Q1,1787,Vanauley Street YMCA Emergency Shelter,< 5,0,99.61111111111111,1,1
+7 Vanauley St,2023,Q2,1813,Vanauley Street YMCA Emergency Shelter,0,0,99.61538461538461,1,0
+7 Vanauley St,2023,Q3,1807,Vanauley Street YMCA Emergency Shelter,0,0,100,1,0
+70 Gerrard St E,2021,Q1,996,SVDP Mary's Home,< 5,0,97.298,1,1
+70 Gerrard St E,2021,Q2,1195,SVDP Mary's Home,0,0,99.66978021978022,1,0
+70 Gerrard St E,2021,Q3,528,SVDP Mary's Home,0,0,100,1,0
+70 Gerrard St E,2022,Q1,2204,SVDP Mary's Home,< 5,0,99.25477777777778,1,1
+70 Gerrard St E,2022,Q2,2288,SVDP Mary's Home,0,0,99.78494505494506,1,0
+70 Gerrard St E,2022,Q3,1026,SVDP Mary's Home,0,0,100,1,0
+702 Kennedy Rd,2021,Q1,3664,HFS Kennedy Rd Women's Shelter,< 5,0,98.05733333333333,1,1
+702 Kennedy Rd,2021,Q2,4172,HFS Kennedy Rd Women's Shelter,0,0,98.65065934065935,1,0
+702 Kennedy Rd,2021,Q3,2047,HFS Kennedy Rd Women's Shelter,0,0,98.04933333333334,1,0
+702 Kennedy Rd,2022,Q1,4436,HFS Kennedy Rd Women's Shelter,< 5,0,99.30688888888889,1,1
+702 Kennedy Rd,2022,Q2,4009,HFS Kennedy Rd Women's Shelter,< 5,0,99.53582417582417,1,1
+702 Kennedy Rd,2022,Q3,2437,HFS Kennedy Rd Women's Shelter,< 5,0,99.91962962962963,1,1
+702 Kennedy Rd,2023,Q1,3732,HFS Kennedy Rd Women's Shelter,< 5,0,98.461,1,1
+702 Kennedy Rd,2023,Q2,4665,HFS Kennedy Rd Women's Shelter,0,0,99.21362637362637,1,0
+702 Kennedy Rd,2023,Q3,3156,HFS Kennedy Rd Women's Shelter,0,0,99.96754385964913,1,0
+705 Progress Ave,2021,Q1,2540,Warden Woods 705 Progress Ave Respite,0,0,97.67066666666666,1,0
+705 Progress Ave,2021,Q2,2700,Warden Woods 705 Progress Ave Respite,< 5,0,95.0034065934066,1,1
+705 Progress Ave,2021,Q3,1461,Warden Woods 705 Progress Ave Respite,< 5,0,97.66136363636363,1,1
+705 Progress Ave,2022,Q1,2814,Warden Woods 705 Progress Ave Respite,0,0,96.84788888888889,1,0
+705 Progress Ave,2022,Q2,5727,Warden Woods 705 Progress Ave Respite,< 5,0,99.61592592592592,1,1
+705 Progress Ave,2022,Q3,5061,Warden Woods 705 Progress Ave Respite,< 5,0,99.76579439252336,1,1
+705 Progress Ave,2023,Q1,12667,Progress Avenue Shelter,8,0,99.76577777777777,1,0
+705 Progress Ave,2023,Q2,12805,Progress Avenue Shelter,5,0,99.8871978021978,1,0
+705 Progress Ave,2023,Q3,8109,Progress Avenue Shelter,< 5,0,99.68652173913044,1,1
+731 Runnymede Rd,2021,Q1,4445,SSHA Junction Place,0,1,98.529,1,0
+731 Runnymede Rd,2021,Q2,4378,SSHA Junction Place,< 5,1,99.6567032967033,1,1
+731 Runnymede Rd,2021,Q3,2246,SSHA Junction Place,5,1,99.95555555555555,1,0
+731 Runnymede Rd,2022,Q1,4407,SSHA Junction Place,< 5,1,99.8861111111111,1,1
+731 Runnymede Rd,2022,Q2,4548,SSHA Junction Place,0,1,99.97802197802197,1,0
+731 Runnymede Rd,2022,Q3,2700,SSHA Junction Place,< 5,1,100,1,1
+731 Runnymede Rd,2023,Q2,5639,SSHA Junction Place,< 5,1,99.94681318681319,1,1
+731 Runnymede Rd,2023,Q3,3596,SSHA Junction Place,0,1,100,1,0
+76 Church St,2021,Q1,3299,SSHA Downtown Response Program,5,0,96.95338461538462,1,0
+76 Church St,2021,Q2,4234,SSHA Downtown Response Program,< 5,0,98.90868131868132,1,1
+76 Church St,2021,Q3,2135,SSHA Downtown Response Program,< 5,0,99.63155555555555,1,1
+76 Church St,2022,Q1,4259,SSHA Downtown Response Program,< 5,0,99.83533333333334,1,1
+76 Church St,2022,Q2,4795,SSHA Downtown Response Program,< 5,0,99.93736263736264,1,1
+76 Church St,2022,Q3,2777,SSHA Downtown Response Program,< 5,0,99.70962962962963,1,1
+76 Church St,2023,Q1,5383,SSHA Downtown Response Program,0,0,99.86911111111111,1,0
+76 Church St,2023,Q2,4849,SSHA Downtown Response Program,< 5,0,99.92164835164836,1,1
+76 Church St,2023,Q3,3073,SSHA Downtown Response Program,0,0,99.96741379310345,1,0
+77 Ryerson Ave,2021,Q1,7003,SSHA Downtown Hotel Program,< 5,0,97.92966666666666,0,1
+77 Ryerson Ave,2021,Q2,6766,SSHA Downtown Hotel Program,< 5,0,92.94186813186813,0,1
+77 Ryerson Ave,2021,Q3,2749,SSHA Downtown Hotel Program,0,0,77.13088888888889,0,0
+77 Ryerson Ave,2022,Q1,6243,SSHA Downtown Hotel Program,0,0,99.01755555555556,0,0
+77 Ryerson Ave,2022,Q2,6300,SSHA Downtown Hotel Program,< 5,0,97.48879120879121,0,1
+77 Ryerson Ave,2022,Q3,3883,SSHA Downtown Hotel Program,0,0,98.15,0,0
+77 Ryerson Ave,2023,Q1,5969,SSHA Downtown Hotel Program,0,0,93.61255555555556,0,0
+77 Ryerson Ave,2023,Q2,6135,SSHA Downtown Hotel Program,< 5,0,96.29285714285714,0,1
+77 Ryerson Ave,2023,Q3,3939,SSHA Downtown Hotel Program,5,0,97.17586206896551,0,0
+80 Woodlawn Ave E,2021,Q1,4193,YWCA 1st Stop Woodlawn,< 5,0,95.31755555555556,1,1
+80 Woodlawn Ave E,2021,Q2,4211,YWCA 1st Stop Woodlawn,0,0,94.37054945054945,1,0
+80 Woodlawn Ave E,2021,Q3,2076,YWCA 1st Stop Woodlawn,0,0,96.2271590909091,1,0
+805A Wellington St W,2021,Q1,7253,HFS Strachan House,11,0,84.53177777777778,1,0
+805A Wellington St W,2021,Q2,7139,HFS Strachan House,< 5,0,93.8143956043956,1,1
+805A Wellington St W,2021,Q3,3494,HFS Strachan House,6,0,96.07677777777778,1,0
+805A Wellington St W,2022,Q1,969,HFS Strachan House,< 5,0,90.88731707317073,1,1
+808 Mt Pleasant Rd,2021,Q1,10549,SSHA Roehampton Hotel Program,5,0,99.52588888888889,0,0
+808 Mt Pleasant Rd,2021,Q2,10723,SSHA Roehampton Hotel Program,15,0,99.79791208791208,0,0
+808 Mt Pleasant Rd,2021,Q3,4989,SSHA Roehampton Hotel Program,7,0,99.41155555555555,0,0
+808 Mt Pleasant Rd,2022,Q1,11677,SSHA Roehampton Hotel Program,5,0,99.93666666666667,0,0
+808 Mt Pleasant Rd,2022,Q2,12211,SSHA Roehampton Hotel Program,5,0,99.90571428571428,0,0
+808 Mt Pleasant Rd,2022,Q3,7592,SSHA Roehampton Hotel Program,< 5,0,99.94851851851851,0,1
+808 Mt Pleasant Rd,2023,Q1,13340,SSHA Roehampton Hotel Program,10,0,100,0,0
+808 Mt Pleasant Rd,2023,Q2,13104,SSHA Roehampton Hotel Program,6,0,99.98538461538462,0,0
+808 Mt Pleasant Rd,2023,Q3,2889,SSHA Roehampton Hotel Program,0,0,98.33829268292683,0,0
+87 Pembroke St,2021,Q1,1710,Street Haven,0,0,95.33811111111112,1,0
+87 Pembroke St,2021,Q2,1943,Street Haven,< 5,0,89.31373626373626,1,1
+87 Pembroke St,2021,Q3,1191,Street Haven,0,0,96.67340909090909,1,0
+87 Pembroke St,2023,Q1,2459,Street Haven,< 5,0,99.11833333333334,1,1
+87 Pembroke St,2023,Q2,2543,Street Haven,< 5,0,99.80384615384615,1,1
+87 Pembroke St,2023,Q3,1595,Street Haven,0,0,99.93736842105262,1,0
+92 Peter St,2022,Q1,10755,Multiple Youth Agencies Downtown Hotel Program,< 5,1,92.60477777777778,0,1
+92 Peter St,2022,Q2,12821,Multiple Youth Agencies Downtown Hotel Program,< 5,1,99.51177777777778,1,1
+92 Peter St,2022,Q3,7649,Multiple Youth Agencies Downtown Hotel Program,0,1,99.29818181818182,1,0
+92 Peter St,2023,Q1,12102,Multiple Youth Agencies Downtown Hotel Program,< 5,1,96.43147222222223,0,1
+92 Peter St,2023,Q2,2456,Multiple Youth Agencies Downtown Hotel Program,0,1,92.85317073170732,0,0
+95 Wellesley St E,2021,Q1,876,Turning Point Youth Services,0,1,80.24111111111111,1,0
+95 Wellesley St E,2021,Q2,1226,Turning Point Youth Services,< 5,1,92.08483516483517,1,1
+95 Wellesley St E,2021,Q3,677,Turning Point Youth Services,< 5,1,96.16477272727273,1,1
+95 Wellesley St E,2022,Q1,1405,Turning Point Youth Services,< 5,1,99.44444444444444,1,1
+95 Wellesley St E,2022,Q2,1453,Turning Point Youth Services,0,1,99.79395604395604,1,0
+95 Wellesley St E,2022,Q3,846,Turning Point Youth Services,< 5,1,99.76415094339623,1,1
+95 Wellesley St E,2023,Q2,1638,Turning Point Youth Services,< 5,1,100,1,1
+95 Wellesley St E,2023,Q3,1221,Turning Point Youth Services,0,1,100,1,0
+962 Bloor St W,2021,Q1,7,Sistering,0,0,43.75,1,0
+962 Bloor St W,2021,Q2,934,Sistering,< 5,0,64.14835164835165,1,1
+962 Bloor St W,2021,Q3,619,Sistering,< 5,0,85.97222222222223,1,1
+962 Bloor St W,2022,Q1,1650,Sistering,0,0,96.49177777777777,1,0
+962 Bloor St W,2022,Q2,1726,Sistering,< 5,0,99.8265934065934,1,1
+962 Bloor St W,2022,Q3,988,Sistering,0,0,96.2975925925926,1,0
+962 Bloor St W,2023,Q1,1219,Sistering,< 5,0,97.998,1,1
+962 Bloor St W,2023,Q2,203,Sistering,0,0,86.96549999999999,1,0
+962 Bloor St W,2023,Q3,394,Sistering,< 5,0,87.36268292682927,1,1
+973 Lansdowne Ave,2021,Q1,2258,CONC Men's Shelter Lansdowne Ave,< 5,0,96.66777777777777,1,1
+973 Lansdowne Ave,2021,Q2,1727,CONC Men's Shelter Lansdowne Ave,< 5,0,87.10901098901098,1,1
+973 Lansdowne Ave,2021,Q3,1236,CONC Men's Shelter Lansdowne Ave,0,0,87.94911111111111,1,0
+973 Lansdowne Ave,2023,Q1,3499,CONC Men's Shelter Lansdowne Ave,< 5,0,99.687,1,1
+973 Lansdowne Ave,2023,Q2,3529,CONC Men's Shelter Lansdowne Ave,0,0,99.46472527472527,1,0
+973 Lansdowne Ave,2023,Q3,2262,CONC Men's Shelter Lansdowne Ave,0,0,100,1,0
+NA,2022,Q1,6785,SSHA Etobicoke Hotel Program,< 5,0,95.62918367346938,1,1
+NA,2022,Q2,10101,SSHA Etobicoke Hotel Program,0,0,98.9865934065934,1,0
+NA,2022,Q3,9730,SSHA Etobicoke Hotel Program,< 5,0,99.21396226415095,1,1
+NA,2023,Q1,16973,SSHA Etobicoke Hotel Program,5,0,99.57733333333333,1,0
+NA,2023,Q2,18617,SSHA Etobicoke Hotel Program,5,0,99.90846153846154,1,0
+NA,2023,Q3,11955,SSHA Etobicoke Hotel Program,16,0,99.88307017543859,1,0
