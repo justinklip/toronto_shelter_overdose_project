@@ -13,6 +13,7 @@ library(tidyverse)
 library(dplyr)
 library(gtools)
 library(janitor)
+library(arrow)
 #### Retrieve Data ####
 
 occupancy_raw_data <- read_csv("data/01-raw_data/occupancy_raw_data.csv")
@@ -121,4 +122,4 @@ print(cleaned_data)
 print(cleaned_data)
 
 #### Save data ####
-write_csv(cleaned_data, "data/02-analysis_data/analysis_data.csv")
+write_parquet(cleaned_data, "data/02-analysis_data/shelter_analysis_data.parquet")
