@@ -20,18 +20,15 @@ library(here)
 
 # Introduction
 
-Overview Paragraph: Opioid overdoses have been a prominent issue in North America for some time. Opioid-related deaths have doubled in Canada from 2019 to the end of 2021 (https://www.cbc.ca/news/health/opioid-young-people-1.7174098). It has been well-documented that homeless people are a large subset of the population affected by this crisis, with more than 10% of opioid deaths in Toronto being attributed to individuals experiencing homelessness in 2023 (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.toronto.ca/wp-content/uploads/2020/12/8d4b-TOIS-Coroner-Data_Final.pdf). Homeless opioid overdoses in shelters have climbed as well during the pandemic, with opioid deaths in Ontario shelters more than tripling during the pandemic (https://www.cbc.ca/news/canada/toronto/ont-shelters-overdose-deaths-1.7238916). There are a lot of factors that could play into this, but one question that is left to be asked is if the conditions in  the shelters themselves may be contributing to this.
+Overview Paragraph: Opioid overdoses have been a prominent issue in North America for some time. Opioid-related deaths have doubled in Canada from 2019 to the end of 2021 [@Bains_2024] .. Homeless opioid overdoses in shelters have climbed as well during the pandemic, with opioid deaths in Ontario shelters more than tripling during the pandemic [@Alhmidi_2024]. While many avenues could be explored for this climb, one area to potentially look at is the effects of the shelter conditions themselves.
 
-Results paragraph
+The remainder of this paper is structured as follows. @sec-data describes how the data was acquired, how it was measured, and provides visualizations on the overdoses and occupancy in shelters.
 
-Why it matters paragraph
-
-Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data describes how the data was acquired, how it was measured, and provides visualizations on the overdoses and occupancy in shelters.
 # Data {#sec-data}
 
 ## Data Source
 
-I make use of two data sources in order to run my analysis. Firstly I make use of Open Data Toronto's Daily Shelter Overnight Capacity Data (cite). Secondly I use Open Data Toronto's Fatal and Non-Fatal Suspected Opioid Overdoses in the Shelter System data set (cite). These data sets compile
+I make use of two data sources in order to run my analysis. Firstly I make use of Open Data Toronto's Daily Shelter Overnight Capacity Data . Secondly I use Open Data Toronto's Fatal and Non-Fatal Suspected Opioid Overdoses in the Shelter System data set (cite). These data sets compile
 
 Using the statistical programming language R [@citeR], the data was then cleaned, tested, and merged using (cite packages). The daily shelter attendance data was aggregated from the daily data in the shelter data base to a quarterly record in order to merge with the overdose data set. Details are in the appendix on how exactly observations were dropped and merged (cross-reference appendix). Some dummy variables were added into the data set in order to account for selection induced upon dropping missing values. Data such as
 
@@ -44,6 +41,7 @@ The Daily Shelter Overnight Capacity Data from Open Data Toronto is measured dir
 The Fatal and Non-Fatal Suspected Opioid Overdoses in the Shelter System Data Set (cite) comes from paramedic rather than shelter level data. This data only counts for specific kinds of shelters: shelter-hotels, emergency shelters, and shelter-hotels, meaning that when the data is merged, only shelters coming from this data set will be used. An entry in the data set is formed as follows: a shelter member or employee calls 911 for an emergency, when Paramedics arrive and if they determine on the scene that this is a suspected overdose, then that location gets an observation added to the data set. It's important to note also that if a particular address has less than 5 non-fatal overdoses in a particular quarter, then the true amount is not published for anonymity purposes. This data set also includes fatal overdoses, and a fatal overdose is only added as an entry if the Coroner's office determines the cause of death to be an overdose. This data is also not matched at the shelter level and is only aggregate statistics, so it will be ignored for the purpose of analysis since I am more interested in the relationship between capacity and overdoses.
 
 ## Summary Statistics
+
 ```{r}
 #| fig-label: tbl-1
 #| echo: false
@@ -115,8 +113,8 @@ summary_stats_table <- bind_rows(
 # Print the summary statistics as a table using knitr
 kable(summary_stats_table, caption = "Summary Statistics for Non-Fatal Overdoses, Average Occupancy Rate, and Daily Average Users", format = "markdown")
 ```
-@tbl-1 Gives the summary statistics of our variables of interest. We can see that most of the occupancy rate is extremely high and centered near 96 percent for the mean and 99 percent for the median, although there is some standard deviation. As for daily average users, the median amount daily is about 44, suggesting most shelters are about medium size. The really low minimum amount here is likely seen by a shelter that was temporarily open, as averages are calculated by dividing by the number of days in the quarter. The mean is much higher than the median at 71 meaning that some shelters are a lot larger, dragging the average up. This is indicated by the maximum daily average users of one shelter being and the large standard deviation. The non-fatal overdoses (excluding entries labelled "<5") are centered around 5, suggesting the true median is likely lower and within that less than 5 category. 
 
+@tbl-1 Gives the summary statistics of our variables of interest. We can see that most of the occupancy rate is extremely high and centered near 96 percent for the mean and 99 percent for the median, although there is some standard deviation. As for daily average users, the median amount daily is about 44, suggesting most shelters are about medium size. The really low minimum amount here is likely seen by a shelter that was temporarily open, as averages are calculated by dividing by the number of days in the quarter. The mean is much higher than the median at 71 meaning that some shelters are a lot larger, dragging the average up. This is indicated by the maximum daily average users of one shelter being and the large standard deviation. The non-fatal overdoses (excluding entries labelled "\<5") are centered around 5, suggesting the true median is likely lower and within that less than 5 category.
 
 ## Outcome variables
 
@@ -194,7 +192,6 @@ ggplot(overdose_summary, aes(x = quarter_year, y = count, fill = overdose_catego
 
 @fig-1 Provides information on the number of overdoses for each shelter in the data set from quarter to quarter. It is important to note that the data set does not include Q4 data. The first thing to note is that the number of shelters seems to decrease in 2023, this is likely consistent with COVID-19 specific shelters beginning to close. Another important thing to note is that the number of overdoses greater than 5 and the amount less than 5 are generally split evenly between the shelters. This suggests we have some "high overdose" level shelters, likely because they are bigger, and others which are smaller and less drug prone.
 
-
 ```{r}
 #| fig-label: fig-2
 #| fig-cap: Distribution of Overdoses Counts, Shelter-By-Quarter, excluding nonzero less than 5 counts.
@@ -231,8 +228,8 @@ ggplot(filtered_data, aes(x = non_fatal_overdoses_numeric)) +
   theme_minimal()
 
 ```
-@fig-2 Plots the distribution of the number of overdoses for each quarter in each shelter, except those that are marked "<5". The data seems to indicate a clear mass around 0, with about 150 out of approximately 500 total observations being located at this point. Considering the shape of the data, it would be reasonable to assume that there are less and less observations as the number of overdoses per quarter increases at a certain address. This motivates our decision making in section @sec-model.
-## Predictor variables
+
+@fig-2 Plots the distribution of the number of overdoses for each quarter in each shelter, except those that are marked "\<5". The data seems to indicate a clear mass around 0, with about 150 out of approximately 500 total observations being located at this point. Considering the shape of the data, it would be reasonable to assume that there are less and less observations as the number of overdoses per quarter increases at a certain address. This motivates our decision making in section @sec-model. \## Predictor variables
 
 ```{r}
 #| fig-label: fig-3
@@ -265,8 +262,8 @@ ggplot(shelter_analysis_data, aes(x = avg_occupancy_rate, fill = factor(used_avg
     legend.position = "none"  # Hide legend since facet labels provide the same information
   )
 ```
-@fig-3 Plots the distribution of the average occupancy rate by quarter-year, as seen in some quarters, some shelters do have less than 100 percent occupancy, although a lot spend their time at the 95-100 percent occupancy rate. For the bed data there are a lot more observations with less than 95 to 100 percent occupancy. This makes sense as it is a lot easier for a shelter to fill up all their rooms than it is to fill all their beds. 
 
+@fig-3 Plots the distribution of the average occupancy rate by quarter-year, as seen in some quarters, some shelters do have less than 100 percent occupancy, although a lot spend their time at the 95-100 percent occupancy rate. For the bed data there are a lot more observations with less than 95 to 100 percent occupancy. This makes sense as it is a lot easier for a shelter to fill up all their rooms than it is to fill all their beds.
 
 ```{r}
 #| fig-label: fig-4
@@ -288,30 +285,14 @@ ggplot(shelter_analysis_data, aes(x = daily_avg_users)) +
   )
 
 ```
-@fig-4 Plots the distribution of the daily average number of people in Toronto Shelters each quarter, we see that most shelters are relatively small-medium scale, with less than 100 average people staying a shelter per night on average each quarter. There are some larger shelters too, explaining why the tail of the distribution moves right, with a bunch of shelters having more than 200 daily average users each quarter. 
+
+@fig-4 Plots the distribution of the daily average number of people in Toronto Shelters each quarter, we see that most shelters are relatively small-medium scale, with less than 100 average people staying a shelter per night on average each quarter. There are some larger shelters too, explaining why the tail of the distribution moves right, with a bunch of shelters having more than 200 daily average users each quarter.
 
 # Model {sec-model}
 
-Following (https://clausportner.com/blog/archives/2018/6/8/double-censored-regression-in-r) I construct a model a double-censored regression model making use of (cite survival) function in R. 
-
+Following (https://clausportner.com/blog/archives/2018/6/8/double-censored-regression-in-r) I construct a model a double-censored regression model making use of (cite survival) function in R.
 
 Here we briefly describe the Double-Censored Regression used to investigate the impact of ... Background details and diagnostics are included in [Appendix -@sec-model-details].
-
-## Model set-up
-
-Define $y_i$ as the number of suspected non fatal overdoses in a given quarter in a given shelter.  Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
-
-```{=tex}
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
-\end{align}
-```
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
 
 ### Model justification
 
@@ -349,12 +330,11 @@ Weaknesses and next steps should also be included.
 
 # Data Limitations and Improvements
 
-Consdiering t
+Due to data issues, my modelling left a lot to be desired. In this segment I document segments of the observational data that I would include to improve data to allow for better modelling. I also lay out a potential way causal inference could be done given the data if we were to strengthen our data in a few ways.
 
-Due to data issues, my modelling left a lot to be desired. In this segment I document segments of the observational data that I would include to improve data to allow for better modelling. I also lay out a potential way causal inference could be done given the data if we were to strengthen our data in a few ways. 
+## Observational Data
 
-## Observational Data 
-Our approach to deal with censored values (where a shelter simply said their overdose count was less than 5 for a quarter) was simply to set the value to 1, as that would give me a lower bound estimate for the effect of shelter occupancy on overdoses. The idealized data would simply not have these censored observations, allowing the models to more accurately represent the data at hand. While privacy concerns were cited as the main reason for this, ideally I would sign some data confidentiality agreement in order to be able to use this data. 
+Our approach to deal with censored values (where a shelter simply said their overdose count was less than 5 for a quarter) was simply to set the value to 1, as that would give me a lower bound estimate for the effect of shelter occupancy on overdoses. The idealized data would simply not have these censored observations, allowing the models to more accurately represent the data at hand. While privacy concerns were cited as the main reason for this, ideally I would sign some data confidentiality agreement in order to be able to use this data.
 
 The next issue comes from the lack of information in the shelter overdose data set,
 
@@ -362,9 +342,7 @@ The next issue comes from the lack of information in the shelter overdose data s
 
 Another way that the data could be improved would be including surveys of shelter members. This would more adequately describe living conditions in a way that the current data could not. While I try to use average occupancy rates and total attendance amounts as a proxy for 'crowdedness', arguably a better way to do this would be to ask members of these shelters themselves. This is because most shelters try to stay near 100 percent occupancy at all times, so there is not much variation for analysis using this as a predictor. Surveys could be randomly assigned to a certain percentage of members of each shelter (e.g 10%) quarterly asking a question like "what degree of privacy do you feel like you have" with a scale. I would also assure members of their anonymity to avoid biases relating to going for middle answer. Combining both the survey, as well as the the average occupancy rate as a control, with the fixed overdose data would provide much more informative results.
 
-
 # Potentiality for Causal Inference Using Observational Data
-
 
 # Model details {#sec-model-details}
 
