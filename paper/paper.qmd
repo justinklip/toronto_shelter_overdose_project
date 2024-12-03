@@ -13,7 +13,9 @@ bibliography: references.bib
 ---
 
 ```{r}
-
+library(arrow)
+library(tidyverse)
+library(here)
 ```
 
 # Introduction
@@ -41,17 +43,11 @@ The Daily Shelter Overnight Capacity Data from Open Data Toronto is measured dir
 
 The Fatal and Non-Fatal Suspected Opioid Overdoses in the Shelter System Data Set (cite) comes from paramedic rather than shelter level data. This data only counts for specific kinds of shelters: shelter-hotels, emergency shelters, and shelter-hotels, meaning that when the data is merged, only shelters coming from this data set will be used. An entry in the data set is formed as follows: a shelter member or employee calls 911 for an emergency, when Paramedics arrive and if they determine on the scene that this is a suspected overdose, then that location gets an observation added to the data set. It's important to note also that if a particular address has less than 5 non-fatal overdoses in a particular quarter, then the true amount is not published for anonymity purposes. This data set also includes fatal overdoses, and a fatal overdose is only added as an entry if the Coroner's office determines the cause of death to be an overdose. This data is also not matched at the shelter level and is only aggregate statistics, so it will be ignored for the purpose of analysis since I am more interested in the relationship between capacity and overdoses.
 
-## Outcome variables
-
+## Summary Statistics
 ```{r}
-#| fig-label: fig-1
-#| fig-cap: Shelters Reporting Overdoses by Quarter-Year"
+#| fig-label: tbl-1
 #| echo: false
 #| warning: false
-
-library(arrow)
-library(tidyverse)
-library(here)
 
 # Set the path to your parquet file
 file_path <- here("data", "02-analysis_data", "shelter_analysis_data.parquet")
@@ -59,12 +55,95 @@ file_path <- here("data", "02-analysis_data", "shelter_analysis_data.parquet")
 # Read the Parquet file into a dataframe
 shelter_analysis_data <- read_parquet(file_path)
 
-# Create a new column for overdose categories ("<5" vs ">5")
+library(dplyr)
+library(knitr)
+library(tidyr)
+
+# First, calculate the summary statistics, applying the <5 filter only to suspected_non_fatal_overdoses
+summary_stats <- shelter_analysis_data %>%
+  filter(suspected_non_fatal_overdoses != "< 5" & !is.na(suspected_non_fatal_overdoses)) %>%
+  summarise(
+    obs_suspected_overdoses = sum(!is.na(suspected_non_fatal_overdoses) & suspected_non_fatal_overdoses != "< 5"),
+    mean_suspected_overdoses = mean(as.numeric(suspected_non_fatal_overdoses), na.rm = TRUE),
+    median_suspected_overdoses = median(as.numeric(suspected_non_fatal_overdoses), na.rm = TRUE),
+    sd_suspected_overdoses = sd(as.numeric(suspected_non_fatal_overdoses), na.rm = TRUE),
+    min_suspected_overdoses = min(as.numeric(suspected_non_fatal_overdoses), na.rm = TRUE),
+    max_suspected_overdoses = max(as.numeric(suspected_non_fatal_overdoses), na.rm = TRUE),
+    
+    obs_avg_occupancy_rate = sum(!is.na(avg_occupancy_rate)),
+    mean_avg_occupancy_rate = mean(avg_occupancy_rate, na.rm = TRUE),
+    median_avg_occupancy_rate = median(avg_occupancy_rate, na.rm = TRUE),
+    sd_avg_occupancy_rate = sd(avg_occupancy_rate, na.rm = TRUE),
+    min_avg_occupancy_rate = min(avg_occupancy_rate, na.rm = TRUE),
+    max_avg_occupancy_rate = max(avg_occupancy_rate, na.rm = TRUE),
+    
+    obs_daily_avg_users = sum(!is.na(daily_avg_users)),
+    mean_daily_avg_users = mean(daily_avg_users, na.rm = TRUE),
+    median_daily_avg_users = median(daily_avg_users, na.rm = TRUE),
+    sd_daily_avg_users = sd(daily_avg_users, na.rm = TRUE),
+    min_daily_avg_users = min(daily_avg_users, na.rm = TRUE),
+    max_daily_avg_users = max(daily_avg_users, na.rm = TRUE)
+  )
+
+# Now, create a tidy summary table where each variable gets its own row
+summary_stats_table <- bind_rows(
+  tibble(Variable = "Non-Fatal Overdoses", 
+         Observations = summary_stats$obs_suspected_overdoses, 
+         Mean = summary_stats$mean_suspected_overdoses, 
+         Median = summary_stats$median_suspected_overdoses, 
+         `Standard Deviation` = summary_stats$sd_suspected_overdoses, 
+         Minimum = summary_stats$min_suspected_overdoses, 
+         Maximum = summary_stats$max_suspected_overdoses),
+  
+  tibble(Variable = "Average Occupancy Rate", 
+         Observations = sum(!is.na(shelter_analysis_data$avg_occupancy_rate)), 
+         Mean = mean(shelter_analysis_data$avg_occupancy_rate, na.rm = TRUE), 
+         Median = median(shelter_analysis_data$avg_occupancy_rate, na.rm = TRUE), 
+         `Standard Deviation` = sd(shelter_analysis_data$avg_occupancy_rate, na.rm = TRUE), 
+         Minimum = min(shelter_analysis_data$avg_occupancy_rate, na.rm = TRUE), 
+         Maximum = max(shelter_analysis_data$avg_occupancy_rate, na.rm = TRUE)),
+  
+  tibble(Variable = "Daily Average Users", 
+         Observations = sum(!is.na(shelter_analysis_data$daily_avg_users)), 
+         Mean = mean(shelter_analysis_data$daily_avg_users, na.rm = TRUE), 
+         Median = median(shelter_analysis_data$daily_avg_users, na.rm = TRUE), 
+         `Standard Deviation` = sd(shelter_analysis_data$daily_avg_users, na.rm = TRUE), 
+         Minimum = min(shelter_analysis_data$daily_avg_users, na.rm = TRUE), 
+         Maximum = max(shelter_analysis_data$daily_avg_users, na.rm = TRUE))
+)
+
+# Print the summary statistics as a table using knitr
+kable(summary_stats_table, caption = "Summary Statistics for Non-Fatal Overdoses, Average Occupancy Rate, and Daily Average Users", format = "markdown")
+```
+@tbl-1 Gives the summary statistics of our variables of interest. We can see that most of the occupancy rate is extremely high and centered near 96 percent for the mean and 99 percent for the median, although there is some standard deviation. As for daily average users, the median amount daily is about 44, suggesting most shelters are about medium size. The really low minimum amount here is likely seen by a shelter that was temporarily open, as averages are calculated by dividing by the number of days in the quarter. The mean is much higher than the median at 71 meaning that some shelters are a lot larger, dragging the average up. This is indicated by the maximum daily average users of one shelter being and the large standard deviation. The non-fatal overdoses (excluding entries labelled "<5") are centered around 5, suggesting the true median is likely lower and within that less than 5 category. 
+
+
+## Outcome variables
+
+```{r}
+#| fig-label: fig-1
+#| fig-cap: Shelters Overdoses by Quarter-Year By Data Category
+#| echo: false
+#| warning: false
+
+library(arrow)
+library(tidyverse)
+library(here)
+library(ggplot2)
+
+# Set the path to your parquet file
+file_path <- here("data", "02-analysis_data", "shelter_analysis_data.parquet")
+
+# Read the Parquet file into a dataframe
+shelter_analysis_data <- read_parquet(file_path)
+
+# Create a new column for overdose categories ("0", "<5", ">5")
 shelter_analysis_data <- shelter_analysis_data %>%
   mutate(overdose_category = case_when(
     suspected_non_fatal_overdoses == "< 5" ~ "<5",
-    suspected_non_fatal_overdoses != "< 5" & suspected_non_fatal_overdoses != "" ~ ">5",
-    TRUE ~ NA_character_ # If empty or NA, we'll handle this later
+    suspected_non_fatal_overdoses == "0" ~ "0",
+    suspected_non_fatal_overdoses != "< 5" & suspected_non_fatal_overdoses != "0" & suspected_non_fatal_overdoses != "" ~ ">5",
+    TRUE ~ NA_character_
   ))
 
 # Create a new column for numeric overdoses (replace "<5" with NA for now)
@@ -85,27 +164,40 @@ overdose_summary <- shelter_analysis_data_unique %>%
 overdose_summary <- overdose_summary %>%
   mutate(quarter_year = paste(year, "", year_stage, sep = "-"))
 
-# Plot the segmented bar chart
+# Reorder overdose_category so "0" is at the bottom, "<5" next, and ">5" on top
+shelter_analysis_data <- shelter_analysis_data %>%
+  mutate(overdose_category = factor(overdose_category, levels = c("0", "<5", ">5")))
+
+# Re-aggregate data by year, quarter, and overdose category
+overdose_summary <- shelter_analysis_data_unique %>%
+  group_by(year, year_stage, overdose_category) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  mutate(quarter_year = paste(year, year_stage, sep = "-"))
+
+# Plot the bar chart with the reordered stack
 ggplot(overdose_summary, aes(x = quarter_year, y = count, fill = overdose_category)) +
   geom_bar(stat = "identity", position = "stack") +
+  geom_text(
+    aes(label = ifelse(count > 0, count, "")),  # Only show labels for non-zero counts
+    position = position_stack(vjust = 0.5),    # Center labels within each segment
+    size = 3                                   # Adjust text size as needed
+  ) +
   labs(
     x = "Quarter-Year",
     y = "Number of Shelters",
     fill = "Overdose Category"
   ) +
   theme_minimal() +
-  scale_fill_manual(values = c("<5" = "lightblue", ">5" = "red")) +
+  scale_fill_manual(values = c("0" = "green", "<5" = "lightblue", ">5" = "red")) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels for readability
-
 ```
 
-@fig-1 Provides information on the number of overdoses for each shelter in the data set from quarter to quarter. It is important to note that the data set does not include Q4 data. The first thing to note is that the number of shelters seems to decrease in 2023, this is likely consistent with COVID-19 specific shelters beginning to close. Another important thing to note is that the number of overdoses greater than 5 and the amount less than 5 are generally split evenly between the shelters. This suggests we have some "high overdose" level shelters, likely because they are bigger, and others which are smaller and less drug prone. This also means our model must address the high level of <5 counts.
+@fig-1 Provides information on the number of overdoses for each shelter in the data set from quarter to quarter. It is important to note that the data set does not include Q4 data. The first thing to note is that the number of shelters seems to decrease in 2023, this is likely consistent with COVID-19 specific shelters beginning to close. Another important thing to note is that the number of overdoses greater than 5 and the amount less than 5 are generally split evenly between the shelters. This suggests we have some "high overdose" level shelters, likely because they are bigger, and others which are smaller and less drug prone.
 
 
 ```{r}
 #| fig-label: fig-2
-#| fig-cap: Distribution of Overdoses, Shelter-By-Quarter
-#| fig-subcap: This figure plots the number of overdoses the shelters experience each quarter
+#| fig-cap: Distribution of Overdoses Counts, Shelter-By-Quarter, excluding nonzero less than 5 counts.
 #| echo: false
 #| warning: false
 
@@ -118,8 +210,7 @@ shelter_analysis_data <- read_parquet(file_path)
 # Filter for numeric overdoses (>5 observations) and exclude "<5" and "0"
 filtered_data <- shelter_analysis_data %>%
   filter(
-    suspected_non_fatal_overdoses != "< 5",                # Exclude "<5" overdoses
-    suspected_non_fatal_overdoses != "0",                 # Exclude "0" overdoses
+    suspected_non_fatal_overdoses != "< 5",                # Exclude "<5" overdoses                
     !is.na(suspected_non_fatal_overdoses)                 # Exclude missing values
   ) %>%
   mutate(
@@ -132,7 +223,7 @@ filtered_data <- filtered_data %>%
 
 # Plot the histogram for all non-0 and non-<5 observations
 ggplot(filtered_data, aes(x = non_fatal_overdoses_numeric)) +
-  geom_histogram(binwidth = 5, fill = "steelblue", color = "black", alpha = 0.8) +
+  geom_histogram(binwidth = 1, fill = "steelblue", color = "black", alpha = 0.8) +
   labs(
     x = "Number of Overdoses",
     y = "Number of Shelter Quarters",
@@ -140,13 +231,17 @@ ggplot(filtered_data, aes(x = non_fatal_overdoses_numeric)) +
   theme_minimal()
 
 ```
-@fig-2 Plots the distribution of the number of overdoses for all shelters (by quarter) that have more than 5 overdoses in a given quarter. The distribution suggests that the mean (if the distribution is skewed normal) is relatively low each quarter for a given shelter. In particular most of the mass is centered around 5-10 overdoses, suggesting that the mean could potentially be somewhere in the less than 0-10 overdoses range. It potentially could be less than 5, but due to the censored data it is hard to tell.
-
+@fig-2 Plots the distribution of the number of overdoses for each quarter in each shelter, except those that are marked "<5". The data seems to indicate a clear mass around 0, with about 150 out of approximately 500 total observations being located at this point. Considering the shape of the data, it would be reasonable to assume that there are less and less observations as the number of overdoses per quarter increases at a certain address. This motivates our decision making in section @sec-model.
 ## Predictor variables
 
 ```{r}
+#| fig-label: fig-3
+#| fig-cap: Distribution of Average Quarterly Occupancy Rates in Toronto Shelters by Type of Shelter
+#| echo: false
+#| warning: false
 library(ggplot2)
 library(dplyr)
+
 
 # Filter out missing values for avg_occupancy_rate if necessary
 shelter_analysis_data <- shelter_analysis_data %>%
@@ -170,17 +265,41 @@ ggplot(shelter_analysis_data, aes(x = avg_occupancy_rate, fill = factor(used_avg
     legend.position = "none"  # Hide legend since facet labels provide the same information
   )
 ```
-Figure 3 Plots the distribution of the average occupancy rate by quarter-year, as seen in some quarters shelters do have less than 100 percent occupancy, although a lot spend their time at the 95-100 percent occupancy rate. That being said, for the bed data there are a lot more observations with less than 95 to 100 percent occupancy. This makes sense as it is a lot easier for a shelter to fill up all their rooms than it is to fill all their beds. 
+@fig-3 Plots the distribution of the average occupancy rate by quarter-year, as seen in some quarters, some shelters do have less than 100 percent occupancy, although a lot spend their time at the 95-100 percent occupancy rate. For the bed data there are a lot more observations with less than 95 to 100 percent occupancy. This makes sense as it is a lot easier for a shelter to fill up all their rooms than it is to fill all their beds. 
 
-# Model
 
-The goal of our modelling strategy is twofold. Firstly,...
+```{r}
+#| fig-label: fig-4
+#| fig-cap: Distribution of Daily Average Number of People of Toronto Homeless Shelters
+#| echo: false
+#| warning: false
 
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
+# Create the histogram for daily_avg_users
+ggplot(shelter_analysis_data, aes(x = daily_avg_users)) +
+  geom_histogram(binwidth = 10, fill = "skyblue", color = "black", alpha = 0.7) +
+  labs(
+    title = "Distribution of Daily Average Users",
+    x = "Daily Average Shelter Attendees",
+    y = "Shelter Quarters"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+
+```
+@fig-4 Plots the distribution of the daily average number of people in Toronto Shelters each quarter, we see that most shelters are relatively small-medium scale, with less than 100 average people staying a shelter per night on average each quarter. There are some larger shelters too, explaining why the tail of the distribution moves right, with a bunch of shelters having more than 200 daily average users each quarter. 
+
+# Model {sec-model}
+
+Following (https://clausportner.com/blog/archives/2018/6/8/double-censored-regression-in-r) I construct a model a double-censored regression model making use of (cite survival) function in R. 
+
+
+Here we briefly describe the Double-Censored Regression used to investigate the impact of ... Background details and diagnostics are included in [Appendix -@sec-model-details].
 
 ## Model set-up
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
+Define $y_i$ as the number of suspected non fatal overdoses in a given quarter in a given shelter.  Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
 
 ```{=tex}
 \begin{align} 
@@ -227,6 +346,25 @@ Weaknesses and next steps should also be included.
 # Appendix {.unnumbered}
 
 # Additional data details
+
+# Data Limitations and Improvements
+
+Consdiering t
+
+Due to data issues, my modelling left a lot to be desired. In this segment I document segments of the observational data that I would include to improve data to allow for better modelling. I also lay out a potential way causal inference could be done given the data if we were to strengthen our data in a few ways. 
+
+## Observational Data 
+Our approach to deal with censored values (where a shelter simply said their overdose count was less than 5 for a quarter) was simply to set the value to 1, as that would give me a lower bound estimate for the effect of shelter occupancy on overdoses. The idealized data would simply not have these censored observations, allowing the models to more accurately represent the data at hand. While privacy concerns were cited as the main reason for this, ideally I would sign some data confidentiality agreement in order to be able to use this data. 
+
+The next issue comes from the lack of information in the shelter overdose data set,
+
+# Idealized Survey
+
+Another way that the data could be improved would be including surveys of shelter members. This would more adequately describe living conditions in a way that the current data could not. While I try to use average occupancy rates and total attendance amounts as a proxy for 'crowdedness', arguably a better way to do this would be to ask members of these shelters themselves. This is because most shelters try to stay near 100 percent occupancy at all times, so there is not much variation for analysis using this as a predictor. Surveys could be randomly assigned to a certain percentage of members of each shelter (e.g 10%) quarterly asking a question like "what degree of privacy do you feel like you have" with a scale. I would also assure members of their anonymity to avoid biases relating to going for middle answer. Combining both the survey, as well as the the average occupancy rate as a control, with the fixed overdose data would provide much more informative results.
+
+
+# Potentiality for Causal Inference Using Observational Data
+
 
 # Model details {#sec-model-details}
 

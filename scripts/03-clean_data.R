@@ -112,14 +112,53 @@ merged_data <- merged_data %>%
   )
 
 cleaned_data <- merged_data %>%
-  select(-avg_occupancy_rate_beds, -avg_occupancy_rate_rooms, -id, -used_avg_occupancy_rate_rooms)
+  dplyr::select(-avg_occupancy_rate_beds, -avg_occupancy_rate_rooms, -id, -used_avg_occupancy_rate_rooms)
+
+
+# Sample data frame
+
+# Function to get the number of days in a quarter
+get_days_in_quarter <- function(quarter) {
+  switch(quarter,
+         "Q1" = 31 + 28 + 31,  # January + February + March
+         "Q2" = 30 + 31 + 30,  # April + May + June
+         "Q3" = 31 + 31 + 30   # July + August + September
+  )
+}
+
+# Add a column for the number of days in each quarter
+cleaned_data$days_in_quarter <- sapply(cleaned_data$year_stage, get_days_in_quarter)
+
+# Calculate average service user count per day
+cleaned_data$daily_avg_users <- cleaned_data$total_service_user_count / cleaned_data$days_in_quarter
+
+cleaned_data <- cleaned_data %>%
+  dplyr::select(-days_in_quarter)
+
+#Replace the <5's with 1 since we will estimate the lower bound later in our model
+
+# Replace "<5" with 1 in suspected_non_fatal_overdoses
+cleaned_data <- cleaned_data %>%
+  mutate(
+    suspected_non_fatal_overdoses = if_else(
+      suspected_non_fatal_overdoses == "<5",
+      1,
+      as.numeric(suspected_non_fatal_overdoses)
+    )
+  )
+
+
+cleaned_data <- cleaned_data %>%
+  mutate(suspected_non_fatal_overdoses = replace_na(suspected_non_fatal_overdoses, 1))
+
+# Ensure `daily_avg_users` is numeric
+cleaned_data <- cleaned_data %>%
+  mutate(daily_avg_users = as.numeric(daily_avg_users))
+
 
 # View the result
 print(cleaned_data)
 
-
-# View the merged result
-print(cleaned_data)
 
 #### Save data ####
 write_parquet(cleaned_data, "data/02-analysis_data/shelter_analysis_data.parquet")
