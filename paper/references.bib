@@ -1,48 +1,139 @@
-
-
 @Manual{citeR,
-    title = {{R: A Language and Environment for Statistical Computing}},
-    author = {{R Core Team}},
+    title        = {R: A Language and Environment for Statistical Computing},
+    author       = {{R Core Team}},
     organization = {R Foundation for Statistical Computing},
-    address = {Vienna, Austria},
-    year = {2023},
-    url = {https://www.R-project.org/},
-  }
-  
-  
-@misc{Bains_2024,
-title={1 in 4 deaths of Canadians age 22 to 39 in 2021 was opioid related in 2021, researchers find | CBC news},
-url={https://www.cbc.ca/news/health/opioid-young-people-1.7174098},
-journal={CBCnews},
-publisher={CBC/Radio Canada},
-author={Bains, Camille}, year={2024}, month={Apr}} 
-  
-@misc{Alhmidi_2024,
-title={Opioid deaths in Ontario shelters more than tripled during pandemic,
-study finds | CBC News},
-url={https://www.cbc.ca/news/canada/toronto/ont-shelters-overdose-deaths-1.7238916},
-journal={CBCnews},
-publisher={CBC/Radio Canada},
-author={Alhmidi, Maan},
-year={2024},
-month={Jun}} 
-
-@misc{City of Toronto Open Data Portal, url={https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/}, journal={City of Toronto Open Data Portal}} 
-
-@Dataset{opioid_overdose_data
-  author = {{Toronto Paramedic services},
-  year = {2024},
-  month = {12},
-  title = {About Fatal and non-fatal suspected opioid overdoses in the shelter system},
-  url = {https://open.toronto.ca/dataset/fatal-and-non-fatal-suspected-opioid-overdoses-in-the-shelter-system/}
+    address      = {Vienna, Austria},
+    year         = {2023},
+    url          = {https://www.R-project.org/}
 }
 
+@Misc{Bains_2024,
+    title        = {1 in 4 deaths of Canadians age 22 to 39 in 2021 was opioid related in 2021, researchers find | CBC news},
+    url          = {https://www.cbc.ca/news/health/opioid-young-people-1.7174098},
+    journal      = {CBC News},
+    publisher    = {CBC/Radio Canada},
+    author       = {Bains, Camille},
+    year         = {2024},
+    month        = {Apr}
+}
+
+@Misc{Alhmidi_2024,
+    title        = {Opioid deaths in Ontario shelters more than tripled during pandemic, study finds | CBC News},
+    url          = {https://www.cbc.ca/news/canada/toronto/ont-shelters-overdose-deaths-1.7238916},
+    journal      = {CBC News},
+    publisher    = {CBC/Radio Canada},
+    author       = {Alhmidi, Maan},
+    year         = {2024},
+    month        = {Jun}
+}
+
+@Misc{City_of_Toronto_Open_Data_Portal,
+    title        = {Daily Shelter Overnight Service Occupancy and Capacity Data},
+    url          = {https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/},
+    journal      = {City of Toronto Open Data Portal},
+    year         = {2024}
+}
+
+@Dataset{opioid_overdose_data,
+    author       = {Toronto Paramedic Services},
+    year         = {2024},
+    month        = {12},
+    title        = {Fatal and Non-Fatal Suspected Opioid Overdoses in the Shelter System},
+    url          = {https://open.toronto.ca/dataset/fatal-and-non-fatal-suspected-opioid-overdoses-in-the-shelter-system/}
+}
 
 @Dataset{daily_occupancy_data,
-  author = {{Toronto Shelter and Support Services},
-  year = {2024},
-  month = {12},
-  title = {About Fatal and non-fatal suspected opioid overdoses in the shelter system},
-  url = {https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/}
+    author       = {Toronto Shelter and Support Services},
+    year         = {2024},
+    month        = {12},
+    title        = {Daily Shelter Overnight Service Occupancy and Capacity},
+    url          = {https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/}
 }
 
+@Manual{R-arrow,
+    title        = {arrow: Integration to Apache Arrow},
+    author       = {Neal Richardson and others},
+    year         = {2024},
+    note         = {R package version 12.0.0},
+    url          = {https://cran.r-project.org/package=arrow}
+}
+
+@Manual{R-tidyverse,
+    title        = {tidyverse: Easily Install and Load the 'Tidyverse'},
+    author       = {Hadley Wickham and others},
+    year         = {2024},
+    note         = {R package version 2.0.0},
+    url          = {https://cran.r-project.org/package=tidyverse}
+}
+
+@Manual{R-here,
+    title        = {here: A Simpler Way to Find Your Files},
+    author       = {Kirill Müller and others},
+    year         = {2024},
+    note         = {R package version 1.0.1},
+    url          = {https://cran.r-project.org/package=here}
+}
+
+@Manual{R-dplyr,
+    title        = {dplyr: A Grammar of Data Manipulation},
+    author       = {Hadley Wickham and others},
+    year         = {2024},
+    note         = {R package version 1.1.4},
+    url          = {https://cran.r-project.org/package=dplyr}
+}
+
+@Manual{R-knitr,
+    title        = {knitr: A General-Purpose Package for Dynamic Report Generation in R},
+    author       = {Yihui Xie},
+    year         = {2024},
+    note         = {R package version 1.44},
+    url          = {https://cran.r-project.org/package=knitr}
+}
+
+@Manual{R-tidyr,
+    title        = {tidyr: Tidy Messy Data},
+    author       = {Hadley Wickham and others},
+    year         = {2024},
+    note         = {R package version 1.3.0},
+    url          = {https://cran.r-project.org/package=tidyr}
+}
+
+@Manual{R-ggplot2,
+    title        = {ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics},
+    author       = {Hadley Wickham and others},
+    year         = {2024},
+    note         = {R package version 3.4.4},
+    url          = {https://cran.r-project.org/package=ggplot2}
+}
+
+@Manual{R-testthat,
+    title        = {testthat: Unit Testing for R},
+    author       = {Hadley Wickham and others},
+    year         = {2024},
+    note         = {R package version 3.1.10},
+    url          = {https://cran.r-project.org/package=testthat}
+}
+
+@Manual{R-opendatatoronto,
+    title        = {opendatatoronto: Access Open Data from the City of Toronto},
+    author       = {James Burt},
+    year         = {2024},
+    note         = {R package version 0.5.0},
+    url          = {https://cran.r-project.org/package=opendatatoronto}
+}
+
+@Manual{R-gtools,
+    title        = {gtools: Various R Programming Tools},
+    author       = {Gregory R. Warnes and others},
+    year         = {2024},
+    note         = {R package version 3.9.4},
+    url          = {https://cran.r-project.org/package=gtools}
+}
+
+@Manual{R-MASS,
+    title        = {MASS: Support Functions and Datasets for Venables and Ripley's MASS},
+    author       = {Brian D. Ripley and William N. Venables},
+    year         = {2024},
+    note         = {R package version 7.3-61},
+    url          = {https://cran.r-project.org/package=MASS}
+}

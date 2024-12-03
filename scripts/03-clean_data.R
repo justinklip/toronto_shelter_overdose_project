@@ -135,21 +135,6 @@ cleaned_data$daily_avg_users <- cleaned_data$total_service_user_count / cleaned_
 cleaned_data <- cleaned_data %>%
   dplyr::select(-days_in_quarter)
 
-#Replace the <5's with 1 since we will estimate the lower bound later in our model
-
-# Replace "<5" with 1 in suspected_non_fatal_overdoses
-cleaned_data <- cleaned_data %>%
-  mutate(
-    suspected_non_fatal_overdoses = if_else(
-      suspected_non_fatal_overdoses == "<5",
-      1,
-      as.numeric(suspected_non_fatal_overdoses)
-    )
-  )
-
-
-cleaned_data <- cleaned_data %>%
-  mutate(suspected_non_fatal_overdoses = replace_na(suspected_non_fatal_overdoses, 1))
 
 # Ensure `daily_avg_users` is numeric
 cleaned_data <- cleaned_data %>%
