@@ -20,10 +20,3 @@ The repo is structured as:
 ## Statement on LLM usage
 
 Aspects of the code were written with the help of ChatGPT-4o, the chat logs are available at inputs/llms/usage.txt.
-
-## Some checks
-
-- [ ] Change the rproj file name so that it's not starter_folder.Rproj
-- [ ] Remove files that you're not using
-- [ ] Update comments in R scripts
-- [ ] Remove this checklist
